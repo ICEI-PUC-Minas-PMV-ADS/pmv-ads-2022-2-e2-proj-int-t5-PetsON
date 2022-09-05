@@ -1,46 +1,41 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Segundo pesquisas do IPB (Instituto Pet Brasil), em 2018 o Brasil totalizou 162,148 estabelecimentos voltados para o mercado Pet. Sendo 93,3% de cadeias de distribuição que compreendem pontos de venda como Pet Shops, consultórios e clínicas veterinárias. O setor de produtos, serviços e comércio de animais de estimação registrou faturamento de R$51,7 bilhões em 2021. O levantamento do Instituto Pet Brasil aponta alta de 27% em relação à movimentação do ano anterior. 
+
+Os números referem-se ao fechamento consolidado de 2021. Em paralelo, especificando a questão canina, o Brasil possui a terceira maior população de cães do mundo, e o ramo de mercado Pet vem ganhando espaço de maneira acelerada no mercado nacional, contando com o fator da humanização dos animais domésticos que se relacionado ao número de pessoas no país, é possível ter uma noção da importância neste setor. Em contrapartida, segundo o CEO da Pet Shop Control, a maioria do mercado de pet shop ainda não tem um background de gestão, então há uma dificuldade dentro de alguns conceitos, e que a ferramenta sozinha não tem como ajudar, portanto, é um trabalho difícil. 
+ 
+Com o intuito de contribuir com o setor diminuindo os problemas relacionados a gestão criamos o “PetsOn” que é um sistema online para gestão de Petshops. Com ele os gestores de pet’s shops poderão contar com uma interface para marcar agendamentos ou atendimentos desse modo podendo encaixar um horário de última hora. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O mercado dos pets foi um dos que mais cresceu durante a pandemia do coronavírus no Brasil, atraindo diversos novos investidores e clientes desse modo o setor continua a apresentar carência em soluções para gestão de petshops. Assim a informatização para esta necessidade pode através de um sistema online facilitar a organização dos dados relacionados aos clientes e seus Pets, agenda, atendimento e fluxo de caixa.   
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste projeto é a criação de um sistema web para pet’s shops permitindo gerenciar de forma organizada um estabelecimento do ramo pet e possibilitando ao usuário como ferramenta o controle de clientes e Pet’s, dentre outras funcionalidades, assim facilitando a gestão do proprietário do negócio. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar: 
+
+A Pet Shop cadastrada no sistema deve fornecer funcionalidades que permitam gerenciar e organizar de maneira estruturada, a agenda da pet’s shop, possibilitando o cadastro de clientes e seus pet’s, podendo atribuir uma data e horário para atendimento.   
+
+Permitir aplicar descontos aos clientes, baseados em quantidades de atendimentos ou valor gasto no período de 1 mês. 
+
+Facilitar ao gestor obter o histórico de agendamentos e atendimentos de seus clientes. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+De acordo com a pesquisa realizada entre os brasileiros do site https://www.opinionbox.com/painel/, como o mercado de pets movimenta muito dinheiro, o objetivo foi saber exatamente como os donos de animais gastam com seus bichos. A pesquisa constatou que a alimentação, como era de se esperar, ficou no topo do pódio entre os gastos mais frequentes, com 68%. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Além disso, entre os produtos mais comprados pelos donos, destacam-se a ração, comprados por 88% dos entrevistados, shampoo ou produtos de higiene, com 52% e brinquedos, com 40%. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Quando o assunto são os valores totais dos gastos com os pets, os números ficam divididos. 29% gastam entre R$51 e R$100, sendo a mesma porcentagem de pessoas que gastam entre R$101 e R$200.   
+
+Considerando a média de gastos somente com a alimentação dos animais, 55% gastam até R$100 com esses produtos. Agora, quando falamos de higiene e estética, a porcentagem de pessoas que gastam até R$100 sobe para 78%. 
+
+Com o crescimento gigantesco desse mercado com o passar dos anos, sentimos a necessidade de criar um meio em que a tecnologia possa auxiliar nesse processo. Muitos dos serviços descritos acima podem ser realizados em petshops, e se tiver um meio de automatizar os processos de acesso e consumo desses serviços através de um click, a relação cliente e petshop irá se desenvolver ainda mais, agregando mais valor ao mercado e unificando a tecnologia.   
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público alvo do software é formado por gestores de petshops. Estes, estão à procura de um sistema de gerenciamento online para o controle de cadastro de clientes e seus pet’s, acompanhamento, edição e remoção de informações referentes a loja. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+ 
