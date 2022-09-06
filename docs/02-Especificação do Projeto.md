@@ -1,3 +1,9 @@
+# Especificações do Projeto
+
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidadas com a participação dos **usuários** em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de ***personas e histórias de usuários***.
+
+## Personas
+
 As ***personas*** levantadas durante o processo de entendimento do problema são apresentadas na tabelas que seguem:
 
 | `USUÁRIO` |`MOTIVAÇÕES`| `FRUSTRAÇÕES` | `HOBBIES / HISTÓRIA` |
