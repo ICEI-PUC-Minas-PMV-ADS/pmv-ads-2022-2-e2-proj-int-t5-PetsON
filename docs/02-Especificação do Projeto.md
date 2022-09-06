@@ -1,103 +1,63 @@
-# Especificações do Projeto
+As ***personas*** levantadas durante o processo de entendimento do problema são apresentadas na tabelas que seguem:
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
-## Personas
-
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+| `USUÁRIO` |`MOTIVAÇÕES`| `FRUSTRAÇÕES` | `HOBBIES / HISTÓRIA` |
+|----------------------|--------------------|--------------------|------------------------|
+| <Img src="https://user-images.githubusercontent.com/59934631/163286435-119bb54c-c0ad-4386-a166-48f68eebcb3e.png">  **Eliana Sanches** ***(Padrinho ou Voluntário)***, **31** anos,  Assistente Social e formada em pedagogia | Vivenciar experiências em ***serviços sociais***, ser empática é sua maior qualidade. | Querer ***ajudar*** e descobrir que as pessoas não quererem ajuda.  |Gosta de ***atividades interativas*** que sejam ao ar livre, ela vem de família simples, mas como foi bem instruída buscou se graduar em pedagogia.
+| <Img src="https://user-images.githubusercontent.com/59934631/163286967-dbbe7f6e-db0f-47da-ab50-df88a088ef59.png">   **João da Silva** ***(Padrinho ou Voluntário)***, **45** anos, Empresário do ramo imobiliário | Ser criativo, buscar crescimento pessoal, ***ser um líder*** e sempre com vontade de superar metas e continuar ***lutar contra a possibilidade de recaída as drogas***.  | Ter perdido cinco anos de sua vida com o ***uso de drogas*** e não ter sido capaz de se lembrar dos detalhes. | Gosta de construir móveis artesanais de madeira, viajar ao interior e curtir atividades em meio a natureza. Vem de família tradicional sendo criado pelos pais no interior de São Paulo aos 16 anos se envolveu com o mundo das drogas, ***se recuperou*** aos 22 anos, com isso conseguiu trabalhar e se formar aos 32 anos, buscou investir no ramo imobiliário onde obteve sucesso. |
+| <Img src="https://user-images.githubusercontent.com/59934631/163288766-3568b23c-8e84-49d2-8e47-c44bfa6ab2fa.png">  **Carlos Gomes** ***(Dependente Químico)***, **35** anos, Técnico em Eletrônica | Viver em família, frequentar a igreja, ***aprender mais*** sobre eletrônica e tecnologia.  | ***Ter usado drogas pela primeira vez*** o que acarretou ao seu vício.|Tem seu trabalho como Hobbie, mas gosta também de fazer trilha e andar de moto. ***Criado apenas pela mãe teve um pai ausente***, onde teve de começar a trabalhar cedo, logo após uns anos se casou e teve seu segundo filho, certo tempo após teve seu primeiro contato com as drogas.  |
+| <Img src="https://user-images.githubusercontent.com/59934631/163289124-763a1118-67a4-4fed-8a7e-4f4caa2cec47.png">   **Melinda Dias** ***(Dependente Química)***, **25** anos, Vendedora|Buscar ***viver intensamente***, ser independente, poder viajar e conhecer pessoas, sentir novas experiências. | ***Ter perdido o trabalho e a confiança*** das pessoas que ama. |Gosta de viajar e conhecer novos lugares, um bom barzinho é sua alegria para uma sexta-feira. Veio de família bem sucedida tendo a oportunidade de seguir nos negócios como vendedora, onde aos poucos foi tendo os primeiros ***contatos com os vícios***, assim enxergou na bebida e nas drogas uma forma de relaxar em função do estresse gerado pelas cobranças e responsabilidades impostas a ela.|
+| <Img src="https://user-images.githubusercontent.com/59934631/163289132-f2f9f8a9-b497-468e-9fa2-f68a467027a8.png">   **Marília Mendes** ***(Voluntária interdisciplinar)***, **25** anos, Estutante de Psicologia | Estudar, conviver em família, ***encontrar um grande amor***, ter filhos e poder ter uma boa qualidade de vida.  | Não poder ainda ***contribuir de forma direta*** utilizando os seus conhecimentos. | Gosta de viajar ***conhecer pessoas***, ama livros de romance, psicologia, filosofia, assistir a documentários, escultar podcasts.Nascida e criada em Espírito Santo, mudou-se para Minas Gerais onde tenta ***construir sua carreira*** onde pensa em ter seu próprio consultório de psicologia |
+| <Img src="https://user-images.githubusercontent.com/59934631/163289142-11fdcda5-3d3d-4aa7-8b92-8b45b43873be.png">   **Izak Menezes** ***(codependente)***, **34** anos, Cabeleireiro | Valores familiares, ***mudar de vida*** através do seu trabalho como Cabeleireiro e buscar sempre agregar aos seus valores. | ***Não ter um bom relacionamento*** com seu irmão que é dependente químico. | Jogar paintball com os amigos e passear em família. Vem de família simples do aglomerado onde cresceu e tentou ser a referência para seu irmão mais novo, mas ***o perdeu para as drogas*** e não conseguiu desde então estabelecer uma conexão de confiança, desde então tem na igreja seu refúgio espiritual. |
 
 ## Histórias de Usuários
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+ 
+A partir da compreensão do dia a dia das **personas** identificadas para o projeto, foram registradas as seguintes ***histórias de usuários***. 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|**Eliana Sanches** ***(Madrinha ou voluntária)***|Apresentar ao **dependente químico** ***o site para adquirir informações***|Para aconselha-lo de que é possível se livrar da **dependência química**, através de ***dicas encontradas***|
+|**João da Silva** ***(Padrinho ou voluntário)***|Conseguir encontrar um **contato de um profissional de saúde** para ajudar um amigo/conhecido dependente químico|Para tornar mais fácil a ***tomada de decisão do dependente químico*** ao seu tratamento|
+|**Carlos Gomes** ***(Dependente químico)***|Ele deseja encontrar **dicas** de como se ver livre do uso de entorpecentes|Para conseguir se **autogerenciar** e seguir com ***seu tratamento***|
+|**Melina Dias** ***(Dependente química)***|Visualizar informações especificas sobre **tipos de vícios**|Encontrar informações relevantes ao ***seu perfil*** como uma pessoa dependente química|
+ |**Marília Mendes** ***(Voluntária ou Madrinha)***|Ajudar pessoas no processo de reabilitação de **dependências químicas**, através de informações disponibilizadas na página.*** | Para conseguir mais informações referentes a **dependências químicas** e poder encontrar os **artigos científicos** específicos.
+ |**Isak Menezes** ***(Codependente)***|Visualizar informações relevantes sobre **dependências químicas específicas** |Encontrar ***informações relevantes*** e soluções gratuitas|
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas que se seguem apresentam os ***requisitos funcionais*** e ***não funcionais*** que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|**ID**     | **Descrição do Requisito**  | **Prioridade** |
+|-------|-----------------------------------------|----|
+|**RF-01**|O site deve apresentar uma ***lista de membros interdisciplinares***, para auxiliar ao tratamento de ***dependentes químicos***, ***deve também possibilitar a busca de acordo com a especialização***, ou área de atuação destes profissionais.|**ALTA**| 
+|**RF-02**|O site deve possibilitar a ***busca de clínicas de tratamento e grupos de apoio a dependentes químicos por localidade***.|**MÉDIA**| 
+|**RF-03**|O site deve permitir ao **usuário**, ***visualizar notícias e informações sobre tratamento de dependências químicas***. |**MÉDIA**| 
+|**RF-04**|O site deve permitir ao **usuário**, ***entrar em contato com membros interdisciplinares***.|**MÉDIA**| 
+|**RF-05**|O site deve apresentar, uma ***lista de clínicas especializadas e grupos de apoio***.|**ALTA**|
+|**RF-06**|O site deve apresentar, ***opção de busca de conteúdo de acordo com o vício***.|**ALTA**|
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+|**ID**     | **Descrição do Requisito**  |**Prioridade** |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|**RNF-01**|O site deve ser publicado em um ambiente acessível **publicamente na Internet** ***(GitHub Pages)***.|**ALTA**| 
+|**RNF-02**|O site deverá ser responsivo permitindo a ***visualização em um celular de forma adequada***.|**ALTA**| 
+|**RNF-03**|O site deve ter bom nível de contraste entre os ***elementos da tela em conformidade***.|**MÉDIA**| 
+|**RNF-04**|O site deve ser compatível com os principais **navegadores do mercado** ***(Google Chrome, Firefox, Microsoft Edge)***.|**ALTA**
+|**RNF-05**|O site não apresentará aos usuários quaisquer dados de cunho privativo. |**MÉDIA**|
+|**RNF-06**|O site deve usar a linguagem CSS. |**MÉDIA**|
+ 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+As questões que limitam a execução desse projeto e que se configuram como 
+obrigações claras para o ***desenvolvimento do projeto*** em questão são apresentadas 
+na tabela a seguir.
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-## Diagrama de Casos de Uso
-
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+|**ID**|                                           **Restrição**                                                   |
+|--|-------------------------------------------------------------------------------------------------------|
+|**01**| O projeto deverá ser entregue no final do semestre letivo,  não podendo extrapolar a data de: ***26/06/22***.  |
+|**02**| O aplicativo deve se restringir às ***tecnologias básicas da web no frontend***.                          |
+|**03**| A equipe não pode subcontratar o desenvolvimento do projeto.                                         |
