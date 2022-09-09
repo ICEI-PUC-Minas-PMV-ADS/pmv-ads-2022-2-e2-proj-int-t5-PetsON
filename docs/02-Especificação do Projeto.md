@@ -41,11 +41,9 @@ As tabelas que se seguem apresentam os ***requisitos funcionais*** e ***não fun
 |**RF-03**|A Pet shop cadastrada no sistema, poderá cadastrar seus clientes e seus Pet's. |**ALTA**| 
 |**RF-04**|A Pet shop cadastrada no sistema, poderá agendar ou dar entrada ao atendimento do cliente aos seu Pet's, enviando e-mail como comprovante do agendamento ou atendimento.|**ALTA**| 
 |**RF-05**|A Pet shop cadastrada no sistema, poderá visualizar o histórico de atendimentos feitos aos clientes. |**MÉDIA**|
-|**RF-06**|A Pet shop cadastrada no sistema, poderá consultar na agenda as datas e horários disponíveis, para agendar ou efetuar o registro de um atendimento.  |**ALTA**|
-|**RF-07**|A Pet shop cadastrada no sistema, poderá aplicar descontos aos clientes, baseados em quantidades de atendimentos ou valor gasto no período de 1 mês. 
- |**MÉDIA**|
- |**RF-08**|O site deve permitir que o usuário mude para modo dark (escuro); 
- |**BAIXA**|
+|**RF-06**|A Pet shop cadastrada no sistema, poderá consultar na agenda as datas e horários disponíveis, para agendar ou efetuar o registro de um atendimento.|**ALTA**|
+|**RF-07**|A Pet shop cadastrada no sistema, poderá aplicar descontos aos clientes, baseados em quantidades de atendimentos ou valor gasto no período de 1 mês.|**MÉDIA**|
+|**RF-08**|O site deve permitir que o usuário mude para modo dark (escuro);|**BAIXA**|
 
 
 ### Requisitos não Funcionais
