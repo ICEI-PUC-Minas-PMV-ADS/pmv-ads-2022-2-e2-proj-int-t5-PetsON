@@ -36,12 +36,17 @@ As tabelas que se seguem apresentam os ***requisitos funcionais*** e ***não fun
 
 |**ID**     | **Descrição do Requisito**  | **Prioridade** |
 |-------|-----------------------------------------|----|
-|**RF-01**|O site deve apresentar uma ***lista de membros interdisciplinares***, para auxiliar ao tratamento de ***dependentes químicos***, ***deve também possibilitar a busca de acordo com a especialização***, ou área de atuação destes profissionais.|**ALTA**| 
-|**RF-02**|O site deve possibilitar a ***busca de clínicas de tratamento e grupos de apoio a dependentes químicos por localidade***.|**MÉDIA**| 
-|**RF-03**|O site deve permitir ao **usuário**, ***visualizar notícias e informações sobre tratamento de dependências químicas***. |**MÉDIA**| 
-|**RF-04**|O site deve permitir ao **usuário**, ***entrar em contato com membros interdisciplinares***.|**MÉDIA**| 
-|**RF-05**|O site deve apresentar, uma ***lista de clínicas especializadas e grupos de apoio***.|**ALTA**|
-|**RF-06**|O site deve apresentar, ***opção de busca de conteúdo de acordo com o vício***.|**ALTA**|
+|**RF-01**|O sistema Pet'sOn deve permitir o cadastro de Pet's Shop's, recolhendo os dados do administrador e da empresa, desse modo o gestor possuirá um login e senha para acessar ao sistema.|**ALTA**| 
+|**RF-02**|O sistema deve permitir o login da Pet Shop cadastrada no sistema, com funcionalidade esqueci minha senha. |**ALTA**| 
+|**RF-03**|A Pet shop cadastrada no sistema, poderá cadastrar seus clientes e seus Pet's. |**ALTA**| 
+|**RF-04**|A Pet shop cadastrada no sistema, poderá agendar ou dar entrada ao atendimento do cliente aos seu Pet's, enviando e-mail como comprovante do agendamento ou atendimento.|**ALTA**| 
+|**RF-05**|A Pet shop cadastrada no sistema, poderá visualizar o histórico de atendimentos feitos aos clientes. |**MÉDIA**|
+|**RF-06**|A Pet shop cadastrada no sistema, poderá consultar na agenda as datas e horários disponíveis, para agendar ou efetuar o registro de um atendimento.  |**ALTA**|
+|**RF-07**|A Pet shop cadastrada no sistema, poderá aplicar descontos aos clientes, baseados em quantidades de atendimentos ou valor gasto no período de 1 mês. 
+ |**MÉDIA**|
+ |**RF-08**|O site deve permitir que o usuário mude para modo dark (escuro); 
+ |**BAIXA**|
+
 
 ### Requisitos não Funcionais
 
@@ -52,7 +57,7 @@ As tabelas que se seguem apresentam os ***requisitos funcionais*** e ***não fun
 |**RNF-03**|O site deve ter bom nível de contraste entre os ***elementos da tela em conformidade***.|**MÉDIA**| 
 |**RNF-04**|O site deve ser compatível com os principais **navegadores do mercado** ***(Google Chrome, Firefox, Microsoft Edge)***.|**ALTA**
 |**RNF-05**|O site não apresentará aos usuários quaisquer dados de cunho privativo. |**MÉDIA**|
-|**RNF-06**|O site deve usar a linguagem CSS. |**MÉDIA**|
+|**RNF-06**|O site deve usar.... |**MÉDIA**|
  
 
 ## Restrições
