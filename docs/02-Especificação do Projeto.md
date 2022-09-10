@@ -64,3 +64,5 @@ na tabela a seguir.
 |**01**| O projeto deverá ser entregue no final do semestre letivo,  não podendo extrapolar a data de: ***26/06/22***.  |
 |**02**| O aplicativo deve se restringir às ***tecnologias básicas da web no frontend***.                          |
 |**03**| A equipe não pode subcontratar o desenvolvimento do projeto.                                         |
+
+ <img src="https://user-images.githubusercontent.com/86859418/189501681-74530e7b-a584-4a81-aaec-e5a9204396c5.jpg">
