@@ -6,7 +6,7 @@
 
 `SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Com o intuito de contribuir com o setor diminuindo os problemas relacionados a gestão criamos o “PetsOn” que é um sistema online para gestão de Petshops. Com ele os gestores de pet’s shops poderão contar com uma interface para marcar agendamentos ou atendimentos desse modo podendo encaixar um horário de última hora.
 
 ## Integrantes
 
