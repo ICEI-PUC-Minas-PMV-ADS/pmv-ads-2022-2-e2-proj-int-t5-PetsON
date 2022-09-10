@@ -8,7 +8,9 @@ Com o intuito de contribuir com o setor diminuindo os problemas relacionados a g
 
 ## Problema
 
-O mercado dos pets foi um dos que mais cresceu durante a pandemia do coronavírus no Brasil, atraindo diversos novos investidores e clientes desse modo o setor continua a apresentar carência em soluções para gestão de petshops. Assim a informatização para esta necessidade pode através de um sistema online facilitar a organização dos dados relacionados aos clientes e seus Pets, agenda, atendimento e fluxo de caixa.   
+Conforme mencionado acima, o mercado dos pets foi um dos que mais cresceu durante a pandemia do novo coronavírus, atraindo diversos novos investidores e clientes. O que se pretende resolver é a falta de organização no que se refere à gestão dos dados dos Petshops, como a dificuldade de relacionar os dados dos animais e seus respectivos donos. O presente projeto é uma ferramenta perfeita que busca conciliar facilidade com simplicidade, tornando a gestão de informações dos estabelecimentos voltados ao mercado dos pets muito mais consistente. 
+
+O mercado dos pets foi um dos que mais cresceu durante a pandemia do coronavírus no Brasil, atraindo diversos novos investidores e clientes desse modo o setor continua a apresentar carência em soluções para gestão de petshops. Assim a informatização para esta necessidade pode através de um sistema online facilitar a organização dos dados relacionados aos clientes e seus Pets, agenda, atendimento e fluxo de caixa.  
 
 ## Objetivos
 
@@ -16,11 +18,11 @@ O objetivo geral deste projeto é a criação de um sistema web para pet’s sho
 
 Como objetivos específicos, podemos ressaltar: 
 
-A Pet Shop cadastrada no sistema deve fornecer funcionalidades que permitam gerenciar e organizar de maneira estruturada, a agenda da pet’s shop, possibilitando o cadastro de clientes e seus pet’s, podendo atribuir uma data e horário para atendimento.   
+* A Pet Shop cadastrada no sistema deve fornecer funcionalidades que permitam gerenciar e organizar de maneira estruturada, a agenda da pet’s shop, possibilitando o cadastro de clientes e seus pet’s, podendo atribuir uma data e horário para atendimento.   
 
-Permitir aplicar descontos aos clientes, baseados em quantidades de atendimentos ou valor gasto no período de 1 mês. 
+* Permitir aplicar descontos aos clientes, baseados em quantidades de atendimentos ou valor gasto no período de 1 mês. 
 
-Facilitar ao gestor obter o histórico de agendamentos e atendimentos de seus clientes. 
+* Facilitar ao gestor obter o histórico de agendamentos e atendimentos de seus clientes. 
 
 ## Justificativa
 
