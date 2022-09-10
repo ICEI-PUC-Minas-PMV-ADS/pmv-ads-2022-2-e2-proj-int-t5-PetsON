@@ -14,7 +14,7 @@
 * Gabriela França Alves Miranda
 * Ian Merlo Corrêa
 * Italo Sousa Chagas
-* Kamilly Pinto Rabelo 
+* Kamilly Pinto Rebelo 
 * Katryn Ribeiro de Jesus Oliveira
 * Luís Claudio Junior A. da Rocha
 
