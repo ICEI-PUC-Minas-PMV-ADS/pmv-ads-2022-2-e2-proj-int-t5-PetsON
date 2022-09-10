@@ -13,11 +13,11 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Gabriela França Alves Miranda
 * Gabriel Nakhata Lopes Ruas Nhimi
 * Ian Merlo Corrêa
-* Italo 
+* Italo de Sousa Chagas
 * Ian Merlo Corrêa
-* Kamille 
+* Kamilly Pinto Rabelo 
 * Katryn Ribeiro de Jesus Oliveira
-* Luis
+* Luís Claudio Junior A. da Rocha 
 
 ## Orientador
 
