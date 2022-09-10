@@ -10,13 +10,13 @@
 
 ## Integrantes
 
-* Gabriela França Alves Miranda
 * Gabriel Nakhata Lopes Ruas Nhimi
+* Gabriela França Alves Miranda
 * Ian Merlo Corrêa
-* Italo de Sousa Chagas
+* Italo Sousa Chagas
 * Kamilly Pinto Rabelo 
 * Katryn Ribeiro de Jesus Oliveira
-* Luís Claudio Junior A. da Rocha 
+* Luís Claudio Junior A. da Rocha
 
 ## Orientador
 
