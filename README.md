@@ -1,4 +1,4 @@
-# PetsON
+# PetsOn
 
 #### `Análise e Desenvolvimento de Sistemas - PUC Minas`
 
