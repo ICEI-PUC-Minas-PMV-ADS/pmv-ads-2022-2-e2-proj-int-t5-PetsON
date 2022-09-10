@@ -1,4 +1,4 @@
-# CURA VÍCIO
+# PetsON
 
 #### `Análise e Desenvolvimento de Sistemas - PUC Minas`
 
