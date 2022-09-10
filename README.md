@@ -2,7 +2,7 @@
 
 #### `Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-### `Desenvolvimento de uma Aplicação Interativa`
+### `Desenvolvimento de uma Aplicação Interativa Back-End`
 
 ## `EIXO 2`
 
