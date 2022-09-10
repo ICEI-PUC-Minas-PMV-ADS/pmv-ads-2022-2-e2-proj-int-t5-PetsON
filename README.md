@@ -14,7 +14,6 @@
 * Gabriel Nakhata Lopes Ruas Nhimi
 * Ian Merlo Corrêa
 * Italo de Sousa Chagas
-* Ian Merlo Corrêa
 * Kamilly Pinto Rabelo 
 * Katryn Ribeiro de Jesus Oliveira
 * Luís Claudio Junior A. da Rocha 
