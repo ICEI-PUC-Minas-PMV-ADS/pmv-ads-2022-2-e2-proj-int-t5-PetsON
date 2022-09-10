@@ -1,10 +1,11 @@
-# TÍTULO DO PROJETO
+# CURA VÍCIO
 
-`CURSO`
+#### `Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+### `Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+## `EIXO 2`
+
 
  Com o intuito de contribuir com o setor diminuindo os problemas relacionados a gestão criamos o “PetsOn” que é um sistema online para gestão de Petshops. Com ele os gestores de pet’s shops poderão contar com uma interface para marcar agendamentos ou atendimentos desse modo podendo encaixar um horário de última hora.
 
