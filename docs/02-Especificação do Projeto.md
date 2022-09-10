@@ -19,12 +19,9 @@ A partir da compreensão do dia a dia das **personas** identificadas para o proj
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|**Eliana Sanches** ***(Madrinha ou voluntária)***|Apresentar ao **dependente químico** ***o site para adquirir informações***|Para aconselha-lo de que é possível se livrar da **dependência química**, através de ***dicas encontradas***|
-|**João da Silva** ***(Padrinho ou voluntário)***|Conseguir encontrar um **contato de um profissional de saúde** para ajudar um amigo/conhecido dependente químico|Para tornar mais fácil a ***tomada de decisão do dependente químico*** ao seu tratamento|
-|**Carlos Gomes** ***(Dependente químico)***|Ele deseja encontrar **dicas** de como se ver livre do uso de entorpecentes|Para conseguir se **autogerenciar** e seguir com ***seu tratamento***|
-|**Melina Dias** ***(Dependente química)***|Visualizar informações especificas sobre **tipos de vícios**|Encontrar informações relevantes ao ***seu perfil*** como uma pessoa dependente química|
- |**Marília Mendes** ***(Voluntária ou Madrinha)***|Ajudar pessoas no processo de reabilitação de **dependências químicas**, através de informações disponibilizadas na página.*** | Para conseguir mais informações referentes a **dependências químicas** e poder encontrar os **artigos científicos** específicos.
- |**Isak Menezes** ***(Codependente)***|Visualizar informações relevantes sobre **dependências químicas específicas** |Encontrar ***informações relevantes*** e soluções gratuitas|
+|**Eduardo Martins** ***(Gestor)***|Relatório de fluxo de caixas e estoques, ver o controle dos clientes|Para ter controle do que precisa e do que utiliza dentro do pet shop|
+|**Gabriela França** ***(Recepcionista)***|Fácil agendamento de horários, fácil acesso para os clientes, um controle de alteração de agendas que possa excluir ou alterar pessoas| |Para ter controle de horários|
+|**Katryn Ribeiro** ***(Tosadora)***|Fluxo de estoque e visualização da agenda| |Dar baixa no sistema quando utilizar algum produto e saber o horário dos atendimentos|
 
 ## Requisitos
 
