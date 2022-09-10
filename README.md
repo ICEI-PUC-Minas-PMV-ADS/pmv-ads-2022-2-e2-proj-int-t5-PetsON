@@ -6,6 +6,7 @@
 
 ## `EIXO 2`
 
+<img src="https://user-images.githubusercontent.com/86859418/189501356-0927bdac-50a2-4cf6-90fc-e393a4ec5159.jpg">
 
  Com o intuito de contribuir com o setor diminuindo os problemas relacionados a gestão criamos o “PetsOn” que é um sistema online para gestão de Petshops. Com ele os gestores de pet’s shops poderão contar com uma interface para marcar agendamentos ou atendimentos desse modo podendo encaixar um horário de última hora.
 
