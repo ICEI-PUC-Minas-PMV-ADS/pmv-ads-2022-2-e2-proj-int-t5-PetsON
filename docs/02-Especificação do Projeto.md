@@ -65,4 +65,13 @@ na tabela a seguir.
 |**02**| O aplicativo deve se restringir às ***tecnologias básicas da web no frontend***.                          |
 |**03**| A equipe não pode subcontratar o desenvolvimento do projeto.                                         |
 
+ ## Diagrama de Casos de Uso
+ 
+O diagrama de Casos de Uso auxilia no levantamento dos requisitos funcionais do sistema, descrevendo um conjunto de funcionalidades do sistema e suas interações com elementos externos e entre si.
+
+Cenários: quando falamos de casos de uso, temos que ter em mente o conceito de cenários, que seriam instâncias de casos de uso.
+Um cenário pode ser compreendido como uma sequência de passos que descreve uma interação entre um usuário e o sistema.
+ 
+Os diagramas de caso de uso mostram o comportamento esperado do sistema. Eles não mostram a ordem na qual as etapas são executadas. 
+ 
  <img src="https://user-images.githubusercontent.com/86859418/189501681-74530e7b-a584-4a81-aaec-e5a9204396c5.jpg">
