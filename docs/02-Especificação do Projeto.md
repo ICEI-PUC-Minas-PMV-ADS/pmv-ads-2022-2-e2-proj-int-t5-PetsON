@@ -20,8 +20,8 @@ A partir da compreensão do dia a dia das **personas** identificadas para o proj
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |**Eduardo Martins** ***(Gestor)***|Relatório de fluxo de caixas e estoques, ver o controle dos clientes|Para ter controle do que precisa e do que utiliza dentro do pet shop|
-|**Gabriela França** ***(Recepcionista)***|Fácil agendamento de horários, fácil acesso para os clientes, um controle de alteração de agendas que possa excluir ou alterar pessoas||Para ter controle de horários|
-|**Katryn Ribeiro** ***(Tosadora)***|Fluxo de estoque e visualização da agenda||Dar baixa no sistema quando utilizar algum produto e saber o horário dos atendimentos|
+|**Gabriela França** ***(Recepcionista)***|Fácil agendamento de horários, fácil acesso para os clientes, um controle de alteração de agendas que possa excluir ou alterar pessoas|Para ter controle de horários|
+|**Katryn Ribeiro** ***(Tosadora)***|Fluxo de estoque e visualização da agenda|Dar baixa no sistema quando utilizar algum produto e saber o horário dos atendimentos|
 
 ## Requisitos
 
