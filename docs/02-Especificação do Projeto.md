@@ -47,23 +47,23 @@ As tabelas que se seguem apresentam os ***requisitos funcionais*** e ***não fun
 |**RNF-01**|O site deve ser publicado em um ambiente acessível **publicamente na Internet** ***(GitHub Pages)***.|**ALTA**| 
 |**RNF-02**|O site deverá ser responsivo permitindo a ***visualização em um celular de forma adequada***.|**ALTA**| 
 |**RNF-03**|O site deve ter bom nível de contraste entre os ***elementos da tela em conformidade***.|**MÉDIA**| 
-|**RNF-04**|O site deve ser compatível com os principais **navegadores do mercado** ***(Google Chrome, Firefox, Microsoft Edge)***.|**ALTA**
-|**RNF-05**|O site não apresentará aos usuários quaisquer dados de cunho privativo. |**MÉDIA**|
-|**RNF-06**|O site deve usar.... |**MÉDIA**|
+|**RNF-04**|O site deve ser compatível com os principais **navegadores do mercado** ***(Google Chrome, Firefox, Microsoft Edge)***.|**ALTA**|
+|**RNF-05**|O sistema deverá se comunicar com o banco SQL server |**ALTA**|
+|**RNF-06**|O sistema deverá ser implementado na linguagem C#, linguagem HTML, CSS e JavaScript |**ALTA**|
+|**RNF-07**|O site do sistema deve apresentar na página principal o login para acesso das empresas cadastradas | **ALTA** |
  
 
 ## Restrições
 
-As questões que limitam a execução desse projeto e que se configuram como 
-obrigações claras para o ***desenvolvimento do projeto*** em questão são apresentadas 
-na tabela a seguir.
-
-
+O projeto está restrito pelos itens apresentados na tabela a seguir.
+ 
 |**ID**|                                           **Restrição**                                                   |
 |--|-------------------------------------------------------------------------------------------------------|
-|**01**| O projeto deverá ser entregue no final do semestre letivo,  não podendo extrapolar a data de: ***26/06/22***.  |
-|**02**| O aplicativo deve se restringir às ***tecnologias básicas da web no frontend***.                          |
-|**03**| A equipe não pode subcontratar o desenvolvimento do projeto.                                         |
+|**01**| O projeto deverá ser conduzido com os direcionamentos do professor orientador  |
+|**02**| A equipe terá reuniões com o professor orientador às segundas-feiras às 20:30 horas |
+|**03**| A equipe não pode subcontratar o desenvolvimento do projeto |
+|**04**| O projeto deverá estar em conformidade com o escopo disponibilizado pela PUC Minas |
+|**05**| O prazo para entrega final do projeto é 11/12/2022 |
 
  ## Diagrama de Casos de Uso
  
