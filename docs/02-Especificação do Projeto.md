@@ -74,4 +74,4 @@ Um cenário pode ser compreendido como uma sequência de passos que descreve uma
  
 Os diagramas de caso de uso mostram o comportamento esperado do sistema. Eles não mostram a ordem na qual as etapas são executadas. 
  
- <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-PetsON/issues/1#issuecomment-1242839189">
+ <img src="https://user-images.githubusercontent.com/86859418/189507933-5fa6d170-7a7a-4669-a245-83d52eba26c4.jpg">
