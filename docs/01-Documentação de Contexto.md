@@ -4,7 +4,7 @@ Segundo pesquisas do IPB (Instituto Pet Brasil), em 2018 o Brasil totalizou 162,
 
 Os números referem-se ao fechamento consolidado de 2021. Em paralelo, especificando a questão canina, o Brasil possui a terceira maior população de cães do mundo, e o ramo de mercado Pet vem ganhando espaço de maneira acelerada no mercado nacional, contando com o fator da humanização dos animais domésticos que se relacionado ao número de pessoas no país, é possível ter uma noção da importância neste setor. Em contrapartida, segundo o CEO da Pet Shop Control, a maioria do mercado de pet shop ainda não tem um background de gestão, então há uma dificuldade dentro de alguns conceitos, e que a ferramenta sozinha não tem como ajudar, portanto, é um trabalho difícil. 
  
-Com o intuito de contribuir com o setor diminuindo os problemas relacionados a gestão criamos o “PetsOn” que é um sistema online para gestão de Petshops. Com ele os gestores de pet’s shops poderão contar com uma interface para marcar agendamentos ou atendimentos desse modo podendo encaixar um horário de última hora. 
+Com o intuito de contribuir com o setor e diminuir os problemas relacionados a gestão criamos o “PetsOn” que é um sistema online para gestão de Petshops. Com ele os gestores de pet’s shops poderão contar com uma interface para agendar atendimentos, listar atendimentos, cadastrar clientes e seus pet's, aplicar descontos, enviar e-mail comprovante de agendamento ou atendimento realizado.
 
 ## Problema
 
