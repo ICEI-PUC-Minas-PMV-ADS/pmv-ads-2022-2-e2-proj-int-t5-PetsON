@@ -75,8 +75,7 @@ As ferramentas empregadas no projeto estão descritas na tabela abaixo:
 
 |**FUNÇÃO**| **PLATAFORMA** |**LINK DE ACESSO**|
 |--------------------|------------------------------------|----------------------------------------|
-|**Repositório de Código Fonte**|**GitHub**|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-PetsON|
-|**User Flow**|**Figma**|https://www.figma.com/|
+|**Diagramas**|**Figma**|https://www.figma.com/|
 |**Projeto de Interface - Wireframe**|**Figma**|https://www.figma.com/|
 |**Editor de Código**|**VS Code**|https://code.visualstudio.com/|
 |**Documentação de projeto**|**GitHub**|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-PetsON|
