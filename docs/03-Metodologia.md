@@ -28,16 +28,17 @@ A equipe escolheu o ***SCRUM***, uma ***metodologia ágil***, como base para o *
 
 **A equipe foi organizada da seguinte maneira:**
 
-- **Product Owner:** Profª. Joyce Christina de Paiva Carvalho 
-- **Scrum Master:** Tiago Del Puppo Favilla Lobo
+- **Product Owner:** Profº. Bernardo Jeunon de Alencar
+- **Scrum Master:** Gabriela França Alves Miranda
  
 **Equipe de Desenvolvimento e Design:**
  
 - Gabriel Nakhata Lopes Ruas Nhimi
-- Paulo Hyure Eufrasio Pereira
-- Gervasio Felipe Ferreira Duarte
-- Vinicius Luiz Alves De Oliveira
-- Pedro Henrique De Assis Freitas
+- Ian Merlo Corrêa
+- Italo Sousa Chagas
+- Kamilly Pinto Rebelo
+- Katryn Ribeiro de Jesus Oliveira
+- Luís Claudio Junior A. da Rocha
 
 ### Processo
 
@@ -62,7 +63,7 @@ As ferramentas empregadas no projeto estão descritas na tabela abaixo:
 
 |**FUNÇÃO**| **PLATAFORMA** |**LINK DE ACESSO**|
 |--------------------|------------------------------------|----------------------------------------|
-|**Repositório de Código Fonte**|**GitHub**|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-cura-vicio|
+|**Repositório de Código Fonte**|**GitHub**|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-PetsON|
 |**User Flow**|**Figma**|https://www.figma.com/|
 |**Projeto de Interface - Wireframe**|**Figma**|https://www.figma.com/|
 |**Editor de Código**|**VS Code**|https://code.visualstudio.com/|
