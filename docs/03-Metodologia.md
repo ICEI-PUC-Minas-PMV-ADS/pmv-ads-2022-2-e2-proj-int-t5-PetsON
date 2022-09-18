@@ -65,7 +65,7 @@ Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  e
 ● **Done**: nesta lista são colocadas as tarefas que passaram pelos ***testes e controle de qualidade***  e  estão  prontos  para  ser  ***entregues  ao  usuário***.  Não  há  mais  edições  ou revisões necessárias.
 
 O quadro ***KANBAN*** do grupo no **GitHub** está disponível através da **URL:** 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-cura-vicio/projects/1 e é apresentado, no estado atual, na Figura abaixo.
+https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/112 e é apresentado, no estado atual, na Figura abaixo.
 
 <Img src="https://user-images.githubusercontent.com/86859418/190921728-8f26f2d3-947c-4229-add7-422278274d50.png">
 
