@@ -67,7 +67,7 @@ Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  e
 O quadro ***KANBAN*** do grupo no **GitHub** está disponível através da **URL:** 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-cura-vicio/projects/1 e é apresentado, no estado atual, na Figura abaixo.
 
-<Img src="https://user-images.githubusercontent.com/59934631/164791742-d41a6102-a59c-4698-af45-c5f41016ff15.PNG">
+<Img src="https://user-images.githubusercontent.com/86859418/190921728-8f26f2d3-947c-4229-add7-422278274d50.png">
 
 ### Ferramentas
 
