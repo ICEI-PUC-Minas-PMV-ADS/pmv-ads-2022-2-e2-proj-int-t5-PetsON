@@ -2,6 +2,18 @@
 
 A  **metodologia**  contempla  as  definições  de  ferramental  utilizado  pela  **equipe**,  tanto  para  a manutenção dos códigos e demais ***artefatos***, quanto para a **organização do time na execução** das ***tarefas do projeto***.
 
+## Relação de Ambientes de Trabalho
+
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
+
+|Ambiente   | Descrição do Requisito  | Prioridade |
+|-----------|----------------------------------|------|
+|Repositório de código fonte e versionamento| GitHub | [Link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/teams/ads_2021_02_e1_grupo_3_consultas) GitHub | 
+|Documentos do projeto | Microsoft Teams | [Link](https://teams.microsoft.com/_#/docx/viewer/teams/https:~2F~2Fsgapucminasbr.sharepoint.com~2Fsites~2Fteam_sga_865_2021_2_5954107-Grupo3-19h30-19h45~2FDocumentos%20Compartilhados~2FGrupo%203%20-%2019h30-19h45~2FTarefa%202%20-%20Grupo%203.docx?threadId=19:f600f95aca8e4d00a3ae9d9bc5f7e7fa@thread.tacv2&baseUrl=https:~2F~2Fsgapucminasbr.sharepoint.com~2Fsites~2Fteam_sga_865_2021_2_5954107-Grupo3-19h30-19h45&fileId=bda4b774-8429-41dd-8c0d-1fe4780a8c63&ctx=files&rootContext=items_view&viewerAction=view) Teams |
+|Projeto de interface e Wireframes | Figma | [Link](https://www.figma.com/file/nc5yh413tN7drT96NghJnZ/Site?node-id=0%3A1) Figma |
+|Gerenciamento do projeto|  Trello | [Link](https://trello.com/b/zpusdWXw/telas-consultas-m%C3%A9dicas) Trello |
+
+
 ## Controle de Versão
 
 A **ferramenta de controle** de versão adotada no projeto foi o
