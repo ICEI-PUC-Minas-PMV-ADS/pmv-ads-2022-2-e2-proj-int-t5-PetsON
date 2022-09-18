@@ -79,5 +79,5 @@ As ferramentas empregadas no projeto estão descritas na tabela abaixo:
 |**User Flow**|**Figma**|https://www.figma.com/|
 |**Projeto de Interface - Wireframe**|**Figma**|https://www.figma.com/|
 |**Editor de Código**|**VS Code**|https://code.visualstudio.com/|
-|**Documentação de projeto**|**GitHub**|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-cura-vicio|
-|**Ferramentas de Comunição**|**Teams e WhatsApp**|https://teams.microsoft.com/l/team/19%3aNfxX3vLhDj2FZTHnJ-Bn2mvA6jFD73yhDvm0JQUmEJc1%40thread.tacv2/conversations?groupId=d1e08399-07d6-45c6-a10b-55b7a8d1763f&tenantId=14cbd5a7-ec94-46ba-b314-cc0fc972a161|
+|**Documentação de projeto**|**GitHub**|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-PetsON|
+|**Ferramentas de Comunição**|**Teams e WhatsApp**|https://teams.microsoft.com/_?tenantId=14cbd5a7-ec94-46ba-b314-cc0fc972a161#/school/conversations/Geral?groupId=d1e08399-07d6-45c6-a10b-55b7a8d1763f&threadId=19:8aWc7zqNj-awsqXQIz53pIGRv1aRgvjUK3fpoaRFiCQ1@thread.tacv2&ctx=channel|
