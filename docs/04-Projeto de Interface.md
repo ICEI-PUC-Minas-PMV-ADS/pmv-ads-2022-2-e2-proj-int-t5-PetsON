@@ -11,7 +11,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
 
-<img src="https://user-images.githubusercontent.com/86859418/191097526-b0ec2c97-489f-4836-ae14-6336ed1e9c86.jpg">
+<img src="https://user-images.githubusercontent.com/86859418/191098451-4965117d-e660-4573-8aaa-723693ff0ca7.jpg">
 
 ## Wireframes
 
