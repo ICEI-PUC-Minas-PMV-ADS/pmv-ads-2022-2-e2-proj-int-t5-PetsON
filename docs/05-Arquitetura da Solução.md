@@ -59,6 +59,8 @@ CSS: Linguagem de folhas de estilos utilizada para aplicar estilos nos elementos
 Razor: Sintaxe de marcação que permite inserir código baseado em .NET em páginas web junto ao HTML.
 A figura abaixo demonstra como as tecnologias empregadas se relacionam dentro do sistema e como ocorre a interação do usuário com o sistema até que ele retorne uma resposta ao usuário.
 
+<img src="https://user-images.githubusercontent.com/86859418/193428792-5496b90b-37b4-49c0-9c5f-47b071ac489d.png">
+
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
