@@ -74,4 +74,4 @@ Um cenário pode ser compreendido como uma sequência de passos que descreve uma
  
 Os diagramas de caso de uso mostram o comportamento esperado do sistema. Eles não mostram a ordem na qual as etapas são executadas. 
  
- <img src="https://user-images.githubusercontent.com/86859418/189507933-5fa6d170-7a7a-4669-a245-83d52eba26c4.jpg">
+ <img src="https://user-images.githubusercontent.com/86859418/193376457-15b42ba8-d1be-4abc-a8dc-1ac89090f4ff.jpg">
