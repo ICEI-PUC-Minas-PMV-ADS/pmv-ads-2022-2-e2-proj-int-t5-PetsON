@@ -62,8 +62,7 @@ A figura abaixo demonstra como as tecnologias empregadas se relacionam dentro do
 <img src="https://user-images.githubusercontent.com/86859418/193428792-5496b90b-37b4-49c0-9c5f-47b071ac489d.png">
 
 ## Hospedagem
-
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A hospedagem da solução foi realizada no serviço de hospedagem da SmarterASP.NET. Após o desenvolvimento local da aplicação, o projeto foi conectado a uma base de dados MSSQL remota criada no próprio SmarterASP.NET, onde as tabelas do projeto foram criadas utilizando-se o comando update-database do Entity Framework Core (utilizando o AppllicationDbContext.cs e as migrations desenvolvidas na criação do projeto). Após a migração da base de dados, o projeto foi publicado através da função Publish do Visual Studio Community 2022 utilizando as configurações do arquivo .XML fornecido pela própria SmarterASP.net para a página da aplicação.
 
 > **Links Úteis**:
 >
