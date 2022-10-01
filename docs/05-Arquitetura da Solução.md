@@ -27,7 +27,7 @@ A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade, o diagrama a seguir pode ser gerado no próprio SQL Server após o projeto da base de dados já criada.
  
-<img src="https://user-images.githubusercontent.com/86859418/193422225-5f6a0c31-f655-4fc4-8b1b-32157d6d0777.jpg">
+<img src="https://user-images.githubusercontent.com/86859418/193425311-e678fb36-ab23-4fd7-84bd-795668a0edd9.jpg">
 
 ## Tecnologias Utilizadas
 
