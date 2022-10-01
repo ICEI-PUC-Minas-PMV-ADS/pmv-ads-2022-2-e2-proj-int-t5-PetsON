@@ -18,5 +18,5 @@ Por exemplo:
 | Caso de Teste 	| CT-02 – Efetuar login	|
 |Requisito Associado | RF-0	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail, senha e opção esqueci minha senha. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| <li>Acessar o navegador</li>  <li>Clicar no botão "Entrar"</li> <li>Preencher o campo de e-mail</li> <li>Clicar em "Login"</li> |
+| Passos 	| <li>Acessar o navegador</li>  <li>Clicar no botão "Entrar"</li> <li>Preencher o campo de e-mail e senha</li> <li>Clicar em "Login"</li> |
 |Critério de Êxito | - O login foi realizado com sucesso. |
