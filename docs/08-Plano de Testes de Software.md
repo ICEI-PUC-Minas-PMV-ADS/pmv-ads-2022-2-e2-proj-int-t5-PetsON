@@ -12,8 +12,7 @@ Por exemplo:
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - O sistema Pet'sOn deve permitir o cadastro de Pet's Shop's, recolhendo os dados do administrador e da empresa, desse modo o gestor possuirá um login e senha para acessar ao sistema.   |
 | Objetivo do Teste 	| A Pet shop cadastrada no sistema, poderá agendar ou dar entrada ao atendimento do cliente aos seu Pet's, enviando e-mail como comprovante do agendamento ou atendimento.  |
-| Passos 	| -A Pet shop cadastrada no sistema, poderá visualizar o histórico de atendimentos feitos aos clientes.
-          |  -A Pet shop cadastrada no sistema, poderá consultar na agenda as datas e horários disponíveis, para agendar ou efetuar o registro de um atendimento. |
+| Passos 	| -A Pet shop cadastrada no sistema, poderá visualizar o histórico de atendimentos feitos aos clientes.  -A Pet shop cadastrada no sistema, poderá consultar na agenda as datas e horários disponíveis, para agendar ou efetuar o registro de um atendimento. |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  	|  	|
 | Caso de Teste 	| CT-02 – Efetuar login	|
