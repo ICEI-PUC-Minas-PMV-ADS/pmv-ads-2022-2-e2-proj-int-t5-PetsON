@@ -17,7 +17,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-<img src="[https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-PetsON/issues/40#issue-1393571026](https://user-images.githubusercontent.com/54327906/193430249-db5e3348-9ae6-46d4-97d3-edbb060516f9.jpeg)">
+<img src="https://user-images.githubusercontent.com/54327906/193430249-db5e3348-9ae6-46d4-97d3-edbb060516f9.jpeg">
 
 ## Projeto da Base de Dados
 
