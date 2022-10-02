@@ -1,15 +1,44 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+Este teste busca ver como se dá a relação do usuário com a nossa aplicação em um primeiro acesso, se encaixando, portanto, no teste de usabilidade, o aprendizado.
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+## Formato do Teste:
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+I. Seleção de 4 participantes os quais fazem parte dos nichos de PetShop através de um formulário simples feito no Google Forms.
+II. Contextualizar o objetivo do site e suas funções aos participantes selecionados
+III. Após os mesmos terem sua primeira experiência com a aplicação, será coletado um feedback dos mesmos através do Formulário
+IV. Com a pesquisa de satisfação dos testers em mãos, realizar uma reunião tendo como fim a melhoria da plataforma.
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+###Requisitos para realização do teste:
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Conexão com a internet via dados móveis ou cabo
+Computador disponível
+
+### Funcionalidades a serem testadas pelos participantes
+
+1.0. Acessar a Landing Page
+2.0. Cadastrar Empresa
+3.0. Realizar Login
+4.0. Solicitar Alteração de senha
+5.0 Agendar Atendimento
+6.0. Enviar e-mail de agendamento ao cliente
+7.0. Realizar Atendimento
+8.0. Faturar Atendimento
+9.0. Aplicar Desconto
+10.0. Emitir histórico de atendimentos
+11.0. Alterar tema claro/escuro
+12.0. Cadastrar Clientes/Pets
+
+### O que será avaliado após a realização do teste:
+
+I. O quão simples e intuitiva se dá a interação plataforma x usuário
+II. Escala de dificuldade na utilização das funcionalidades da plataforma
+III. Tempo de transição entre as páginas
+IV. Tempo da utilização de cada funcionalidades
+V. Pesquisa de satisfação com os testers
+VI. Sugestões dos testers
+VII. Dificuldades encontradas pelos testers ao fazer uso da plataforma
+
+## Conclusão
+Nossa equipe busca a implementação de correções e melhorias no site de acordo com o feedback dos participantes do teste. Nele serão testados o desempenho do site e sua capacidade de interação com os usuários, bem como a simplicidade e objetividade de se realizar as funcionalidades da aplicação.
+
