@@ -10,8 +10,8 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+<img src="https://user-images.githubusercontent.com/103230282/193464569-301b4ed1-b170-47d4-8041-17d41f3abd64.png">
+
 
 ## Modelo ER (Projeto Conceitual)
 
