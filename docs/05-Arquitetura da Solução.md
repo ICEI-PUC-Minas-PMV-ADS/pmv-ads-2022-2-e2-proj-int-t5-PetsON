@@ -27,7 +27,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 Linguagens de progamação utilizadas:
 
 C#: Linguagem de progamação utilizada para desenvolvimento do backend da solução.
-Javascript: Linguagem de progamação utilizada no frontend para a implementação de certas funcionalidades.
+Javascript: Linguagem de programação utilizada no frontend para a implementação de certas funcionalidades.
 Frameworks utilizados:
 
 ASP.NET Core MVC: Framework implementando o padrão Model-View-Controller, será utilizado como base para desenvolvimento da solução.
