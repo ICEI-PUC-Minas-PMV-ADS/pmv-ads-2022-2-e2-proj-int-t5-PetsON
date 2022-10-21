@@ -20,7 +20,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade, o diagrama a seguir pode ser gerado no próprio SQL Server após o projeto da base de dados já criada.
  
-<img src="https://user-images.githubusercontent.com/86859418/196302026-80c60999-952e-41bd-b909-19bc5d0a7400.jpg">
+<img src="https://user-images.githubusercontent.com/86859418/197303649-1c005879-89ef-4acb-a6e7-30025d0f322a.jpg">
 
 ## Tecnologias Utilizadas
 
