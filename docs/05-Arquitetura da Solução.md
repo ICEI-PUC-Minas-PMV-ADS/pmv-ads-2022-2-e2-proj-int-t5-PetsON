@@ -11,11 +11,10 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 <img src="https://user-images.githubusercontent.com/103230282/198024557-386e42c3-668f-4a27-9a7c-b0a1ba2dc21a.png">
 
 
-## Modelo ER (Projeto Conceitual)![diagrama-reformulado drawio (2)](https://user-images.githubusercontent.com/103230282/198024488-8f257ce2-4cbe-40c4-8a33-2a09676a01d6.png)
+## Modelo ER (Projeto Conceitual)
+<img src="https://user-images.githubusercontent.com/54327906/193430249-db5e3348-9ae6-46d4-97d3-edbb060516f9.jpeg">
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
-
-<img src="https://user-images.githubusercontent.com/54327906/193430249-db5e3348-9ae6-46d4-97d3-edbb060516f9.jpeg">
 
 ## Projeto da Base de Dados
 
