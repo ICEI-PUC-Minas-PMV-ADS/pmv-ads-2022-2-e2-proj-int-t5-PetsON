@@ -4,7 +4,7 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/198904489-a004fb1b-ce01-4d74-bbe9-ff5e89fe554c.jpg">
 
-** Resultado CT-01 - Dados enviados ao Data Base.
+**Resultado CT-01 - Dados enviados ao Data Base.
 
 <img src="https://user-images.githubusercontent.com/86859418/198904574-34a8917a-1340-4b7f-bd84-16e0e41091af.jpg">
 
