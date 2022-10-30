@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = (string)"_LayoutLogin";
+}
+<div class="wrapper">
+    <div>
+        <img src="../img/logo-petson-apc1.svg" alt="logo PetsOn">
+    </div>
+    <div class="text-center mt-4 name">
+        Login do sistema 
+    </div>
+    <form class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center">
+            <span class="far fa-user"></span>
+            <input type="text" name="userName" id="userName" placeholder="Usuário">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-key"></span>
+            <input type="password" name="password" id="pwd" placeholder="Senha">
+        </div>
+        <button class="btn mt-3">Entrar</button>
+    </form>
+    <div class="text-center fs-6">
+        <a href="#">
+            Esqueceu a senha?
+        </a> or <a asp-controller="Usuario" asp-action="Cadastro">Cadastre-se</a>
+    </div>
+</div>

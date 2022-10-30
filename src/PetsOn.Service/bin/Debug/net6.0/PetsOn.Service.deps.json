@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PetsOn.Service/1.0.0": {
+        "dependencies": {
+          "PetsOn.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PetsOn.Service.dll": {}
+        }
+      },
+      "PetsOn.Domain/1.0.0": {
+        "runtime": {
+          "PetsOn.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PetsOn.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PetsOn.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
