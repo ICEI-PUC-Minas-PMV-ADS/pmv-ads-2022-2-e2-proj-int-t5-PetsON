@@ -199,3 +199,4 @@ C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\PetsOn.pdb
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\PetsOn.genruntimeconfig.cache
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\ref\PetsOn.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutMenu.cshtml.rz.scp.css
