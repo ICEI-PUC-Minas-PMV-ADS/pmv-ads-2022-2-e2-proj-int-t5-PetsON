@@ -135,11 +135,15 @@ i {
         border-radius: 25px;
         box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
         letter-spacing: 1.3px;
+        text-align:center;
+        font-size: medium;
+        
     }
-
-    .wrapper .btn:hover {
-        background-color: darkseagreen;
-    }
+/*
+        .wrapper .btn:hover {
+            
+            background-color: #E3A11E;
+        }*/
 
 .wrapper a {
     text-decoration: none;
@@ -148,7 +152,7 @@ i {
 }
 
     .wrapper a:hover {
-        color: darkseagreen;
+        color: #555;
     }
 
 @media(max-width: 380px) {

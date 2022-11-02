@@ -2,11 +2,12 @@
 
 namespace PetsOn.Controllers
 {
-    public class LoginController : Controller
+    public class MenuController : Controller
     {
-        public IActionResult Login()
+
+        public IActionResult Menu()
         {
-            Thread.Sleep(2500);
+            Thread.Sleep(2000);
 
             return View();
         }
