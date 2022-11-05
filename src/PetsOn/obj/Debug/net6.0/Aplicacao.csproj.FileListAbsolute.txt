@@ -1,0 +1,8 @@
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\Aplicacao.csproj.AssemblyReference.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\Aplicacao.AssemblyInfoInputs.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\Aplicacao.AssemblyInfo.cs
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\Aplicacao.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\Aplicacao.MvcApplicationPartsAssemblyInfo.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\Aplicacao.RazorAssemblyInfo.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\Aplicacao.RazorAssemblyInfo.cs

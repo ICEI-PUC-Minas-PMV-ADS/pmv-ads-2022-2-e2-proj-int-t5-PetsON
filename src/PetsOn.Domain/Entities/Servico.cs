@@ -3,10 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PetsOn.Domain.Entities
 {
-    public class Servico
+    public class Servico : EntityBase
     {
-        [Key]
-        public int? Id { get; set; }
         public string Tipo_Servico { get; set; }
         public string Descricao { get; set; }
         public decimal Preco { get; set; }

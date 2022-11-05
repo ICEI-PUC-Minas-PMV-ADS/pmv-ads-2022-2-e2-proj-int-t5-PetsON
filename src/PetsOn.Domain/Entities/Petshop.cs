@@ -3,10 +3,8 @@ using System.Reflection.Metadata;
 
 namespace PetsOn.Domain.Entities
 {
-    public class Petshop
+    public class Petshop : EntityBase
     {
-        [Key]
-        public int? Id { get; set; }
         public string Nome_Empresa { get; set; }
         public string Cnpj { get; set; }
         public string Web_Site { get; set; }
