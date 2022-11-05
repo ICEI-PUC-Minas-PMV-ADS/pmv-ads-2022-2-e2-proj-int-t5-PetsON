@@ -9,21 +9,12 @@
       "PetsOn/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.10",
-          "Microsoft.EntityFrameworkCore.Design": "6.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
           "PetsOn.Domain": "1.0.0",
-          "PetsOn.Service": "1.0.0"
+          "PetsOn.Repository": "1.0.0"
         },
         "runtime": {
           "PetsOn.dll": {}
-        }
-      },
-      "Humanizer.Core/2.8.26": {
-        "runtime": {
-          "lib/netstandard2.0/Humanizer.dll": {
-            "assemblyVersion": "2.8.0.0",
-            "fileVersion": "2.8.26.1919"
-          }
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -111,18 +102,6 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/6.0.10": {},
-      "Microsoft.EntityFrameworkCore.Design/6.0.10": {
-        "dependencies": {
-          "Humanizer.Core": "2.8.26",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.10"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "6.0.10.0",
-            "fileVersion": "6.0.1022.47607"
-          }
-        }
-      },
       "Microsoft.EntityFrameworkCore.Relational/6.0.10": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.10",
@@ -441,12 +420,14 @@
           "PetsOn.Domain.dll": {}
         }
       },
-      "PetsOn.Service/1.0.0": {
+      "PetsOn.Repository/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
           "PetsOn.Domain": "1.0.0"
         },
         "runtime": {
-          "PetsOn.Service.dll": {}
+          "PetsOn.Repository.dll": {}
         }
       }
     }
@@ -456,13 +437,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "Humanizer.Core/2.8.26": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
-      "path": "humanizer.core/2.8.26",
-      "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -505,13 +479,6 @@
       "sha512": "sha512-b4jKcjo6BLuBRjLTkZPjJCvZ7oa3a798Q1AXSMAknitpBEOEIDryyRd7XZ0cnEIVCvfSND+Trgb00Z4TiTqOvg==",
       "path": "microsoft.entityframeworkcore.analyzers/6.0.10",
       "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.10.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Design/6.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-SVqDfUftgBoKCMPfTaWXiKBZPHMjbiBJLE5WE7MeD28nTk7CkmUNX8eXyNIeWxpDuk4r0zZ6XG9zyG7Ef3KS4A==",
-      "path": "microsoft.entityframeworkcore.design/6.0.10",
-      "hashPath": "microsoft.entityframeworkcore.design.6.0.10.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.10": {
       "type": "package",
@@ -756,7 +723,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "PetsOn.Service/1.0.0": {
+    "PetsOn.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

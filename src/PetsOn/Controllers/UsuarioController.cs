@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using PetsOn.DAL;
 using PetsOn.Domain.Entities;
 using PetsOn.Models.Usuario;
+using PetsOn.Repository.DAL;
 
 namespace PetsOn.Controllers
 {
@@ -10,7 +9,7 @@ namespace PetsOn.Controllers
     {
         ApplicationDbContext _mContext;
 
-        public UsuarioController(ApplicationDbContext mContext) => _mContext = mContext;
+        public UsuarioController(ApplicationDbContext mcontext) => _mContext = mcontext;
 
         public IActionResult Cadastro()
         {

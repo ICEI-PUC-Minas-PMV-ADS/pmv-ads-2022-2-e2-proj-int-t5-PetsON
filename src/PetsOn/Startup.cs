@@ -1,7 +1,8 @@
-﻿using PetsOn.DAL;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using PetsOn.Repository.DAL;
 
 namespace PetsOn
+
 {
     public class Startup
     {

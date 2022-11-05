@@ -1,0 +1,64 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Apresentacao
+build_property.RootNamespace = Apresentacao
+build_property.ProjectDir = C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Menu/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Usuario/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-prrvuwb4td
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-8nmxyzy3p1
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Shared/_LayoutMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-j03fbwhjam

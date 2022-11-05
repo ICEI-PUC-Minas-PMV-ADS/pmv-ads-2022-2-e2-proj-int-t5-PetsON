@@ -1,0 +1,12 @@
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\bin\Debug\net6.0\Domain.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\bin\Debug\net6.0\Domain.pdb
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Debug\net6.0\Domain.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Debug\net6.0\Domain.pdb
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Debug\net6.0\ref\Domain.dll

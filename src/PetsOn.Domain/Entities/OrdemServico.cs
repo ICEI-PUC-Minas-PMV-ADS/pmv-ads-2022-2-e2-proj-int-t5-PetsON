@@ -3,10 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PetsOn.Domain.Entities
 {
-    public class OrdemServico
+    public class OrdemServico : EntityBase
     {
-        [Key]
-        public int? Id { get; set; }
         public DateTime Data { get; set; }
         public string Observacao { get; set; }
 

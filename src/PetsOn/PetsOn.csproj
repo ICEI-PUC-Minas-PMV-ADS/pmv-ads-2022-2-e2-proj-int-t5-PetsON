@@ -7,21 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DAL\**" />
+    <Content Remove="DAL\**" />
+    <EmbeddedResource Remove="DAL\**" />
+    <None Remove="DAL\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Helpers\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\PetsOn.Domain\PetsOn.Domain.csproj" />
-    <ProjectReference Include="..\PetsOn.Service\PetsOn.Service.csproj" />
+    <ProjectReference Include="..\PetsOn.Repository\PetsOn.Repository.csproj" />
   </ItemGroup>
 
 </Project>

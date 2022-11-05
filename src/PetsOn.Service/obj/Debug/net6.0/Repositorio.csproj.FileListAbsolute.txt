@@ -1,0 +1,5 @@
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Service\obj\Debug\net6.0\Repositorio.csproj.AssemblyReference.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Service\obj\Debug\net6.0\Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Service\obj\Debug\net6.0\Repositorio.AssemblyInfoInputs.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Service\obj\Debug\net6.0\Repositorio.AssemblyInfo.cs
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Service\obj\Debug\net6.0\Repositorio.csproj.CoreCompileInputs.cache
