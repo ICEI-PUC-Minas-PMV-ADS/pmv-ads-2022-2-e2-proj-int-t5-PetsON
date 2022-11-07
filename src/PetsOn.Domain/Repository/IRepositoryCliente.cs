@@ -2,7 +2,8 @@
 
 namespace PetsOn.Domain.Repository
 {
-    internal interface IRepositorioPetshop : IRepositorio<Petshop>
+    public interface IRepositoryCliente : IRepository<Cliente>
     {
+
     }
 }

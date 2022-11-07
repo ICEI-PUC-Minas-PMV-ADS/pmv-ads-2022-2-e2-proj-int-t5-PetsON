@@ -2,7 +2,7 @@
 
 namespace PetsOn.Domain.Repository
 {
-    internal interface IRepositorioUsuario : IRepositorio<Usuario>
+    public interface IRepositoryUsuario : IRepository<Usuario>
     {
             bool ValidarLogin(string email, string senha);
     }

@@ -1,7 +1,7 @@
 ﻿
 namespace PetsOn.Domain.Repository
 {
-    public interface IRepositorio<TEntidade>
+    public interface IRepository<TEntidade>
         where TEntidade: class
     {
         void Create(TEntidade Entity);

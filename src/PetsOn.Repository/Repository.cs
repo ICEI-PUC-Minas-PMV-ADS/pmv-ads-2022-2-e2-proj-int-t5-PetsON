@@ -8,13 +8,13 @@ using PetsOn.Domain.Entities;
 
 namespace PetsOn.Repository
 {
-    public abstract class Repositorio<TEntidade> : DbContext, IRepositorio<TEntidade>
+    public abstract class Repository<TEntidade> : DbContext, IRepository<TEntidade>
         where TEntidade : EntityBase, new()
     {
 
         protected DbContext Db;
         protected DbSet<TEntidade> DbSetContext;
-        public Repositorio(DbContext dbContext)
+        public Repository(DbContext dbContext)
         {
             Db = dbContext;
             DbSetContext = Db.Set<TEntidade>();
