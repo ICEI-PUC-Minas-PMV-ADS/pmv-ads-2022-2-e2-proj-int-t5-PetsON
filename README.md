@@ -58,6 +58,5 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 
 # Apresentação
 
-https://user-images.githubusercontent.com/86859418/189550869-d646d776-9908-41e3-b46d-22a56b43874a.mp4
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
