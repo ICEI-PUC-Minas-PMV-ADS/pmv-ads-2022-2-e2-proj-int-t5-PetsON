@@ -1,18 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PetsOn.Domain.Entities;
-using PetsOn.Models;
 using PetsOn.Repository.DAL;
 using PetsOn.Services.Interfaces;
+using PetsOn.Services;
+using Domain.Interfaces;
+using PetsOn.Models;
 
 namespace PetsOn.Controllers
 {
-    public class UsuarioController : Controller
+    public class PetshopController : Controller
     {
-        readonly IServiceAplicationUsuario ServiceAplicationUsuario;
-
-        public UsuarioController(IServiceAplicationUsuario serviceAplicationUsuario)
+        readonly IServiceAplicationPetshop ServiceAplicationPetshop;
+        public PetshopController(IServiceAplicationPetshop serviceAplicationPetshop)
         {
-            ServiceAplicationUsuario = serviceAplicationUsuario;
+            ServiceAplicationPetshop = serviceAplicationPetshop;
         }
 
         [HttpPost]
@@ -20,7 +20,7 @@ namespace PetsOn.Controllers
         {
             if (ModelState.IsValid)
             {
-                ServiceAplicationUsuario.Cadastrar(entidade);
+                ServiceAplicationPetshop.Cadastrar(entidade);
             }
             else
             {
@@ -28,6 +28,7 @@ namespace PetsOn.Controllers
             }
 
             return RedirectToAction("Index");
+
         }
     }
 }

@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["title"] = "Cadastro Usuário e Petshop";
+}
+@model PetsOn.Models.UsuarioPetshopViewModel
+
+<h2>Clientes</h2>
+<hr />
+
+
+<button type="button" class="btn btn-block btn-primary" onclick="Cadastrar()">Cadastrar Petshop</button>
+
+<script>
+    function Cadastrar() {
+        window.location = window.origin + "\\Petshop\\Cadastro";
+    }
+</script>

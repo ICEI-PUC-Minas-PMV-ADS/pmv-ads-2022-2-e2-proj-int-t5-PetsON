@@ -12,6 +12,5 @@ namespace PetsOn.Domain.Entities
         [ForeignKey("Petshop")]
         public int Id_Petshop { get; set; }
         public Petshop Petshop { get; set; }
-
     }
 }

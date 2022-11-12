@@ -4,7 +4,7 @@ using PetsOn.Domain.Repository;
 
 namespace Domain.Service
 {
-    internal class ServicePetshop : IServicePetshop
+    public class ServicePetshop : IServicePetshop
     {
         IRepositoryPetshop RepositoryPetshop;
 

@@ -1,5 +1,6 @@
 ﻿using Domain.Interfaces;
 using PetsOn.Domain.Entities;
+using PetsOn.Models;
 using PetsOn.Services.Interfaces;
 
 namespace PetsOn.Services
@@ -11,6 +12,19 @@ namespace PetsOn.Services
         public ServiceAplicationUsuario(IServiceUsuario serviceUsuario)
         {
             ServiceUsuario = serviceUsuario;      
+        }
+
+        public void Cadastrar(UsuarioPetshopViewModel usuario)
+        {
+            Usuario item = new()
+            {
+                Codigo = usuario.Codigo_Usuario,
+                Nome_Usuario = $"{usuario.Nome} {usuario.Sobrenome}",
+                Email = usuario.Email,
+                Senha = usuario.Senha
+            };
+
+            ServiceUsuario.Cadastrar(item);
         }
 
         public Usuario RetornarDadosUsuario(string email, string senha)
