@@ -13,9 +13,9 @@ namespace Domain.Service
         {
             RepositoryCliente = repositoryCliente;
         }
-        public void Cadastrar(Cliente cliente)
+        public int Cadastrar(Cliente cliente)
         {
-            RepositoryCliente.Create(cliente);
+            return RepositoryCliente.Create(cliente);
         }
 
         public Cliente CarregarRegistro(int id)

@@ -4,7 +4,7 @@ using PetsOn.Domain.Repository;
 
 namespace Domain.Service
 {
-    internal class ServicePetshop : IServicePetshop
+    public class ServicePetshop : IServicePetshop
     {
         IRepositoryPetshop RepositoryPetshop;
 
@@ -12,9 +12,9 @@ namespace Domain.Service
         {
             RepositoryPetshop = repositoryPetshop;
         }
-        public void Cadastrar(Petshop petshop)
+        public int Cadastrar(Petshop petshop)
         {
-            RepositoryPetshop.Create(petshop);
+            return RepositoryPetshop.Create(petshop);
         }
 
         public Petshop CarregarRegistro(int id)
@@ -29,7 +29,7 @@ namespace Domain.Service
 
         public IEnumerable<Petshop> Listagem()
         {
-            throw new NotImplementedException();
+            return RepositoryPetshop.Read();
         }
     }
 }

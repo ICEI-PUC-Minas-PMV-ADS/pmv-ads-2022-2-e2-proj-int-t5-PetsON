@@ -14,5 +14,7 @@ namespace PetsOn.Repository.Entities
             var usuario = DbSetContext.Where(x => x.Email == email && x.Senha.ToUpper() == senha.ToUpper()).FirstOrDefault();
             return (usuario == null) ? false : true;
         }
+
+
     }
 }

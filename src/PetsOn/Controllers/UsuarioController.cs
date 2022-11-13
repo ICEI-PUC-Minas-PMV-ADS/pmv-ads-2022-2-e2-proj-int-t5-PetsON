@@ -1,49 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PetsOn.Domain.Entities;
-using PetsOn.Models.Usuario;
-using PetsOn.Repository.DAL;
+using PetsOn.Services.Interfaces;
 
 namespace PetsOn.Controllers
 {
     public class UsuarioController : Controller
     {
-        ApplicationDbContext _mContext;
+        readonly IServiceAplicationUsuario ServiceAplicationUsuario;
 
-        public UsuarioController(ApplicationDbContext mcontext) => _mContext = mcontext;
 
-        public IActionResult Cadastro()
+        public UsuarioController(IServiceAplicationUsuario serviceAplicationUsuario)
         {
-            return View();
+            ServiceAplicationUsuario = serviceAplicationUsuario;
         }
-
-        [HttpPost]
-        public IActionResult Cadastro(RegistroPetshopViewModel input)
-        {
-            var petshop = new Petshop()
-            {
-                Nome_Empresa = input.NomeEmpresa,
-                Cnpj = input.Cnpj,
-                Web_Site = input.WebSite,
-                Descricao = input.Descricao
-            };
-
-            _mContext.Petshop.Add(petshop);
-            var idPetshop = _mContext.SaveChanges();
-
-            var usuario = new Usuario()
-            {
-                Nome_Usuario = input.Nome + input.Sobrenome,
-                Email = input.Email,
-                Senha = input.Senha,
-                Id_Petshop = idPetshop
-            };
-
-            _mContext.Usuario.Add(usuario);
-            _mContext.SaveChanges();
-
-            Thread.Sleep(2000);
-            return View();
-        }
-
     }
 }

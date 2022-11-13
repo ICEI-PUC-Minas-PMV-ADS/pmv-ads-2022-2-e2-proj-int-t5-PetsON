@@ -1,5 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Domain.Interfaces;
+using Domain.Service;
+using Microsoft.EntityFrameworkCore;
+using PetsOn.Domain.Repository;
 using PetsOn.Repository.DAL;
+using PetsOn.Repository.Entities;
+using PetsOn.Services;
+using PetsOn.Services.Interfaces;
 
 namespace PetsOn
 
@@ -24,12 +30,24 @@ namespace PetsOn
             });
             services.AddMvc();
 
-
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer("Server=NOTEGABRIEL\\SQLEXPRESS;Database=petson;Trusted_Connection=True;"));
 
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddHttpContextAccessor();
             services.AddSession();
+
+            //Serviço Aplicação: 
+            services.AddScoped<IServiceAplicationPetshop, ServiceAplicationPetshop>();
+            services.AddScoped<IServiceAplicationUsuario, ServiceAplicationUsuario>();
+
+            //Domínio:
+            services.AddScoped<IServicePetshop, ServicePetshop>();
+            services.AddScoped<IServiceUsuario, ServiceUsuario>();
+
+            //Repositório:
+            services.AddScoped<IRepositoryPetshop, RepositoryPetshop>();
+            services.AddScoped<IRepositoryUsuario, RepositoryUsuario>();
 
         }
 

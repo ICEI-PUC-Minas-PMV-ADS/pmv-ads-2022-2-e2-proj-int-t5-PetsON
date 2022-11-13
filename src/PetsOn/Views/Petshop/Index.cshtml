@@ -1,9 +1,7 @@
 ﻿@{
-    ViewData["Title"] = "Cadastre-se";
+    ViewData["title"] = "Cadastro Usuário e Petshop";
 }
-
-@model RegistroPetshopViewModel;
-
+@model PetsOn.Models.UsuarioPetshopViewModel
 
 <section class="container py-4 text-center">
 
@@ -68,7 +66,7 @@
                             <!-- Nome da Empresa input -->
                             <div class="col mb-4">
                                 <div class="form-floating">
-                                    <input asp-for="NomeEmpresa" class="form-control" id="floatingEmpresa" placeholder="Nome da empresa">
+                                    <input asp-for="Nome_Empresa" class="form-control" id="floatingEmpresa" placeholder="Nome da empresa">
                                     <label for="floatingEmpresa">Nome da empresa</label>
                                 </div>
                             </div>
@@ -83,7 +81,7 @@
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
-                                        <input asp-for="WebSite" class="form-control" id="floatingWebSite" placeholder="Web Site">
+                                        <input asp-for="Web_Site" class="form-control" id="floatingWebSite" placeholder="Web Site">
                                         <label for="floatingWebSite">Web Site</label>
                                     </div>
                                 </div>
@@ -109,7 +107,7 @@
                             <a>&nbsp;&nbsp;</a>
                             <br>
                             @*<a class="nav-item" id="navLogin">*@
-                                <button type="submit" class="btn btn-outline-warning">&nbsp;&nbsp;&nbsp;Cadastrar&nbsp;&nbsp;&nbsp;</button>
+                            <button type="button" onclick="Cadastrar()" class="btn btn-outline-warning">&nbsp;&nbsp;&nbsp;Cadastrar&nbsp;&nbsp;&nbsp;</button>
                             @*</a>*@
                             <br>
                             <a>&nbsp;&nbsp;</a>
@@ -125,3 +123,10 @@
     </div>
 </section>
 
+
+
+<script>
+    function Cadastrar() {
+        window.location = window.origin + "\\Usuario\\Cadastro";
+    }
+</script>

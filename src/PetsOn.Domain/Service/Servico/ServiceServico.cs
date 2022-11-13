@@ -12,9 +12,9 @@ namespace Domain.Service
         {
             RepositoryServico = repositoryServico;
         }
-        public void Cadastrar(Servico servico)
+        public int Cadastrar(Servico servico)
         {
-            RepositoryServico.Create(servico);
+            return RepositoryServico.Create(servico);
         }
 
         public Servico CarregarRegistro(int id)

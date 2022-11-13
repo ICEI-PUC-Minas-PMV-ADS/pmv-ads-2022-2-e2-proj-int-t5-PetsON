@@ -13,9 +13,9 @@ namespace Domain.Service
         {
             RepositoryAnimal = repositoryAnimal;
         }
-        public void Cadastrar(Animal animal)
+        public int Cadastrar(Animal animal)
         {
-            RepositoryAnimal.Create(animal);
+            return RepositoryAnimal.Create(animal);
         }
 
         public Animal CarregarRegistro(int id)

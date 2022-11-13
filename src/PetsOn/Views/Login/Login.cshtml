@@ -2,6 +2,9 @@
     ViewData["Title"] = "Login";
     Layout = (string)"_LayoutLogin";
 }
+
+@model PetsOn.Models.LoginViewModel
+
 <div class="wrapper">
     <div>
         <img src="../img/logo-petson-apc1.svg" alt="logo PetsOn">
@@ -9,17 +12,21 @@
     <div class="text-center mt-4 name">
         Login do sistema
     </div>
-    <form class="p-3 mt-3">
+
+    <form asp-controller="Login" asp-action="Index" method="post" class="p-3 mt-3">
         <div class="form-field d-flex align-items-center">
             <span class="far fa-user"></span>
-            <input type="text" name="email" id="email" placeholder="E-mail">
+            <input asp-for="Email" type="text" placeholder="E-mail">
+            <span asp-validation-for="Email" style="color:red;"></span>
         </div>
         <div class="form-field d-flex align-items-center">
             <span class="fas fa-key"></span>
-            <input type="password" name="password" id="pwd" placeholder="Senha">
+            <input input asp-for="Senha" type="password" placeholder="Senha">
+            <span asp-validation-for="Senha" style="color:red;"></span>
         </div>
         <div>
-            <a type="button" id="btnFetchEntrar" onclick="Menu()" class="btn btn-warning" asp-area="" asp-controller="Menu" asp-action="Menu">&nbsp;&nbsp;Entrar</a>
+            <a type="submit" id="btnFetchEntrar" onclick="Menu()" class="btn btn-warning" asp-area="" asp-controller="Menu" asp-action="Menu">&nbsp;&nbsp;Entrar</a>
+            <span style="color:red;">@ViewData["ErroLogin"]</span>
         </div>
     </form>
     <div class="text-center fs-6">
