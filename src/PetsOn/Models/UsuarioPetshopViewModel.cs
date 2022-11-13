@@ -3,10 +3,7 @@
 namespace PetsOn.Models
 {
     public class UsuarioPetshopViewModel
-
     {
-        public int? Codigo_Usuario { get; set; }
-
         [Required(ErrorMessage = "Informe o nome do usuário!")]
         public string Nome { get; set; }
 

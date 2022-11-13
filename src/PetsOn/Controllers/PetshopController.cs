@@ -15,6 +15,13 @@ namespace PetsOn.Controllers
             ServiceAplicationPetshop = serviceAplicationPetshop;
         }
 
+        [HttpGet]
+
+        public IActionResult Cadastro()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Cadastro(UsuarioPetshopViewModel entidade)
         {
@@ -24,11 +31,10 @@ namespace PetsOn.Controllers
             }
             else
             {
-                return View(entidade);
+                return View();
             }
 
-            return RedirectToAction("Index");
-
+            return RedirectToAction("SucessoCadastro", "Login");
         }
     }
 }

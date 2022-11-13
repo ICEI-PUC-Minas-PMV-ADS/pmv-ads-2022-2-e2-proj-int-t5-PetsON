@@ -11,5 +11,9 @@ namespace PetsOn.Controllers
             return View();
         }
 
+        public IActionResult SucessoCadastro()
+        {
+            return View();
+        }
     }
 }

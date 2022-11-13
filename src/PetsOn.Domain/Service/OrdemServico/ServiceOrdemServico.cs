@@ -13,9 +13,9 @@ namespace Domain.Service
         {
             RepositoryOrdemServico = repositoryOrdemServico;
         }
-        public void Cadastrar(OrdemServico OrdemServico)
+        public int Cadastrar(OrdemServico OrdemServico)
         {
-            RepositoryOrdemServico.Create(OrdemServico);
+            return RepositoryOrdemServico.Create(OrdemServico);
         }
 
         public OrdemServico CarregarRegistro(int id)

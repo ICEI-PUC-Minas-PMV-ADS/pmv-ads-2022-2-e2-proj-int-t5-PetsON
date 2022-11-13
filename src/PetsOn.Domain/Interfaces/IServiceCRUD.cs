@@ -4,7 +4,7 @@
         where TEntidade: class
     {
         IEnumerable<TEntidade> Listagem();
-        void Cadastrar(TEntidade categoria);
+        int Cadastrar(TEntidade entidade);
         TEntidade CarregarRegistro(int id);
         void Excluir(int id);
     }

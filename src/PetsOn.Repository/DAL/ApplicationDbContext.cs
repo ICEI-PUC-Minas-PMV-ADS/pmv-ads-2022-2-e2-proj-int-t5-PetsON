@@ -20,30 +20,30 @@ namespace PetsOn.Repository.DAL
         {
             base.OnModelCreating(builder);
 
-            builder.Entity<Usuario>().HasKey(x => x.Codigo);
+            builder.Entity<Usuario>().HasKey(x => x.Id);
 
-            builder.Entity<Petshop>().HasKey(x => x.Codigo);
+            builder.Entity<Petshop>().HasKey(x => x.Id);
 
             builder.Entity<Petshop>().HasMany(x => x.Clientes);
 
-            builder.Entity<Servico>().HasKey(x => x.Codigo);
+            builder.Entity<Servico>().HasKey(x => x.Id);
 
-            builder.Entity<Cliente>().HasKey(x => x.Codigo);
+            builder.Entity<Cliente>().HasKey(x => x.Id);
 
             builder.Entity<Cliente>().HasMany(x => x.Animais);
 
             builder.Entity<Cliente>().HasMany(x => x.OrdemServicos);
 
-            builder.Entity<Animal>().HasKey(x => x.Codigo);
+            builder.Entity<Animal>().HasKey(x => x.Id);
 
-            builder.Entity<OrdemServico>().HasKey( x => x.Codigo);
+            builder.Entity<OrdemServico>().HasKey( x => x.Id);
 
             builder.Entity<ItemOrdemServico>().HasKey(x => new { x.Id_Ordem_Servico, x.Id_Servico });
 
-            builder.Entity<ItemOrdemServico>()
-            .HasOne(x => x.OrdemServico)
-            .WithMany(y => y.Servicos)
-            .HasForeignKey(x => x.OrdemServico);
+            //builder.Entity<ItemOrdemServico>()
+            //.HasOne(x => x.OrdemServico)
+            //.WithMany(y => y.Servicos)
+            //.HasForeignKey(x => x.OrdemServico);
 
         }       
 
