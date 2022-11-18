@@ -38,13 +38,15 @@
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
                                         <input asp-for="Nome" class="form-control" id="floatingNome" placeholder="Nome">
-                                        <label for="floatingNome">Nome</label>
+                                        <label for="floatingNome" >Nome</label>
+                                        <span asp-validation-for="Nome" class="text-danger small"></span>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
                                         <input asp-for="Sobrenome" class="form-control" id="floatingSobrenome" placeholder="Sobrenome">
                                         <label for="floatingSobrenome">Sobrenome</label>
+                                        <span asp-validation-for="Sobrenome" class="text-danger small"></span>
                                     </div>
                                 </div>
                             </div>
@@ -54,6 +56,7 @@
                                 <div class="form-floating">
                                     <input asp-for="Email" class="form-control" id="floatingEmail" placeholder="E-mail">
                                     <label for="floatingEmail">E-mail</label>
+                                    <span asp-validation-for="Email" class="text-danger small"></span>
                                 </div>
                             </div>
 
@@ -62,6 +65,7 @@
                                 <div class="form-floating">
                                     <input asp-for="Senha" class="form-control" id="floatingSenha" placeholder="Senha" type="password">
                                     <label for="floatingSenha">Senha</label>
+                                    <span asp-validation-for="Senha" class="text-danger small"></span>
                                 </div>
                             </div>
 
@@ -70,6 +74,7 @@
                                 <div class="form-floating">
                                     <input asp-for="Nome_Empresa" class="form-control" id="floatingEmpresa" placeholder="Nome da empresa">
                                     <label for="floatingEmpresa">Nome da empresa</label>
+                                    <span asp-validation-for="Nome_Empresa" class="text-danger small"></span>
                                 </div>
                             </div>
 
@@ -79,12 +84,14 @@
                                     <div class="form-floating">
                                         <input asp-for="Cnpj" class="form-control" id="floatingCnpj" placeholder="CNPJ">
                                         <label for="floatingCnpj">CNPJ</label>
+                                        <span asp-validation-for="Cnpj" class="text-danger small"></span>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
                                         <input asp-for="Web_Site" class="form-control" id="floatingWebSite" placeholder="Web Site">
                                         <label for="floatingWebSite">Web Site</label>
+                                        <span asp-validation-for="Web_Site" class="text-danger small"></span>
                                     </div>
                                 </div>
                             </div>
@@ -94,6 +101,7 @@
                                 <div class="form-floating">
                                     <textarea asp-for="Descricao" class="form-control" placeholder="Descrição da empresa" id="floatingDescricao" style="height: 100px"></textarea>
                                     <label for="floatingDescricao">Descrição da empresa</label>
+                                    <span asp-validation-for="Descricao" class="text-danger small"></span>
                                 </div>
                             </div>
 
