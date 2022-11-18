@@ -15,7 +15,6 @@
     <!----===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
-    <title>Dashboard Sidebar Menu</title>
 </head>
 <body>
     <nav class="sidebar close">
@@ -40,28 +39,29 @@
 
                 <li class="search-box">
                     <i class='bx bx-search icon'></i>
-                    <input type="text" placeholder="Search...">
+                    <input type="text" placeholder="Buscar...">
                 </li>
 
                 <ul class="menu-links">
-                    <li class="bottom-content">
-                        <a href="#">
-                            <i class='bx bx-home-alt icon'></i>
-                            <span class="text nav-text">Dashboard</span>
-                        </a>
-                    </li>
 
                     <li class="bottom-content">
                         <a href="#">
                             <i class='bx bx-bar-chart-alt-2 icon'></i>
-                            <span class="text nav-text">Revenue</span>
+                            <span class="text nav-text">Agenda</span>
+                        </a>
+                    </li>
+
+                    <li class="bottom-content">
+                        <a asp-area="" asp-controller="Cliente" asp-action="Cadastro">
+                            <i class='bx bx-home-alt icon'></i>
+                            <span class="text nav-text">Cadastros</span>
                         </a>
                     </li>
 
                     <li class="bottom-content">
                         <a href="#">
                             <i class='bx bx-bell icon'></i>
-                            <span class="text nav-text">Notifications</span>
+                            <span class="text nav-text">Ordem Serviço</span>
                         </a>
                     </li>
 
