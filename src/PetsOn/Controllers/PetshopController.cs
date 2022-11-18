@@ -13,7 +13,6 @@ namespace PetsOn.Controllers
         }
 
         [HttpGet]
-
         public IActionResult Cadastro()
         {
             return View();
@@ -33,5 +32,25 @@ namespace PetsOn.Controllers
 
             return RedirectToAction("SucessoCadastro", "Login");
         }
+
+        [HttpGet]
+        public ActionResult Validation()
+        {
+            var model = new UsuarioPetshopViewModel();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult Validation(UsuarioPetshopViewModel input)
+        {
+            if (this.ModelState.IsValid)
+            {
+                return this.RedirectToAction("Validation");
+            }
+
+            return View(input);
+        }
+
     }
 }

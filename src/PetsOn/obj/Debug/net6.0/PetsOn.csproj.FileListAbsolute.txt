@@ -198,3 +198,10 @@ C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\PetsOn.pdb
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\PetsOn.genruntimeconfig.cache
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\obj\Debug\net6.0\ref\PetsOn.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll

@@ -13,13 +13,13 @@ namespace PetsOn.Models
         [Required(ErrorMessage = "Informe o CPF do cliente!")]
         public int Cpf { get; set; }
 
-        [Required(ErrorMessage = "Informe o e-mail do cliente!")]
+        [Required(ErrorMessage = "Informe o e-mail do E-mail!")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Informe o celular do cliente!")]
+        [Required(ErrorMessage = "Informe o celular do celular!")]
         public int Celular { get; set; }
 
-        [Required(ErrorMessage = "Informe o endereço do cliente!")]
+        [Required(ErrorMessage = "Informe o endereço do endereço!")]
         public string Endereco { get; set; }
 
         [Required(ErrorMessage = "Informe o nome de seu pet!")]

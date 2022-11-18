@@ -4,6 +4,10 @@
 
 @model PetsOn.Models.UsuarioPetshopViewModel
 
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
 <section class="container py-4 text-center">
 
     <h3 class="p-4 mb-5 text-white bg-warning bg-opacity-75">Cadastro de Usuários</h3>
@@ -29,6 +33,9 @@
                 <div class="card cascading-right">
                     <div class="card-body p-5 shadow-5 text-center">
                         <h2 class="fw-bold mb-5">Preencha o formulário</h2>
+
+                            @Html.ValidationSummary(true)
+
                         <form asp-action="Cadastro" asp-controller="Petshop">
 
                             <!-- 2 column grid layout with text inputs for the first and last names -->
@@ -60,11 +67,20 @@
                             </div>
 
                             <!-- Password input -->
-                            <div class="col mb-4">
-                                <div class="form-floating">
-                                    <input asp-for="Senha" class="form-control" id="floatingSenha" placeholder="Senha" type="password">
-                                    <label for="floatingSenha">Senha</label>
-                                    <span asp-validation-for="Senha" class="text-danger small"></span>
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-floating">
+                                        <input asp-for="Senha" class="form-control" id="floatingSenha" placeholder="Senha" type="password">
+                                        <label for="floatingSenha">Senha</label>
+                                        <span asp-validation-for="Senha" class="text-danger small"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-floating">
+                                        <input asp-for="ConfirmaSenha" class="form-control" id="floatingConfirmaSenha" placeholder="Confirmar Senha" type="password">
+                                        <label for="floatingConfirmaSenha">Confirmar Senha</label>
+                                        <span asp-validation-for="ConfirmaSenha" class="text-danger small"></span>
+                                    </div>
                                 </div>
                             </div>
 
@@ -131,3 +147,4 @@
         </div>
     </div>
 </section>
+}
