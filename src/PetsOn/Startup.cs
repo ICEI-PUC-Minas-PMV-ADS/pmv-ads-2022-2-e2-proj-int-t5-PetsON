@@ -40,14 +40,20 @@ namespace PetsOn
             //Serviço Aplicação: 
             services.AddScoped<IServiceAplicationPetshop, ServiceAplicationPetshop>();
             services.AddScoped<IServiceAplicationUsuario, ServiceAplicationUsuario>();
+            services.AddScoped<IServiceAplicationCliente, ServiceAplicationCliente>();
+            services.AddScoped<IServiceAplicationAnimal, ServiceAplicationAnimal>();
 
             //Domínio:
             services.AddScoped<IServicePetshop, ServicePetshop>();
             services.AddScoped<IServiceUsuario, ServiceUsuario>();
+            services.AddScoped<IServiceCliente, ServiceCliente>();
+            services.AddScoped<IServiceAnimal, ServiceAnimal>();
 
             //Repositório:
             services.AddScoped<IRepositoryPetshop, RepositoryPetshop>();
             services.AddScoped<IRepositoryUsuario, RepositoryUsuario>();
+            services.AddScoped<IRepositoryCliente, RepositoryCliente>();
+            services.AddScoped<IRepositoryAnimal, RepositoryAnimal>();
 
         }
 

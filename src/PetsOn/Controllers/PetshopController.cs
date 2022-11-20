@@ -1,8 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PetsOn.Repository.DAL;
 using PetsOn.Services.Interfaces;
-using PetsOn.Services;
-using Domain.Interfaces;
 using PetsOn.Models;
 
 namespace PetsOn.Controllers
@@ -16,7 +13,6 @@ namespace PetsOn.Controllers
         }
 
         [HttpGet]
-
         public IActionResult Cadastro()
         {
             return View();
@@ -36,5 +32,25 @@ namespace PetsOn.Controllers
 
             return RedirectToAction("SucessoCadastro", "Login");
         }
+
+        [HttpGet]
+        public ActionResult Validation()
+        {
+            var model = new UsuarioPetshopViewModel();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult Validation(UsuarioPetshopViewModel input)
+        {
+            if (this.ModelState.IsValid)
+            {
+                return this.RedirectToAction("Validation");
+            }
+
+            return View(input);
+        }
+
     }
 }
