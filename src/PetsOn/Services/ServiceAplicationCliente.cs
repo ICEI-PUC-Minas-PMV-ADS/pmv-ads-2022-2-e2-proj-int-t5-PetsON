@@ -33,7 +33,7 @@ namespace PetsOn.Services
             ServiceAplicationAnimal.Cadastrar(cliente);
         }
 
-        public int RetornarClienteId(int CPF)
+        public int RetornarClienteId(string CPF)
         {
             var Cliente = ServiceCliente.Listagem().Where(x => x.Cpf == CPF).FirstOrDefault();
             return (int)Cliente.Id;

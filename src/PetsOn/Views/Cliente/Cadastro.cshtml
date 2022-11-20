@@ -5,6 +5,10 @@
 
 @model PetsOn.Models.ClienteAnimalViewModel
 
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
 <section class="container py-4 text-center">
 
     <h3 class="p-4 mb-5 text-white bg-warning bg-opacity-75">Cadastro de Clientes e Pets</h3>
@@ -29,20 +33,23 @@
                 <div class="card cascading-right">
                     <div class="card-body p-5 shadow-5 text-center">
                         <h2 class="fw-bold mb-5">Preencha o formulário</h2>
+
+                            @Html.ValidationSummary(true)
+
                         <form asp-action="Cadastro" asp-controller="Cliente" method="post">
 
                             <!-- Nome e CPF do Cliente-->
                             <div class="row">
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
-                                        <input asp-for="Nome" class="form-control" id="floatingNome" placeholder="Nome do Cliente">
+                                        <input asp-for="Nome" type="text" class="form-control" id="floatingNome" placeholder="Nome do Cliente">
                                         <label for="floatingNome">Nome do Cliente</label>
                                         <span asp-validation-for="Nome" class="text-danger small"></span>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
-                                        <input asp-for="Cpf" class="form-control" id="floatingCPF" placeholder="CPF">
+                                        <input asp-for="Cpf" id="campoCpf" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="form-control" id="floatingCPF" min="0" maxlength="14" placeholder="CPF">
                                         <label for="floatingCPF">CPF</label>
                                         <span asp-validation-for="Cpf" class="text-danger small"></span>
                                     </div>
@@ -52,7 +59,7 @@
                             <!-- Email input -->
                             <div class="col mb-4">
                                 <div class="form-floating">
-                                    <input asp-for="Email" class="form-control" id="floatingEmail" placeholder="E-mail">
+                                    <input asp-for="Email" type="email" class="form-control" id="floatingEmail" placeholder="E-mail">
                                     <label for="floatingEmail">E-mail</label>
                                     <span asp-validation-for="Email" class="text-danger small"></span>
                                 </div>
@@ -61,7 +68,7 @@
                             <!-- Celular do CLiente input -->
                             <div class="col mb-4">
                                 <div class="form-floating">
-                                    <input asp-for="Celular" class="form-control" id="floatingCelular" placeholder="Celular">
+                                        <input asp-for="Celular" id="tel" type="text" maxlength="15" pattern="\(\d{2}\)\s*\d{5}-\d{4}" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="form-control" id="floatingCelular" placeholder="Celular">
                                     <label for="floatingCelular">Celular</label>
                                     <span asp-validation-for="Celular" class="text-danger small"></span>
                                 </div>
@@ -70,7 +77,7 @@
                             <!-- Endereço do Cliente input -->
                             <div class="col mb-4">
                                 <div class="form-floating">
-                                    <input asp-for="Endereco" class="form-control" id="floatingEndereco" placeholder="Endereço">
+                                    <input asp-for="Endereco" type="text" class="form-control" id="floatingEndereco" placeholder="Endereço">
                                     <label for="floatingEndereco">Endereço</label>
                                     <span asp-validation-for="Endereco" class="text-danger small"></span>
                                 </div>
@@ -80,14 +87,14 @@
                             <div class="row">
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
-                                        <input asp-for="Nome_Animal" class="form-control" id="floatingNomedoPet" placeholder="Nome do Pet">
+                                        <input asp-for="Nome_Animal" type="text" class="form-control" id="floatingNomedoPet" placeholder="Nome do Pet">
                                         <label for="floatingNomedoPet">Nome do Pet</label>
                                         <span asp-validation-for="Nome_Animal" class="text-danger small"></span>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
-                                        <input asp-for="Idade" class="form-control" id="floatingIdade" placeholder="Idade do Pet">
+                                            <input asp-for="Idade" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="form-control" id="floatingIdade" placeholder="Idade do Pet">
                                         <label for="floatingIdade">Idade do Pet</label>
                                         <span asp-validation-for="Idade" class="text-danger small"></span>
                                     </div>
@@ -97,7 +104,7 @@
                             <!-- Observacao do Pet input -->
                             <div class="col mb-4">
                                 <div class="form-floating">
-                                    <textarea asp-for="Observacao" class="form-control" placeholder="Observações do pet" id="floatingObservacao" style="height: 100px"></textarea>
+                                    <textarea asp-for="Observacao" type="text" class="form-control" placeholder="Observações do pet" id="floatingObservacao" style="height: 100px"></textarea>
                                     <label for="floatingObservacao">Observações do pet</label>
                                     <span asp-validation-for="Observacao" class="text-danger small"></span>
                                 </div>
@@ -122,3 +129,5 @@
         </div>
     </div>
 </section>
+}
+

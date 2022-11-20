@@ -6,6 +6,6 @@ namespace PetsOn.Services.Interfaces
     public interface IServiceAplicationCliente
     {
         void Cadastrar(ClienteAnimalViewModel cliente);
-        int RetornarClienteId(int CPF);
+        int RetornarClienteId(string CPF);
     }
 }

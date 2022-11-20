@@ -43,14 +43,14 @@
                             <div class="row">
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
-                                        <input asp-for="Nome" class="form-control" id="floatingNome" placeholder="Nome">
+                                            <input asp-for="Nome" type="text" class="form-control" id="floatingNome" placeholder="Nome">
                                         <label for="floatingNome" >Nome</label>
                                         <span asp-validation-for="Nome" class="text-danger small"></span>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
-                                        <input asp-for="Sobrenome" class="form-control" id="floatingSobrenome" placeholder="Sobrenome">
+                                            <input asp-for="Sobrenome" type="text" class="form-control" id="floatingSobrenome" placeholder="Sobrenome">
                                         <label for="floatingSobrenome">Sobrenome</label>
                                         <span asp-validation-for="Sobrenome" class="text-danger small"></span>
                                     </div>
@@ -60,7 +60,7 @@
                             <!-- Email input -->
                             <div class="col mb-4">
                                 <div class="form-floating">
-                                    <input asp-for="Email" class="form-control" id="floatingEmail" placeholder="E-mail">
+                                        <input asp-for="Email" type="text" class="form-control" id="floatingEmail" placeholder="E-mail">
                                     <label for="floatingEmail">E-mail</label>
                                     <span asp-validation-for="Email" class="text-danger small"></span>
                                 </div>
@@ -87,7 +87,7 @@
                             <!-- Nome da Empresa input -->
                             <div class="col mb-4">
                                 <div class="form-floating">
-                                    <input asp-for="Nome_Empresa" class="form-control" id="floatingEmpresa" placeholder="Nome da empresa">
+                                    <input asp-for="Nome_Empresa" type="text" class="form-control" id="floatingEmpresa" placeholder="Nome da empresa">
                                     <label for="floatingEmpresa">Nome da empresa</label>
                                     <span asp-validation-for="Nome_Empresa" class="text-danger small"></span>
                                 </div>
@@ -97,14 +97,14 @@
                             <div class="row">
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
-                                        <input asp-for="Cnpj" class="form-control" id="floatingCnpj" placeholder="CNPJ">
+                                            <input asp-for="Cnpj" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="form-control" class="form-control" id="floatingCnpj" placeholder="CNPJ">
                                         <label for="floatingCnpj">CNPJ</label>
                                         <span asp-validation-for="Cnpj" class="text-danger small"></span>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <div class="form-floating">
-                                        <input asp-for="Web_Site" class="form-control" id="floatingWebSite" placeholder="Web Site">
+                                            <input asp-for="Web_Site" type="text" class="form-control" id="floatingWebSite" placeholder="Web Site">
                                         <label for="floatingWebSite">Web Site</label>
                                         <span asp-validation-for="Web_Site" class="text-danger small"></span>
                                     </div>
@@ -114,7 +114,7 @@
                             <!-- Descricao da Empresa input -->
                             <div class="col mb-4">
                                 <div class="form-floating">
-                                    <textarea asp-for="Descricao" class="form-control" placeholder="Descrição da empresa" id="floatingDescricao" style="height: 100px"></textarea>
+                                    <textarea asp-for="Descricao" type="text" class="form-control" placeholder="Descrição da empresa" id="floatingDescricao" style="height: 100px"></textarea>
                                     <label for="floatingDescricao">Descrição da empresa</label>
                                     <span asp-validation-for="Descricao" class="text-danger small"></span>
                                 </div>
