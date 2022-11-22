@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uJr2Y4/aTfm1pPvl62I7vz1YEKac9DutmcBIdsBKqBs=",
+  "Hash": "xwONQP2RTaBbUUMY6wz1qZTMGcHBC8jfNOswpHlFg0Y=",
   "Source": "PetsOn",
   "BasePath": "_content/PetsOn",
   "Mode": "Default",
@@ -491,6 +491,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Untitled-1.jpg"
+    },
+    {
+      "Identity": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\js\\functionsPathsViews.js",
+      "SourceId": "PetsOn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\",
+      "BasePath": "_content/PetsOn",
+      "RelativePath": "js/functionsPathsViews.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\functionsPathsViews.js"
     },
     {
       "Identity": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\js\\site.js",

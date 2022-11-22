@@ -34,5 +34,24 @@ namespace PetsOn.Controllers
 
             return RedirectToAction("SucessoCadastro", "Login");
         }
+
+        [HttpGet]
+        public ActionResult Validation()
+        {
+            var model = new ClienteAnimalViewModel();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult Validation(ClienteAnimalViewModel input)
+        {
+            if (this.ModelState.IsValid)
+            {
+                return this.RedirectToAction("Validation");
+            }
+
+            return View(input);
+        }
     }
 }
