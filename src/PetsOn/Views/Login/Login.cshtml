@@ -7,31 +7,33 @@
 
 <div class="wrapper">
     <div>
-        <img src="../img/logo-petson-apc1.svg" alt="logo PetsOn">
+        <a asp-action="index" asp-controller="home"><img src="../img/logo-petson-apc1.svg" alt="logo PetsOn"></a>
     </div>
     <div class="text-center mt-4 name">
         Login do sistema
     </div>
 
-    <form asp-controller="Login" asp-action="Index" method="post" class="p-3 mt-3">
-        <div class="form-field d-flex align-items-center">
-            <span class="far fa-user"></span>
-            <input asp-for="Email" type="text" placeholder="E-mail">
-            <span asp-validation-for="Email" style="color:red;"></span>
+
+    <form asp-action="Login" asp-controller="Login" method="post" class="p-3 mt-3" autocomplete="off">
+        <span asp-validation-for="Email" class="text-warning small"></span>
+        <div class="form-field d-flex align-text-top">
+            <input asp-for="Email" id="email" type="text" placeholder="E-mail">
         </div>
-        <div class="form-field d-flex align-items-center">
-            <span class="fas fa-key"></span>
-            <input input asp-for="Senha" type="password" placeholder="Senha">
-            <span asp-validation-for="Senha" style="color:red;"></span>
+        <span asp-validation-for="Senha" class="text-warning small"></span>
+        <div class="form-field d-flex align-text-top">
+            <input input asp-for="Senha" id="senha"type="password" placeholder="Senha">
         </div>
         <div>
-            <a type="submit" id="btnFetchEntrar" onclick="Menu()" class="btn btn-warning" asp-area="" asp-controller="Menu" asp-action="Menu">&nbsp;&nbsp;Entrar</a>
-            <span style="color:red;">@ViewData["ErroLogin"]</span>
+            <button type="submit" @*id="btnFetchEntrar"*@ class="btn btn-warning">&nbsp;&nbsp;Entrar</button>
+            <span id="erroLogin" class="text-warning small">@ViewData["ErroLogin"]</span>
         </div>
+
     </form>
     <div class="text-center fs-6">
         <a href="#">
             Esqueceu a senha?
-        </a> or <a asp-controller="Usuario" asp-action="Cadastro">Cadastre-se</a>
+        </a> Ou <a asp-controller="Petshop" asp-action="Cadastro">Cadastre-se</a>
     </div>
 </div>
+
+

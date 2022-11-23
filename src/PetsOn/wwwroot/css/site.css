@@ -117,7 +117,6 @@ i {
     box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
 }
 
-
 .wrapper .name {
     font-weight: 600;
     font-size: 1.4rem;
@@ -160,14 +159,8 @@ i {
         letter-spacing: 1.3px;
         text-align:center;
         font-size: medium;
-        
     }
-/*
-        .wrapper .btn:hover {
-            
-            background-color: #E3A11E;
-        }*/
-
+      
 .wrapper a {
     text-decoration: none;
     font-size: 0.8rem;
@@ -184,4 +177,3 @@ i {
         padding: 40px 15px 15px 15px;
     }
 }
-
