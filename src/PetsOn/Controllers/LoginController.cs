@@ -17,13 +17,13 @@ namespace PetsOn.Controllers
             HttpContextAcessor = httpContext;
         }
 
-        public IActionResult Login(int? id)
+        public IActionResult Login(int? Id)
         {
-            Thread.Sleep(2500);
+            //Thread.Sleep(2500);
 
-            if (id != null)
+            if (Id != null)
             {
-                if (id == 0)
+                if (Id == 0)
                 {
                     HttpContextAcessor.HttpContext.Session.Clear();
                 }

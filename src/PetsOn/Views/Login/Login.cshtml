@@ -24,7 +24,7 @@
             <input input asp-for="Senha" id="senha"type="password" placeholder="Senha">
         </div>
         <div>
-            <button type="submit" id="btnFetchEntrar" class="btn btn-warning">&nbsp;&nbsp;Entrar</button>
+            <button type="submit" @*id="btnFetchEntrar"*@ class="btn btn-warning">&nbsp;&nbsp;Entrar</button>
             <span id="erroLogin" class="text-warning small">@ViewData["ErroLogin"]</span>
         </div>
 
@@ -32,7 +32,7 @@
     <div class="text-center fs-6">
         <a href="#">
             Esqueceu a senha?
-        </a> Ou <a asp-controller="Usuario" asp-action="Cadastro">Cadastre-se</a>
+        </a> Ou <a asp-controller="Petshop" asp-action="Cadastro">Cadastre-se</a>
     </div>
 </div>
 

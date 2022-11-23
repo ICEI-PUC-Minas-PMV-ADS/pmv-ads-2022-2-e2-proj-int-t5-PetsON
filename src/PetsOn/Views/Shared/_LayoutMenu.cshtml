@@ -1,6 +1,26 @@
-﻿<!DOCTYPE html>
-<html lang="pt-br">
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContexto;
 
+@{
+    var logado = 0;
+    var nomeUsuario = string.Empty;
+
+    try
+    {
+        logado = (int)HttpContexto.HttpContext.Session.GetInt32(PetsOn.Helpers.Sessao.LOGADO);
+        if (logado == 1)
+        {
+            nomeUsuario = HttpContexto.HttpContext.Session.GetString(PetsOn.Helpers.Sessao.NOME_USUARIO);
+        }
+    }
+    catch
+    {
+        HttpContexto.HttpContext.Response.Redirect("/Login");
+    }
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -37,12 +57,17 @@
         <div class="menu-bar">
             <div class="menu">
 
-                <li class="search-box">
-                    <i class='bx bx-search icon'></i>
-                    <input type="text" placeholder="Buscar...">
-                </li>
+                    <li class="search-box">
+                        <i class='bx bx-search icon'></i>
+                        <input type="text" placeholder="Buscar...">
+                    </li>
 
                 <ul class="menu-links">
+
+                    <li class="bottom-content">
+                        <i class='bx bx-user-check icon'></i>
+                        <span class="text">Olá<br>@nomeUsuario</span>
+                    </li>
 
                     <li class="bottom-content">
                         <a href="#">
@@ -91,7 +116,7 @@
 
             <div class="bottom-content">
                 <li class="">
-                    <a href="#">
+                    <a onclick="Login()">
                         <i class='bx bx-log-out icon'></i>
                         <span class="text nav-text">Logout</span>
                     </a>
