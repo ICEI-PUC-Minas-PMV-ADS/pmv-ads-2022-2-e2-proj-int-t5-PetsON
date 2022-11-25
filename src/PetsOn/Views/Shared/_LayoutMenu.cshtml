@@ -30,14 +30,13 @@
     <link href='https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap' rel='stylesheet' type='text/css'>
 
     <!----======== CSS ======== -->
-    <link rel="stylesheet" href="~/css/siteLayoutMenu.css">
-
+    <link href='~/css/siteLayoutMenu.css' rel='stylesheet'>
     <!----===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
-    <nav class="sidebar close">
+    <nav id="wrapper" class="sidebar close">
         <header>
 
             <div class="image-text">
@@ -58,56 +57,42 @@
             <div class="menu">
 
                     <li class="search-box">
-                        <i class='bx bx-search icon'></i>
+                    <i class='bx bx-search-alt-2 icon'></i>
                         <input type="text" placeholder="Buscar...">
                     </li>
 
                 <ul class="menu-links">
 
                     <li class="bottom-content">
-                        <i class='bx bx-user-check icon'></i>
+                        <i class= 'bx bx-log-in icon'></i>
                         <span class="text">Olá<br>@nomeUsuario</span>
                     </li>
 
                     <li class="bottom-content">
                         <a href="#">
-                            <i class='bx bx-bar-chart-alt-2 icon'></i>
-                            <span class="text nav-text">Agenda</span>
+                            <i class='bx bx-calendar icon'></i>
+                            <span class="text nav-text icon">Agenda</span>
                         </a>
                     </li>
 
                     <li class="bottom-content">
                         <a asp-area="" asp-controller="Cliente" asp-action="Cadastro">
-                            <i class='bx bx-home-alt icon'></i>
-                            <span class="text nav-text">Cadastros</span>
+                            <i class='bx bx-bookmark-plus icon'></i>
+                            <span class="text nav-text">Cadastro</span>
                         </a>
                     </li>
 
                     <li class="bottom-content">
                         <a href="#">
-                            <i class='bx bx-bell icon'></i>
+                            <i class='bx bx-spreadsheet icon'></i>
                             <span class="text nav-text">Ordem Serviço</span>
                         </a>
                     </li>
 
                     <li class="bottom-content">
                         <a href="#">
-                            <i class='bx bx-pie-chart-alt icon'></i>
-                            <span class="text nav-text">Analytics</span>
-                        </a>
-                    </li>
-
-                    <li class="bottom-content">
-                        <a href="#">
-                            <i class='bx bx-heart icon'></i>
-                            <span class="text nav-text">Likes</span>
-                        </a>
-                    </li>
-
-                    <li class="bottom-content">
-                        <a href="#">
-                            <i class='bx bx-wallet icon'></i>
-                            <span class="text nav-text">Wallets</span>
+                            <i class='bx bxs-dog icon'></i>
+                            <span class="text nav-text">Animais</span>
                         </a>
                     </li>
 
@@ -139,11 +124,9 @@
 
     </nav>
 
-    <div class="row justify-content-center align-items-center vh-100">
         <main role="main">
             @RenderBody()
         </main>
-    </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
