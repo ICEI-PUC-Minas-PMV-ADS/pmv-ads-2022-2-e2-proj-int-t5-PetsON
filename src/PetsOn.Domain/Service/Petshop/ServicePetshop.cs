@@ -12,9 +12,9 @@ namespace Domain.Service
         {
             RepositoryPetshop = repositoryPetshop;
         }
-        public int Cadastrar(Petshop petshop)
+        public void Cadastrar(Petshop petshop)
         {
-            return RepositoryPetshop.Create(petshop);
+             RepositoryPetshop.Create(petshop);
         }
 
         public Petshop CarregarRegistro(int id)
@@ -27,7 +27,7 @@ namespace Domain.Service
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Petshop> Listagem()
+        public IEnumerable<Petshop> Listagem(int? IdPetshop)
         {
             return RepositoryPetshop.Read();
         }

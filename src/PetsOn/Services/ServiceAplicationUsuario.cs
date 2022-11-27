@@ -29,7 +29,7 @@ namespace PetsOn.Services
 
         public Usuario RetornarDadosUsuario(string email, string senha)
         {
-            return ServiceUsuario.Listagem().Where(x => x.Email == email && x.Senha.ToUpper() == senha.ToUpper()).FirstOrDefault();
+            return ServiceUsuario.Listagem(null).Where(x => x.Email == email && x.Senha.ToUpper() == senha.ToUpper()).FirstOrDefault();
         }
 
         public bool ValidarLogin(string email, string senha)

@@ -1,4 +1,5 @@
 ﻿using Domain.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using PetsOn.Domain.Entities;
 using PetsOn.Domain.Repository;
 
@@ -13,9 +14,9 @@ namespace Domain.Service
         {
             RepositoryAnimal = repositoryAnimal;
         }
-        public int Cadastrar(Animal animal)
+        public void Cadastrar(Animal animal)
         {
-            return RepositoryAnimal.Create(animal);
+             RepositoryAnimal.Create(animal);
         }
 
         public Animal CarregarRegistro(int id)
@@ -28,9 +29,14 @@ namespace Domain.Service
             RepositoryAnimal.Delete(id);
         }
 
-        public IEnumerable<Animal> Listagem()
+        public IEnumerable<Animal> Listagem(int? IdPetshop)
         {
-            return RepositoryAnimal.Read();
+            return RepositoryAnimal.GetDbSet().Include(x => x.Cliente).AsNoTracking().ToList();
+        }
+
+        public IEnumerable<Animal> ListagemPetsCliente(int CodigoCliente)
+        {
+            return RepositoryAnimal.Read().Where(x => x.Id_Cliente == CodigoCliente);
         }
     }
 }

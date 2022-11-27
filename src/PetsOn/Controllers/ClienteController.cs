@@ -14,14 +14,25 @@ namespace PetsOn.Controllers
         }
 
         [HttpGet]
-
-        public IActionResult Cadastro()
+        public IActionResult Index()
         {
-            return View();
+            return View(ServiceAplicationCliente.Listagem());
+        }
+
+        [HttpGet]
+        public IActionResult ClienteCadastro(int? id)
+        {
+            ClienteViewModel viewModel = new ClienteViewModel();
+
+            if (id != null)
+            {
+                viewModel = ServiceAplicationCliente.CarregarRegistro((int)id);
+            }
+            return View(viewModel);
         }
 
         [HttpPost]
-        public IActionResult Cadastro(ClienteAnimalViewModel entidade)
+        public IActionResult ClienteCadastro(ClienteViewModel entidade)
         {
             if (ModelState.IsValid)
             {
@@ -32,19 +43,19 @@ namespace PetsOn.Controllers
                 return View();
             }
 
-            return RedirectToAction("SucessoCadastro", "Login");
+            return RedirectToAction("Index");
         }
 
         [HttpGet]
         public ActionResult Validation()
         {
-            var model = new ClienteAnimalViewModel();
+            var model = new ClienteViewModel();
 
             return View(model);
         }
 
         [HttpPost]
-        public ActionResult Validation(ClienteAnimalViewModel input)
+        public ActionResult Validation(ClienteViewModel input)
         {
             if (this.ModelState.IsValid)
             {

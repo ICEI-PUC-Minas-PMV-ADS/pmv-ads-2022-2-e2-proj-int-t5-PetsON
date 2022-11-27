@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +10,10 @@ namespace PetsOn.Repository
     public interface IRepository<TEntidade>
         where TEntidade: class
     {
-        int Create(TEntidade Entity);
+        void Create(TEntidade Entity);
         TEntidade Read(int id);
         void Delete(int id);
         IEnumerable<TEntidade> Read();
+        DbSet<TEntidade> GetDbSet();
     }
 }

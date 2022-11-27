@@ -15,8 +15,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Cliente/Cadastro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDYWRhc3Ryby5jc2h0bWw=
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Animal/AnimalCadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXEFuaW1hbENhZGFzdHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Animal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Animal/PetsCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXFBldHNDbGllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Cliente/ClienteCadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDbGllbnRlQ2FkYXN0cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Desenvolvimento/pmv-ads-2022-2-e2-proj-int-t5-PetsON/src/PetsOn/Views/Error/Index.cshtml]

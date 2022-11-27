@@ -774,6 +774,9 @@
       "PetsOn.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.10"
+        },
         "compile": {
           "bin/placeholder/PetsOn.Domain.dll": {}
         },

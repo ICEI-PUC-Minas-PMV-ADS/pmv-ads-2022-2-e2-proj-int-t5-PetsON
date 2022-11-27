@@ -55,6 +55,7 @@ namespace PetsOn.Controllers
                     HttpContextAcessor.HttpContext.Session.SetString(Sessao.NOME_USUARIO, usuario.Nome_Usuario);
                     HttpContextAcessor.HttpContext.Session.SetString(Sessao.EMAIL_USUARIO, usuario.Email);
                     HttpContextAcessor.HttpContext.Session.SetInt32(Sessao.CODIGO_USUARIO, (int)usuario.Id);
+                    HttpContextAcessor.HttpContext.Session.SetInt32(Sessao.CODIGO_PETSHOP, (int)usuario.Id_Petshop);
                     HttpContextAcessor.HttpContext.Session.SetInt32(Sessao.LOGADO, 1);
 
                     return RedirectToAction("Menu", "Menu");
