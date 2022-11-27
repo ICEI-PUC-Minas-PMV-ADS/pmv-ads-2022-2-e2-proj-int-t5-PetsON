@@ -11,3 +11,7 @@ layout padrão da tela de login
 <img src="https://user-images.githubusercontent.com/86859418/204156461-f5e9acbd-e072-406f-8c31-91c267b758eb.png">
 
 Layout tela de cadastro de usuários e Petshop
+
+<img src="https://user-images.githubusercontent.com/86859418/204156615-9ff47c13-a46d-4f05-9d20-797b2e1cd69c.png">
+
+Layout do Menu principal do sistema, exibe a sessão do usuário
