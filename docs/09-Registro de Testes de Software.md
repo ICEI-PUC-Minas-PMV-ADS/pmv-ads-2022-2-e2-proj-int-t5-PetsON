@@ -46,7 +46,21 @@
 
 **Resultado CT-03 - Cadastro realizado com sucesso.**
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/86859418/204164052-f61b84fb-5a3d-4162-9f46-306e7a1ded48.png">
+
+**Observe que o último registro incluido já está na lista de clientes, com o código:31, para demonstramos com perfeição o teste, iremos cadastrar um pet para este usuário clicando no botão verde com o ícone de um pet na coluna editar, iremos ser redirecionados para a lista de pets do usuário cadastrado. **
+
+<img src="https://user-images.githubusercontent.com/86859418/204164212-f1405057-27db-4c38-a7d0-f8ff73c581c2.png">
+
+**Observe que o novo usuário não possui nenhum pet registrado, na URL podemos ver ao final "path" o código do usuário**
+
+<img src="https://user-images.githubusercontent.com/86859418/204164415-5bf01f83-8b5f-442c-a6b8-5800ba76c339.png">
+
+**O formulário valida os dados de cadastro de pets se estão corretos, ou campos vazios que é o caso do anexo.**
+
+<img src="https://user-images.githubusercontent.com/86859418/204164536-aec2769d-7205-426b-ba3e-8726b2588f9b.png">
+
+**Com os dados preenchidos corretamente, iremos cadastrar o primeiro pet do "usuário 31".
 
 **CT-04 – Agendar, realizar atendimento e envio de comprovante para o cliente selecionado**
 
