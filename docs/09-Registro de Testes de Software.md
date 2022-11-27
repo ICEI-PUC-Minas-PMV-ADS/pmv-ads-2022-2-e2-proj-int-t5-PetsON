@@ -8,9 +8,59 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/198904574-34a8917a-1340-4b7f-bd84-16e0e41091af.jpg">
 
-## Avaliação
+**CT-02 – Efetuar login**
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+<img src="">
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+**Resultado CT-02 - O login foi realizado com sucesso..
+
+<img src="">
+
+**CT-03 – Cadastrar, visualizar seus clientes e pets**
+
+<img src="">
+
+**Resultado CT-03 - Cadastro realizado com sucesso..
+
+<img src="">
+
+**CT-04 – Agendar, realizar atendimento e envio de comprovante para o cliente selecionado**
+
+<img src="">
+
+**Resultado CT-04 - Comprovante enviado para o cliente...
+
+<img src="">
+
+
+**CT-05 – Visualizar o histórico de atendimentos feitos aos clientes.**
+
+<img src="">
+
+**Resultado CT-05 - Visualização do relatório de forma organizada referente aos atendimentos agendados e realizados.
+
+<img src="">
+
+**CT-06 – Consultar na agenda as datas e horários disponíveis, para agendar ou efetuar o registro de um atendimento.**
+
+<img src="">
+
+**Resultado CT-06 - Visualização das datas disponíveis diferenciando dos atendimentos agendados e realizados.
+
+<img src="">
+
+**CT-07 – Editar o registro dos clientes e pets**
+
+<img src="">
+
+**Resultado CT-07 - Verificar se a edição foi realizada com sucesso, ao submeter a edição a lista irá atualizar com o dados ajustado.
+
+<img src="">
+
+**CT-08 – O site deve permitir que o usuário mude para modo dark (escuro)**
+
+<img src="">
+
+**Resultado CT-08 - Verificar ocorre a mudança de tema.
+
+<img src="">
