@@ -8,6 +8,6 @@ Layout padrão da aplicação que será utilizado em todas as páginas fora o ac
 
 layout padrão da tela de login
 
-<img src="https://user-images.githubusercontent.com/86859418/198903378-4cfd6462-229d-435b-92f1-58f00fe96ed0.jpg">
+<img src="https://user-images.githubusercontent.com/86859418/204156461-f5e9acbd-e072-406f-8c31-91c267b758eb.png">
 
 Layout tela de cadastro de usuários e Petshop
