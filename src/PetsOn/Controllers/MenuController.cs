@@ -7,7 +7,7 @@ namespace PetsOn.Controllers
 
         public IActionResult Menu()
         {
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
 
             return View();
         }

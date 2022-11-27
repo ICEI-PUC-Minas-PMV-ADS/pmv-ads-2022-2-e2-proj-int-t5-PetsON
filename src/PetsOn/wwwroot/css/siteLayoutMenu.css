@@ -24,6 +24,21 @@
     --tran-05: all 0.3s ease;
 }
 
+#tableCustom {
+    background-color: var(--primary-color);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+@media screen and (max-width: 768px) {
+    #tableCustom {
+        padding: 10px;
+    }
+}
+
 .wrapperModal {
     max-width: 200px;
     min-height: 150px;
@@ -32,21 +47,19 @@
     background-color: #ecf0f3;
     border-radius: 15px;
     box-shadow: 4px 4px 10px #cbced1, -1px -1px 10px var(--primary-color);
-    
 }
 
-.btn-custom {
-    align-content:center;
-    width: 100px;
-    height: 80px;
-    
-}
-
-.btn-icon {
+.btn-custom-tabela {
+    padding: 1px 9px;
+    border-radius: 50px;
+    cursor: pointer;
     font-family: 'Kanit', sans-serif;
-    height: 80px align-content: center;
 }
 
+.btn-custom-cadastro {
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+}
 
 main {
     margin-left: 90px;

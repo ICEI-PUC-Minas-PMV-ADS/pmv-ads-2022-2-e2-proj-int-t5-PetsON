@@ -7,48 +7,53 @@
 
 <section class="container py-4 text-center">
 
-    <h2>Pets</h2>
-    <hr />
+    <div>
 
-    <table class="table table-bordered">
-        <thead>
-            <tr style="background-color:#f6f6f6">
-                <th>Código</th>
-                <th>Nome do Pet</th>
-                <th>Cliente</th>
-                <th>idade</th>
-                <th>Raça</th>
-                <th>Observação</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr onclick="Editar(@item.Codigo_Animal)" style="cursor:pointer;">
-                    <td>@item.Codigo_Animal</td>
-                    <td>@item.Nome_Animal </td>
-                    <td>@item.Nome_Cliente </td>
-                    <td>@item.Idade</td>
-                    <td>@item.Raca</td>
-                    <td>@item.Observacao</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-    <br>
+            <h3 class="p-4 mb-5 text-white bg-warning bg-opacity-75">Lista de Pets dos Clientes</h3>
 
-    <button type="button" class="btn btn-block btn-primary" onclick="Cadastrar()">Cadastrar Pet</button>
+            <div class="alert alert-success d-flex align-items-center" role="alert">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+                    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+                <div>
+                    Visualização de todos os Pets cadastrados no sistema.
+                </div>
+            </div>
+            <br>
+
+        <section class="text-center">
+
+            <table class="table table-responsive d-lg-table table-hover">
+                <thead class="bg-warning table-striped">
+                    <tr class="text-white">
+                        <th scope="col">Código</th>
+                        <th scope="col">Nome do Pet</th>
+                        <th scope="col">Cliente</th>
+                        <th scope="col">idade</th>
+                        <th scope="col">Raça</th>
+                        <th scope="col">Observação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="table-success">@item.Codigo_Animal</td>
+                            <td class="table-info">@item.Nome_Animal </td>
+                            <td class="table-warning">@item.Nome_Cliente </td>
+                            <td class="table-secondary">@item.Idade</td>
+                            <td class="table-info">@item.Raca</td>
+                            <td class="table-warning">@item.Observacao</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </section>
+
+    </div>
 
 </section>
 
 
-    <script>
-        function Editar(Codigo) {
-            window.location = window.origin + "\\Animal\\AnimalCadastro\\" + Codigo-Animal;
-        }
-        function Cadastrar() {
-            window.location = window.origin + "\\Animal\\AnimalCadastro";
-        }
-    </script>
 
 
