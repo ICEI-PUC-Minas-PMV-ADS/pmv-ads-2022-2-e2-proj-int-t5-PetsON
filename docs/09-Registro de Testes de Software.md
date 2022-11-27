@@ -60,7 +60,13 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/204164536-aec2769d-7205-426b-ba3e-8726b2588f9b.png">
 
-**Com os dados preenchidos corretamente, iremos cadastrar o primeiro pet do "usuário 31".
+**Com os dados preenchidos corretamente, iremos cadastrar o primeiro pet do "usuário 31".**
+
+<img src="https://user-images.githubusercontent.com/86859418/204164694-5af33dd6-9faa-4cac-8170-c8667b44c6cb.png">
+
+Então o primeiro pet do "usuário 31" foi registrado e exibido na lista de Pets dos CLientes com o código 18, o usuário do sistema pode também carregar a lista dos pets do "usuário 31" clicando no botão Clientes no menu lateral e ao clicar no botão verde(pet) poderá ver os pets do cliente como abaixo em anexo. 
+
+<img src="https://user-images.githubusercontent.com/86859418/204164846-217f1326-0164-47e2-ab88-33a703e452da.png">
 
 **CT-04 – Agendar, realizar atendimento e envio de comprovante para o cliente selecionado**
 
