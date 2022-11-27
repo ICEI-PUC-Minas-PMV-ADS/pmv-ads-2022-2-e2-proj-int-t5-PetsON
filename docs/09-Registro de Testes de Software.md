@@ -48,7 +48,7 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/204164052-f61b84fb-5a3d-4162-9f46-306e7a1ded48.png">
 
-**Observe que o último registro incluido já está na lista de clientes, com o código:31, para demonstramos com perfeição o teste, iremos cadastrar um pet para este usuário clicando no botão verde com o ícone de um pet na coluna editar, iremos ser redirecionados para a lista de pets do usuário cadastrado. **
+**Observe que o último registro incluido já está na lista de clientes, com o cód. 31, para demonstramos com perfeição o teste, iremos cadastrar um pet para este usuário clicando no botão verde com o ícone de um pet na coluna editar, iremos ser redirecionados para a lista de pets do usuário cadastrado.**
 
 <img src="https://user-images.githubusercontent.com/86859418/204164212-f1405057-27db-4c38-a7d0-f8ff73c581c2.png">
 
@@ -60,11 +60,11 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/204164536-aec2769d-7205-426b-ba3e-8726b2588f9b.png">
 
-**Com os dados preenchidos corretamente, iremos cadastrar o primeiro pet do "usuário 31".**
+**Com os dados preenchidos corretamente, iremos cadastrar o primeiro pet do "cliente Bernardo cod. 31".**
 
 <img src="https://user-images.githubusercontent.com/86859418/204164694-5af33dd6-9faa-4cac-8170-c8667b44c6cb.png">
 
-Então o primeiro pet do "usuário 31" foi registrado e exibido na lista de Pets dos CLientes com o código 18, o usuário do sistema pode também carregar a lista dos pets do "usuário 31" clicando no botão Clientes no menu lateral e ao clicar no botão verde(pet) poderá ver os pets do cliente como abaixo em anexo. 
+Então o primeiro pet do "cliente Bernardo cod. 31" foi registrado e exibido na lista de Pets dos CLientes com o cód. 18, o usuário do sistema pode também carregar a lista dos pets do "cliente cod. 31" clicando no botão Clientes no menu lateral e ao clicar no botão verde(pet) poderá ver os pets do cliente como abaixo em anexo. 
 
 <img src="https://user-images.githubusercontent.com/86859418/204164846-217f1326-0164-47e2-ab88-33a703e452da.png">
 
@@ -95,7 +95,9 @@ Então o primeiro pet do "usuário 31" foi registrado e exibido na lista de Pets
 
 **CT-07 – Editar o registro dos clientes e pets**
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/86859418/204165355-ae9ca87a-fb4a-4de5-a122-0967dffa08b0.png">
+<img src="https://user-images.githubusercontent.com/86859418/204165419-18d01dc7-67ba-48ab-b8d7-8d2418b0a76f.png">
+**Realizando atualização dos registro do pet "Sam" cod.18 do Cliente Bernardo cod. 31**
 
 **Resultado CT-07 - Verificar se a edição foi realizada com sucesso, ao submeter a edição a lista irá atualizar com o dados ajustado.
 
