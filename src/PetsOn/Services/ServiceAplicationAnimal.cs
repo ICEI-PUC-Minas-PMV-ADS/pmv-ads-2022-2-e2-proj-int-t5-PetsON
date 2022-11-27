@@ -72,11 +72,6 @@ namespace PetsOn.Services
             return retorno;
         }
 
-        public IEnumerable<SelectListItem> ListaAnimaissDropDownList()
-        {
-            throw new NotImplementedException();
-        }
-
         public IEnumerable<AnimalViewModel> Listagem()
         {
             var lista = ServiceAnimal.Listagem(null).OrderBy(x=>x.Id_Cliente);

@@ -38,6 +38,7 @@
                             @Html.ValidationSummary(true)
 
                             <form asp-action="ClienteCadastro" asp-controller="Cliente" method="post" autocomplete="off">
+                                <input type="hidden" asp-for="Codigo_Cliente" value="@Model.Codigo_Cliente" />
 
                                 <!-- Nome e CPF do Cliente-->
                                 <div class="row">

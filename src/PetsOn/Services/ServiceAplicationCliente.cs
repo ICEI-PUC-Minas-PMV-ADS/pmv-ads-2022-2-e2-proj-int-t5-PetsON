@@ -73,13 +73,13 @@ namespace PetsOn.Services
         public IEnumerable<SelectListItem> ListaClientesDropDownList()
         {
             List<SelectListItem> retorno = new List<SelectListItem>();
-            var lista = this.Listagem();
+            var lista = ServiceCliente.Listagem((int)HttpContextAcessor.HttpContext.Session.GetInt32(Sessao.CODIGO_CLIENTE));
 
             foreach (var item in lista)
             {
                 SelectListItem cliente = new SelectListItem()
                 {
-                    Value = item.Codigo_Cliente.ToString(),
+                    Value = item.Id.ToString(),
                     Text = item.Nome
                 };
                 retorno.Add(cliente);
@@ -90,6 +90,28 @@ namespace PetsOn.Services
         public IEnumerable<ClienteViewModel> Listagem()
         {
             var lista = ServiceCliente.Listagem((int)HttpContextAcessor.HttpContext.Session.GetInt32(Sessao.CODIGO_PETSHOP));
+            List<ClienteViewModel> listaCliente = new List<ClienteViewModel>();
+
+            foreach (var item in lista)
+            {
+                ClienteViewModel cliente = new ClienteViewModel() // REFATORAR DEPOIS REPETIÇÕES...
+                {
+                    Codigo_Cliente = item.Id,
+                    Nome = item.Nome,
+                    Cpf = item.Cpf,
+                    Celular = item.Celular,
+                    Email = item.Email,
+                    Endereco = item.Endereco
+                };
+                listaCliente.Add(cliente);
+            }
+
+            return listaCliente;
+        }
+
+        public IEnumerable<ClienteViewModel> ListagemEdicao(int CodigoCliente)
+        {
+            var lista = ServiceCliente.Listagem((int)HttpContextAcessor.HttpContext.Session.GetInt32(Sessao.CODIGO_CLIENTE));
             List<ClienteViewModel> listaCliente = new List<ClienteViewModel>();
 
             foreach (var item in lista)

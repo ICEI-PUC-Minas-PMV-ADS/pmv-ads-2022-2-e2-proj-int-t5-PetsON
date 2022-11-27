@@ -10,6 +10,7 @@ namespace PetsOn.Services.Interfaces
         int RetornarClienteId(string CPF);
         IEnumerable<SelectListItem> ListaClientesDropDownList();
         IEnumerable<ClienteViewModel> Listagem();
+        IEnumerable<ClienteViewModel> ListagemEdicao(int CodigoCliente);
         ClienteViewModel CarregarRegistro(int codigoCliente);
         void Excluir(int id);
 

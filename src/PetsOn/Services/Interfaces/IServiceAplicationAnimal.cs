@@ -7,8 +7,8 @@ namespace PetsOn.Services.Interfaces
     public interface IServiceAplicationAnimal
     {
         void Cadastrar(AnimalViewModel animal);
-        IEnumerable<SelectListItem> ListaAnimaissDropDownList();
         IEnumerable<AnimalViewModel> Listagem();
+        IEnumerable<SelectListItem> ListaAnimaisDropDownList();
         IEnumerable<AnimalViewModel> ListagemPetsCliente(int CodigoCliente);
         AnimalViewModel CarregarRegistro(int codigoAnimal);
         void Excluir(int id);
