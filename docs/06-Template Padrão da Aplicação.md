@@ -23,3 +23,7 @@ Layout do link do menu "Clientes" onde exibe a funcionalidade de lista de client
 <img src="https://user-images.githubusercontent.com/86859418/204157543-2955f269-4bd3-412a-8bd4-2247d885dd33.png">
 
 Layout da tela de formulário de cadastro de clientes
+
+<img src="https://user-images.githubusercontent.com/86859418/204157688-45b2fbb7-cec0-499f-abc7-d5a00dc507c3.png">
+
+Layout da tela de lista de pets dos clientes do sistema no caso do (usuário da sessão) ou petshop cadastrada
