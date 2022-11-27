@@ -6,7 +6,7 @@
 
 **O formulário valida os dados com o intuito de evitar inserções fora do padrão.
 
-<img src="https://user-images.githubusercontent.com/86859418/198904489-a004fb1b-ce01-4d74-bbe9-ff5e89fe554c.jpg">
+<img src="https://user-images.githubusercontent.com/86859418/204163037-4b6be7bb-99e4-4078-a34b-3fa207c7b7a5.png">
 
 ** Os dados do usuário e da petshop devem ser preenchidos, para obterem um acesso ao sistema
 
