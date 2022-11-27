@@ -97,9 +97,10 @@ Então o primeiro pet do "cliente Bernardo cod. 31" foi registrado e exibido na 
 
 <img src="https://user-images.githubusercontent.com/86859418/204165355-ae9ca87a-fb4a-4de5-a122-0967dffa08b0.png">
 <img src="https://user-images.githubusercontent.com/86859418/204165419-18d01dc7-67ba-48ab-b8d7-8d2418b0a76f.png">
-**Realizando atualização dos registro do pet "Sam" cod.18 do Cliente Bernardo cod. 31**
 
-**Resultado CT-07 - Verificar se a edição foi realizada com sucesso, ao submeter a edição a lista irá atualizar com o dados ajustado.
+**Realizando atualização dos registro do pet "Sam" cod.18 do Cliente Bernardo cod. 31 já feitos cadastrados anteriormente conforme visto no caso de teste CT-03**
+
+**Resultado CT-07 - Verificar se a edição foi realizada com sucesso, ao submeter a edição a lista irá atualizar com o dados ajustado.**
 
 <img src="">
 
