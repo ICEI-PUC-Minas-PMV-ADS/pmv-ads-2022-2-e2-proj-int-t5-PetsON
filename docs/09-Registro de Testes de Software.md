@@ -8,7 +8,7 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/204163037-4b6be7bb-99e4-4078-a34b-3fa207c7b7a5.png">
 
-** Os dados do usuário e da petshop devem ser preenchidos, para obterem um acesso ao sistema.**
+**Os dados do usuário e da petshop devem ser preenchidos, para obterem um acesso ao sistema.**
 
 <img src="https://user-images.githubusercontent.com/86859418/204162820-73722040-f41e-4a59-add4-ae5c5341d181.png">
 
@@ -20,7 +20,7 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/204162487-a18adb08-a4ad-4f34-903f-25b98f2ad89f.png">
 
-**O formulário valida os dados de login e senha estão corretos, ou campos vazios que é o caso do anexo.**
+**O formulário valida os dados de login e senha se estão corretos, ou campos vazios que é o caso em anexo.**
 
 <img src="https://user-images.githubusercontent.com/86859418/204162561-a7590e2f-95a3-425b-8390-713ea8048396.png">
 
@@ -34,7 +34,15 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/204163419-7a2a41d4-ced3-46d4-98ec-45b216932478.png">
 
-** O usuário ao clicar no botão no menu lateral Cliente, o sistema abrirá a lista de clientes, para visualizar a lista de pets do cliente ou efetuar o cadastro de um novo pet de um cliente na coluna editar temos dois botões (ícones) para editar os dados do cliente e seus pets ou adicionar novos pets.**
+**O usuário ao clicar no botão no menu lateral Cliente, o sistema abrirá a lista de clientes, para visualizar a lista de pets do cliente ou efetuar o cadastro de um novo pet de um cliente na coluna editar temos dois botões (ícones) para editar os dados do cliente e seus pets ou adicionar novos pets.**
+
+<img src="https://user-images.githubusercontent.com/86859418/204163669-fad213b2-4107-405b-9c6c-10af4365ae13.png">
+
+**O formulário valida os dados de cadastro de clientes se estão corretos, ou campos vazios que é o caso do anexo.**
+
+<img src="https://user-images.githubusercontent.com/86859418/204163859-7ddee24e-ea45-4db5-aa4c-beb850f7056e.png">
+
+**Com os dados preenchidos corretamente, inclusive o campo CPF o qual para ele temos uma classe no sistema responsável por validar apenas "CPF's válidos, observe na amba do navegador que geramos um CPF no site (4DEVS), então agora podemos efetuar o cadastro que os dados vão passar nas validações do sistema."**
 
 **Resultado CT-03 - Cadastro realizado com sucesso.**
 
