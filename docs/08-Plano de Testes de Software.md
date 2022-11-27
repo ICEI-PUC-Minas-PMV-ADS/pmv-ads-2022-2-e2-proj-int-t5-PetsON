@@ -14,7 +14,6 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://localhost:7240/Usuario/Cadastro <br> - Clicar em "Cadastra-se" <br> - Preencher os campos obrigatórios (nome, sobrenome, e-mail, senha, nome da empresa, Cnpj, Web site, desccrição da empresa) <br> - Aceitar os termos de uso <br> - Clicar em "Cadastrar" |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|  	|  	|
 | Caso de Teste 	| CT-02 – Efetuar login	|
 |Requisito Associado | RF-002	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
