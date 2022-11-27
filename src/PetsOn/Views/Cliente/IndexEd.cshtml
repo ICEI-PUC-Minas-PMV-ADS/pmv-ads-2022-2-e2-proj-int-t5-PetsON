@@ -8,6 +8,11 @@
 @using PetsOn.Helpers
 @inject IHttpContextAccessor Accessor
 
+@{
+    var CodigoCliente = this.ViewContext.RouteData.Values["id"];
+    Accessor.HttpContext.Session.SetInt32(Sessao.CODIGO_CLIENTE, int.Parse(CodigoCliente.ToString()));
+}
+
 <section class="container py-4 text-center">
 
     <h2>Clientes</h2>

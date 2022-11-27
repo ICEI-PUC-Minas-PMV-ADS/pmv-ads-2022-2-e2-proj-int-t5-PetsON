@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PetsOn.Repository.DAL;
 using PetsOn.Services.Interfaces;
 using PetsOn.Models;
-using PetsOn.Services;
 using PetsOn.Helpers;
 
 namespace PetsOn.Controllers

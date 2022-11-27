@@ -2,21 +2,32 @@
 using PetsOn.Repository.DAL;
 using PetsOn.Services.Interfaces;
 using PetsOn.Models;
+using PetsOn.Helpers;
 
 namespace PetsOn.Controllers
 {
     public class ClienteController : Controller
     {
         readonly IServiceAplicationCliente ServiceAplicationCliente;
-        public ClienteController(IServiceAplicationCliente serviceAplicationCliente)
+        protected IHttpContextAccessor HttpContextAcessor;
+        public ClienteController(
+            IServiceAplicationCliente serviceAplicationCliente,
+            IHttpContextAccessor httpContextAcessor)
         {
             ServiceAplicationCliente = serviceAplicationCliente;
+            HttpContextAcessor = httpContextAcessor;
         }
 
         [HttpGet]
         public IActionResult Index()
         {
             return View(ServiceAplicationCliente.Listagem());
+        }
+
+        [HttpGet]
+        public IActionResult IndexEd(int? id)
+        {
+            return View(ServiceAplicationCliente.ListagemEdicao((int)id));
         }
 
         [HttpGet]
@@ -40,7 +51,7 @@ namespace PetsOn.Controllers
             }
             else
             {
-                return View();
+                return View(entidade);
             }
 
             return RedirectToAction("Index");
