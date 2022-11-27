@@ -110,6 +110,6 @@ Então o primeiro pet do "cliente Bernardo cod. 31" foi registrado e exibido na 
 
 <img src="https://user-images.githubusercontent.com/86859418/204166106-e8ee2007-f7cb-4984-9f49-23056fdac379.png">
 
-**Resultado CT-08 - Verificar ocorre a mudança de tema.
+**Resultado CT-08 - Verificar ocorre a mudança de tema.**
 
 <img src="https://user-images.githubusercontent.com/86859418/204166063-ffb4b8fc-514a-4311-abfa-ab947224e25e.png">
