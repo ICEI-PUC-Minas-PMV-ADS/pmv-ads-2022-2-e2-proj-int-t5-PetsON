@@ -35,4 +35,24 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o usuário consegue ver todos os atendimentos realizados e agendados |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://localhost:7240/x/x<br> - No menu lateral para visualizar o relatório de atendimentos e agendamentos, no menu lateral procure o botão "ordem de serviço"|
 |Critério de Êxito | - Visualização do relatório de forma organizada referente aos atendimentos agendados e realizados. |
+| Caso de Teste 	| CT-06 – consultar na agenda as datas e horários disponíveis, para agendar ou efetuar o registro de um atendimento.  |
+|Requisito Associado | RF-006	- A aplicação deve possibilitar na visão da agenda as datas disponivéis |
+| Objetivo do Teste 	| Verificar se o usuário consegue ver as datas disponíveis diferenciando dos atendimentos realizados e agendados |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://localhost:7240/x/x<br> - No menu lateral para visualizar datas disponíveis, Agendar ou realizar atendimento temos o botão "Agenda" ao selecionar uma das opções o sistema redirecionará para a agenda. |
+|Critério de Êxito | - Visualização das datas disponíveis diferenciando dos atendimentos agendados e realizados. |
+| Caso de Teste 	| CT-07 – Editar o registro dos clientes e pets  |
+|Requisito Associado | RF-007	- A aplicação deve possibilitar a edição dos registros de clientes, animais e serviços |
+| Objetivo do Teste 	| Verificar se o usuário consegue editar os registros |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://localhost:7240/x/x<br> - No menu lateral para realizar a edição de algum registro navegue selecionando, CLiente, pets ou serviços nas listas temos a opção de editar o registro. |
+|Critério de Êxito | - Verificar se a edição foi realizada com sucesso, ao submeter a edição a lista irá atualizar com o dados ajustado. |
+| Caso de Teste 	| CT-08 – O site deve permitir que o usuário mude para modo dark (escuro);  |
+|Requisito Associado | RF-008	- A aplicação deve possibilitar um interruptor no menu lateral para aplicar o modo dark (escuro) |
+| Objetivo do Teste 	| Verificar se o usuário consegue mudar o tema no sistema |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://localhost:7240/x/x<br> - No menu lateral para realizar a mudança de tema vá próximo ao rodapé temos um interruptor que ao clicar muda o tema do sistema. |
+|Critério de Êxito | - Verificar ocorre a mudança de tema. |
+
+
+
+
+
 
