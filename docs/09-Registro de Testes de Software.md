@@ -28,7 +28,7 @@
 
 **Resultado CT-02 - O login foi realizado com sucesso..
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/86859418/204156615-9ff47c13-a46d-4f05-9d20-797b2e1cd69c.png">
 
 **CT-03 – Cadastrar, visualizar seus clientes e pets**
 
