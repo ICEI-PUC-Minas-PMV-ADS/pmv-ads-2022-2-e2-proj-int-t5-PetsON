@@ -19,3 +19,7 @@ Layout do menu principal do sistema, exibe a sessão do usuário
 <img src="https://user-images.githubusercontent.com/86859418/204156787-786fabb8-0d7a-4311-b003-0714b3d8f567.png">
 
 Layout do link do menu "Clientes" onde exibe a funcionalidade de lista de clientes, opção de editar dados do cliente e cadastrar seus pets.
+
+<img src="https://user-images.githubusercontent.com/86859418/204157543-2955f269-4bd3-412a-8bd4-2247d885dd33.png">
+
+Layout da tela de formulário de cadastro de clientes
