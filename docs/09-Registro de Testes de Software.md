@@ -4,15 +4,15 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/204162288-f68ecb1c-8ba5-41c2-9bc7-b3f620c8d777.png">
 
-**O formulário valida os dados com o intuito de evitar inserções fora do padrão.
+**O formulário valida os dados com o intuito de evitar inserções fora do padrão.**
 
 <img src="https://user-images.githubusercontent.com/86859418/204163037-4b6be7bb-99e4-4078-a34b-3fa207c7b7a5.png">
 
-** Os dados do usuário e da petshop devem ser preenchidos, para obterem um acesso ao sistema
+** Os dados do usuário e da petshop devem ser preenchidos, para obterem um acesso ao sistema.**
 
 <img src="https://user-images.githubusercontent.com/86859418/204162820-73722040-f41e-4a59-add4-ae5c5341d181.png">
 
-**Resultado CT-01 - Dados enviados ao Data Base.
+**Resultado CT-01 - Dados enviados ao Data Base.**
 
 <img src="https://user-images.githubusercontent.com/86859418/204163246-de20ad49-ab43-487f-91f7-c8dc7466176e.png">
 
@@ -20,13 +20,13 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/204162487-a18adb08-a4ad-4f34-903f-25b98f2ad89f.png">
 
-**O formulário valida os dados de login e senha estão corretos, ou campos vazios que é o caso do anexo.
+**O formulário valida os dados de login e senha estão corretos, ou campos vazios que é o caso do anexo.**
 
 <img src="https://user-images.githubusercontent.com/86859418/204162561-a7590e2f-95a3-425b-8390-713ea8048396.png">
 
-**O usuário e senha acima também foi cadastrado anteriormente replicando o **caso de teste CT-01** para validar a conformidade dos dados que devem ser mostrados apenas para o usuário da sessão atual.
+**O usuário e senha acima também foi cadastrado anteriormente replicando o **caso de teste CT-01** para validar a conformidade dos dados que devem ser mostrados apenas para o usuário da sessão atual.**
 
-**Resultado CT-02 - O login foi realizado com sucesso..
+**Resultado CT-02 - O login foi realizado com sucesso.**
 
 <img src="https://user-images.githubusercontent.com/86859418/204156615-9ff47c13-a46d-4f05-9d20-797b2e1cd69c.png">
 
@@ -34,9 +34,9 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/204163419-7a2a41d4-ced3-46d4-98ec-45b216932478.png">
 
-** O usuário ao clicar no botão no menu lateral Cliente, o sistema abrirá a lista de clientes, para visualizar a lista de pets do cliente ou efetuar o cadastro de um novo pet de um cliente na coluna editar temos dois botões (ícones) para editar os dados do cliente e seus pets ou adicionar novos pets. 
+** O usuário ao clicar no botão no menu lateral Cliente, o sistema abrirá a lista de clientes, para visualizar a lista de pets do cliente ou efetuar o cadastro de um novo pet de um cliente na coluna editar temos dois botões (ícones) para editar os dados do cliente e seus pets ou adicionar novos pets.**
 
-**Resultado CT-03 - Cadastro realizado com sucesso..
+**Resultado CT-03 - Cadastro realizado com sucesso.**
 
 <img src="">
 
