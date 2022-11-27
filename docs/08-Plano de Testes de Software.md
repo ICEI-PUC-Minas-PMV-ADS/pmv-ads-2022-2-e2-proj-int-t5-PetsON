@@ -8,7 +8,7 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 
 Por exemplo:
  
-| **Caso de Teste** 	|  **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	|  **CT-01 – Cadastrar Usuário e Petshop** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
