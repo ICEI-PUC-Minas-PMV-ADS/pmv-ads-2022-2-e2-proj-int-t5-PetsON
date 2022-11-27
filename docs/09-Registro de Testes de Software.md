@@ -102,12 +102,14 @@ Então o primeiro pet do "cliente Bernardo cod. 31" foi registrado e exibido na 
 
 **Resultado CT-07 - Verificar se a edição foi realizada com sucesso, ao submeter a edição a lista irá atualizar com o dados ajustado.**
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/86859418/204165863-43776afe-81b3-4f32-beb8-c3d29164b17c.png">
+
+**Simulamos o cenário que o Cliente mudou de endereço e o pet passou a ter alergia e agora possui 3 anos, comprovamos a atualização nos registros acima**
 
 **CT-08 – O site deve permitir que o usuário mude para modo dark (escuro)**
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/86859418/204166106-e8ee2007-f7cb-4984-9f49-23056fdac379.png">
 
 **Resultado CT-08 - Verificar ocorre a mudança de tema.
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/86859418/204166063-ffb4b8fc-514a-4311-abfa-ab947224e25e.png">
