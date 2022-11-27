@@ -14,7 +14,7 @@
 
 **Resultado CT-01 - Dados enviados ao Data Base.
 
-<img src="https://user-images.githubusercontent.com/86859418/198904574-34a8917a-1340-4b7f-bd84-16e0e41091af.jpg">
+<img src="https://user-images.githubusercontent.com/86859418/204163246-de20ad49-ab43-487f-91f7-c8dc7466176e.png">
 
 **CT-02 – Efetuar login**
 
