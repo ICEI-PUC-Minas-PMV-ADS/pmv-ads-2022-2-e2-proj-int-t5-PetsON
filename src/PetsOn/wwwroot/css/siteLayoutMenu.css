@@ -24,6 +24,30 @@
     --tran-05: all 0.3s ease;
 }
 
+.wrapperModal {
+    max-width: 200px;
+    min-height: 150px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px #cbced1, -1px -1px 10px var(--primary-color);
+    
+}
+
+.btn-custom {
+    align-content:center;
+    width: 100px;
+    height: 80px;
+    
+}
+
+.btn-icon {
+    font-family: 'Kanit', sans-serif;
+    height: 80px align-content: center;
+}
+
+
 main {
     margin-left: 90px;
     margin-right: 10px;

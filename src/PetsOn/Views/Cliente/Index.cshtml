@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Clientes";
+    Layout = (string)"_LayoutMenu";
+}
+
+@model List<PetsOn.Models.ClienteViewModel>;
+@using Microsoft.AspNetCore.Http
+@using PetsOn.Helpers
+@inject IHttpContextAccessor Accessor
+
+@*@{
+    var CodigoCliente = this.ViewContext.RouteData.Values["id"];
+    Accessor.HttpContext.Session.SetInt32(Sessao.CODIGO_CLIENTE, int.Parse(CodigoCliente.ToString()));
+}*@
+
+<section class="container py-4 text-center">
+
+    <h2>Clientes</h2>
+    <hr />
+
+    <table class="table table-bordered">
+        <thead>
+            <tr style="background-color:#f6f6f6">
+                <th>#</th>
+                <th>#</th>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>E-mail</th>
+                <th>Celular</th>
+                <th>Endereço</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><button type="button" class="btn btn-block btn-primary" onclick="Editar(@item.Codigo_Cliente)" style="cursor:pointer;">Editar</button></td>
+                    <td><button type="button" class="btn btn-block btn-primary" onclick="VerPetsCliente(@item.Codigo_Cliente)" style="cursor:pointer;">Pets</button></td>
+                    <td>@item.Codigo_Cliente</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Cpf</td>
+                    <td>@item.Email</td>
+                    <td>@item.Celular</td>
+                    <td>@item.Endereco</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br>
+
+    <button type="button" class="btn btn-block btn-primary" onclick="Cadastrar()">Cadastrar Cliente</button>
+
+    @*   <div class="wrapperModal">
+    <a type="button" id="btnFetch" class="btn btn-outline-warning" asp-controller="Cliente" asp-action="ClienteAnimalCadastro">
+    <span class='bx bx-user btn-icon icon' aria-hidden="true">
+    Cadastro
+    <span class='bx bxs-dog btn-icon icon' aria-hidden="true">
+    </a>
+    </div>*@
+
+
+</section>
+
+
+<script>
+    function Editar(Codigo) {
+        window.location = window.origin + "\\Cliente\\ClienteCadastro\\" + Codigo;
+    }
+    function Cadastrar() {
+        window.location = window.origin + "\\Cliente\\ClienteCadastro";
+    }
+
+    function VerPetsCliente(CodigoCliente) {
+        window.location = window.origin + "\\Animal\\PetsCliente\\" + CodigoCliente;
+    }
+</script>
+
+

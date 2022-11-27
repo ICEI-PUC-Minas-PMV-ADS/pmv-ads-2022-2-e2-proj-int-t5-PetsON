@@ -34,7 +34,7 @@ namespace PetsOn.Services
 
         public int RetornarPetshopId(string CNPJ)
         {
-            var Petshop = ServicePetshop.Listagem().Where(x => x.Cnpj == CNPJ).FirstOrDefault();
+            var Petshop = ServicePetshop.Listagem(null).Where(x => x.Cnpj == CNPJ).FirstOrDefault();
             return (int)Petshop.Id;
         }
     }

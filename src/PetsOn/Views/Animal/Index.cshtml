@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Animais";
+    Layout = (string)"_LayoutMenu";
+}
+
+@model List<PetsOn.Models.AnimalViewModel>;
+
+<section class="container py-4 text-center">
+
+    <h2>Pets</h2>
+    <hr />
+
+    <table class="table table-bordered">
+        <thead>
+            <tr style="background-color:#f6f6f6">
+                <th>Código</th>
+                <th>Nome do Pet</th>
+                <th>Cliente</th>
+                <th>idade</th>
+                <th>Raça</th>
+                <th>Observação</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr onclick="Editar(@item.Codigo_Animal)" style="cursor:pointer;">
+                    <td>@item.Codigo_Animal</td>
+                    <td>@item.Nome_Animal </td>
+                    <td>@item.Nome_Cliente </td>
+                    <td>@item.Idade</td>
+                    <td>@item.Raca</td>
+                    <td>@item.Observacao</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br>
+
+    <button type="button" class="btn btn-block btn-primary" onclick="Cadastrar()">Cadastrar Pet</button>
+
+@*    <div class="wrapperModal">
+        <a type="button" id="btnFetch" class="btn btn-outline-warning" asp-controller="Cliente" asp-action="ClienteAnimalCadastro">
+            <span class='bx bx-user btn-icon icon' aria-hidden="true">
+                Cadastro
+                <span class='bx bxs-dog btn-icon icon' aria-hidden="true">
+        </a>
+    </div>*@
+
+
+</section>
+
+
+    <script>
+        function Editar(Codigo) {
+            window.location = window.origin + "\\Animal\\AnimalCadastro\\" + Codigo-Animal;
+        }
+        function Cadastrar() {
+            window.location = window.origin + "\\Animal\\AnimalCadastro";
+        }
+    </script>
+
+

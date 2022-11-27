@@ -13,9 +13,9 @@ namespace Domain.Service
         {
             RepositoryOrdemServico = repositoryOrdemServico;
         }
-        public int Cadastrar(OrdemServico OrdemServico)
+        public void Cadastrar(OrdemServico OrdemServico)
         {
-            return RepositoryOrdemServico.Create(OrdemServico);
+             RepositoryOrdemServico.Create(OrdemServico);
         }
 
         public OrdemServico CarregarRegistro(int id)
@@ -28,7 +28,7 @@ namespace Domain.Service
             RepositoryOrdemServico.Delete(id);
         }
 
-        public IEnumerable<OrdemServico> Listagem()
+        public IEnumerable<OrdemServico> Listagem(int? IdPetshop)
         {
             return RepositoryOrdemServico.Read();
         }

@@ -2,7 +2,6 @@
 using PetsOn.Domain.Entities;
 using PetsOn.Domain.Repository;
 
-
 namespace Domain.Service
 {
     public class ServiceCliente : IServiceCliente
@@ -13,9 +12,15 @@ namespace Domain.Service
         {
             RepositoryCliente = repositoryCliente;
         }
-        public int Cadastrar(Cliente cliente)
+
+        public IEnumerable<Cliente> Listagem(int id)
         {
-            return RepositoryCliente.Create(cliente);
+            return RepositoryCliente.Read();
+        }
+
+        public void Cadastrar(Cliente cliente)
+        {
+             RepositoryCliente.Create(cliente);
         }
 
         public Cliente CarregarRegistro(int id)
@@ -28,9 +33,9 @@ namespace Domain.Service
             RepositoryCliente.Delete(id);
         }
 
-        public IEnumerable<Cliente> Listagem()
+        public IEnumerable<Cliente> Listagem(int? IdPetshop)
         {
-            return RepositoryCliente.Read();
+            return RepositoryCliente.Read().Where(x => x.Id_Petshop == IdPetshop);
         }
     }
 }

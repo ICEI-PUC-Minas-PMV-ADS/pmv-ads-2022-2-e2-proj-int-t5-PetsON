@@ -1,7 +1,9 @@
 ﻿using Domain.Interfaces;
+using Domain.Service;
 using PetsOn.Domain.Entities;
 using PetsOn.Models;
 using PetsOn.Services.Interfaces;
+using System.Web.Mvc;
 
 namespace PetsOn.Services
 {
@@ -14,18 +16,108 @@ namespace PetsOn.Services
             ServiceAnimal = serviceAnimal;
         }
 
-        public void Cadastrar(ClienteAnimalViewModel animal)
+        public void Cadastrar(AnimalViewModel animal)
         {
             Animal item = new()
             {
+                Id = animal.Codigo_Animal,
+                Id_Cliente = animal.Codigo_Cliente,
                 Nome_Animal = animal.Nome_Animal,
                 Idade = animal.Idade,
                 Raca = animal.Raca,
-                Observacao = animal.Observacao,
-                Id_Cliente = (int)animal.Codigo_Cliente
+                Observacao = animal.Observacao
             };
 
             ServiceAnimal.Cadastrar(item);
+            //animal.id = RetornarClienteId(int id);
+            //ServiceAplicationUsuario.Cadastrar(animal);
+        }
+
+        public AnimalViewModel CarregarRegistro(int codigoAnimal)
+        {
+            var registro = ServiceAnimal.CarregarRegistro(codigoAnimal);
+
+            AnimalViewModel animal = new AnimalViewModel()
+            {
+                Codigo_Animal = registro.Id,
+                Codigo_Cliente = registro.Id_Cliente,
+                Nome_Animal = registro.Nome_Animal,
+                Idade = registro.Idade,
+                Raca = registro.Raca,
+                Observacao = registro.Observacao,
+            };
+
+            return animal;
+        }
+
+        public void Excluir(int id)
+        {
+            ServiceAnimal.Excluir(id);
+        }
+
+        public IEnumerable<SelectListItem> ListaAnimaisDropDownList()
+        {
+            List<SelectListItem> retorno = new List<SelectListItem>();
+            var lista = this.Listagem();
+
+            foreach (var item in lista)
+            {
+                SelectListItem animal = new SelectListItem()
+                {
+                    Value = item.Codigo_Animal.ToString(),
+                    Text = item.Nome_Animal
+                };
+                retorno.Add(animal);
+            }
+            return retorno;
+        }
+
+        public IEnumerable<SelectListItem> ListaAnimaissDropDownList()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<AnimalViewModel> Listagem()
+        {
+            var lista = ServiceAnimal.Listagem(null).OrderBy(x=>x.Id_Cliente);
+            List<AnimalViewModel> listaAnimal = new List<AnimalViewModel>();
+
+            foreach (var item in lista)
+            {
+                AnimalViewModel animal = new AnimalViewModel() // REFATORAR DEPOIS REPETIÇÕES...
+                {
+                    Codigo_Animal = item.Id,
+                    Nome_Animal = item.Nome_Animal,
+                    Nome_Cliente = item.Cliente.Nome,
+                    Idade = item.Idade,
+                    Raca = item.Raca,
+                    Observacao = item.Observacao
+                };
+                listaAnimal.Add(animal);
+            }
+
+            return listaAnimal;
+        }
+
+        public IEnumerable<AnimalViewModel> ListagemPetsCliente(int CodigoCliente)
+        {
+            var lista = ServiceAnimal.ListagemPetsCliente(CodigoCliente);
+            List<AnimalViewModel> listaAnimal = new List<AnimalViewModel>();
+
+            foreach (var item in lista)
+            {
+                AnimalViewModel animal = new AnimalViewModel() // REFATORAR DEPOIS REPETIÇÕES...
+                {
+                    Codigo_Animal = item.Id,
+                    Nome_Animal = item.Nome_Animal,
+                    Idade = item.Idade,
+                    Raca = item.Raca,
+                    Observacao = item.Observacao
+                };
+                listaAnimal.Add(animal);
+            }
+
+            return listaAnimal;
         }
     }
 }

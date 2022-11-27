@@ -20,7 +20,7 @@ namespace PetsOn.Repository
             DbSetContext = Db.Set<TEntidade>();
         }
         
-        public int Create(TEntidade Entity)
+        public void Create(TEntidade Entity)
         {
             if (Entity.Id == null)
             {
@@ -30,7 +30,7 @@ namespace PetsOn.Repository
             {
                 Db.Entry(Entity).State = EntityState.Modified;
             }
-            return Db.SaveChanges();
+            Db.SaveChanges();
         }
 
         public virtual void Delete(int id)
@@ -39,6 +39,11 @@ namespace PetsOn.Repository
             DbSetContext.Attach(ent);
             DbSetContext.Remove(ent);
             Db.SaveChanges();        
+        }
+
+        public DbSet<TEntidade> GetDbSet()
+        {
+            return DbSetContext;
         }
 
         public TEntidade Read(int id)

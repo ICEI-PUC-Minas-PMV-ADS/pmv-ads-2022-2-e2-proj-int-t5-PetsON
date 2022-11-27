@@ -12,9 +12,9 @@ namespace Domain.Service
         {
             RepositoryUsuario = repositoryUsuario;
         }
-        public int Cadastrar(Usuario usuario)
+        public void Cadastrar(Usuario usuario)
         {
-            return RepositoryUsuario.Create(usuario);
+             RepositoryUsuario.Create(usuario);
         }
 
         public Usuario CarregarRegistro(int id)
@@ -27,7 +27,7 @@ namespace Domain.Service
             RepositoryUsuario.Delete(id);
         }
 
-        public IEnumerable<Usuario> Listagem()
+        public IEnumerable<Usuario> Listagem(int? IdPetShop)
         {
             return RepositoryUsuario.Read();
         }
