@@ -32,7 +32,9 @@
 
 **CT-03 – Cadastrar, visualizar seus clientes e pets**
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/86859418/204163419-7a2a41d4-ced3-46d4-98ec-45b216932478.png">
+
+** O usuário ao clicar no botão no menu lateral Cliente, o sistema abrirá a lista de clientes, para visualizar a lista de pets do cliente ou efetuar o cadastro de um novo pet de um cliente na coluna editar temos dois botões (ícones) para editar os dados do cliente e seus pets ou adicionar novos pets. 
 
 **Resultado CT-03 - Cadastro realizado com sucesso..
 
