@@ -2,7 +2,15 @@
 
 **CT-01 – Cadastrar Usuário e PetShop**
 
+<img src="https://user-images.githubusercontent.com/86859418/204162288-f68ecb1c-8ba5-41c2-9bc7-b3f620c8d777.png">
+
+**O formulário valida os dados com o intuito de evitar inserções fora do padrão.
+
 <img src="https://user-images.githubusercontent.com/86859418/198904489-a004fb1b-ce01-4d74-bbe9-ff5e89fe554c.jpg">
+
+** Os dados do usuário e da petshop devem ser preenchidos, para obterem um acesso ao sistema
+
+<img src="https://user-images.githubusercontent.com/86859418/204162820-73722040-f41e-4a59-add4-ae5c5341d181.png">
 
 **Resultado CT-01 - Dados enviados ao Data Base.
 
@@ -10,7 +18,13 @@
 
 **CT-02 – Efetuar login**
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/86859418/204162487-a18adb08-a4ad-4f34-903f-25b98f2ad89f.png">
+
+**O formulário valida os dados de login e senha estão corretos, ou campos vazios que é o caso do anexo.
+
+<img src="https://user-images.githubusercontent.com/86859418/204162561-a7590e2f-95a3-425b-8390-713ea8048396.png">
+
+**O usuário e senha acima também foi cadastrado anteriormente replicando o **caso de teste CT-01** para validar a conformidade dos dados que devem ser mostrados apenas para o usuário da sessão atual.
 
 **Resultado CT-02 - O login foi realizado com sucesso..
 
