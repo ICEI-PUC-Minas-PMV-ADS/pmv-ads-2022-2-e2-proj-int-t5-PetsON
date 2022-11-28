@@ -1,12 +1,28 @@
 # PetsOn
 
+#### `Análise e Desenvolvimento de Sistemas - PUC Minas`
+
+### `Desenvolvimento de uma Aplicação Interativa Back-End`
+
+## `EIXO 2`
+
 <img src="https://user-images.githubusercontent.com/86859418/189501356-0927bdac-50a2-4cf6-90fc-e393a4ec5159.jpg">
 
 ### Com o intuito de contribuir com o setor e diminuir os problemas relacionados a gestão de Pet Shop criamos o “PetsOn” que é um sistema online para gestão de Petshops. Com ele os gestores de pet’s shops poderão contar com uma interface para agendar atendimentos, listar atendimentos, cadastrar clientes e seus pet's, aplicar descontos, enviar e-mail com o comprovante de agendamento ou atendimento realizado.
 
+## Orientador
+
+*  Bernardo Jeunon de Alencar
+
 ## Desenvolvimento
 
 * Gabriel Nakhata Lopes Ruas Nhimi
+* Gabriela França Alves Miranda
+* Ian Merlo Corrêa
+* Italo Sousa Chagas
+* Kamilly Pinto Rebelo 
+* Katryn Ribeiro de Jesus Oliveira
+* Luís Claudio Junior A. da Rocha
 
 # Documentação
 
