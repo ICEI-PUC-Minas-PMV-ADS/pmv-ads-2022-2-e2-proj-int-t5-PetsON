@@ -10,10 +10,6 @@
 
 ### Com o intuito de contribuir com o setor e diminuir os problemas relacionados a gestão de Pet Shop criamos o “PetsOn” que é um sistema online para gestão de Petshops. Com ele os gestores de pet’s shops poderão contar com uma interface para agendar atendimentos, listar atendimentos, cadastrar clientes e seus pet's, aplicar descontos, enviar e-mail com o comprovante de agendamento ou atendimento realizado.
 
-## Orientador
-
-*  Bernardo Jeunon de Alencar
-
 ## Desenvolvimento
 
 * Gabriel Nakhata Lopes Ruas Nhimi
@@ -23,6 +19,10 @@
 * Kamilly Pinto Rebelo 
 * Katryn Ribeiro de Jesus Oliveira
 * Luís Claudio Junior A. da Rocha
+
+## Orientador
+
+*  Bernardo Jeunon de Alencar
 
 # Documentação
 
