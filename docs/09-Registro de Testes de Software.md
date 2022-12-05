@@ -30,7 +30,11 @@
 
 <img src="https://user-images.githubusercontent.com/86859418/204156615-9ff47c13-a46d-4f05-9d20-797b2e1cd69c.png">
 
-**CT-03 – Cadastrar, visualizar seus clientes e pets**
+**CT-03 – Cadastrar, visualizar seus serviços, clientes e pets**
+
+<img src="https://user-images.githubusercontent.com/86859418/205763982-b8064c47-f0d3-4492-ba5e-fd717db24380.png">
+
+**O usuário ao clicar no botão no menu lateral Serviço, o sistema abrirá a lista de serviços, para efetuar o cadastro de um novo serviço clique no botão cadastrar, para editar um serviço existente na coluna editar clique no ícone.**
 
 <img src="https://user-images.githubusercontent.com/86859418/204163419-7a2a41d4-ced3-46d4-98ec-45b216932478.png">
 
