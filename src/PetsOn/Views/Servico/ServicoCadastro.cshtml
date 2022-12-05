@@ -38,9 +38,9 @@
                             @Html.ValidationSummary(true)
 
                             <form asp-action="ServicoCadastro" asp-controller="Servico" method="post" autocomplete="off">
-                                @*<input type="hidden" asp-for="Codigo_Petshop" value="@Model.Codigo_Petshop" />*@
+                                <input type="hidden" asp-for="Codigo_Servico" value="@Model.Codigo_Servico" />
 
-                                <!-- Tipo de Serviço e descrição do Serviço-->
+                                <!-- Tipo de Serviço e Preço do Serviço-->
                                 <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="form-floating">
@@ -51,24 +51,24 @@
                                     </div>
                                     <div class="col-md-6 mb-4">
                                         <div class="form-floating">
-                                            <input asp-for="Descricao" type="text" class="form-control" id="descricao" min="0" placeholder="Descrição">
-                                            <label for="Descricao">Descricao</label>
-                                            <span asp-validation-for="Descricao" class="text-danger small"></span>
+                                            <input asp-for="Preco" type="text" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' min="0" class="form-control" id="Preco" placeholder="Preco">
+                                            <label for="Preco">Preco</label>
+                                            <span asp-validation-for="Preco" class="text-danger small"></span>
                                         </div>
                                     </div>
                                 </div>
 
-                                <!-- Preço do Serviço input -->
+                                <!-- Descrição  do Serviço input -->
                                 <div class="col mb-4">
                                     <div class="form-floating">
-                                        <input asp-for="Preco" type="text" class="form-control" id="Preco" placeholder="Preco">
-                                        <label for="Preco">Preco</label>
-                                        <span asp-validation-for="Preco" class="text-danger small"></span>
+                                        <input asp-for="Descricao" type="text" class="form-control" id="descricao"  placeholder="Descrição">
+                                        <label for="Descricao">Descricao</label>
+                                        <span asp-validation-for="Descricao" class="text-danger small"></span>
                                     </div>
                                 </div>
 
                                 <!-- Submit button -->
-                                <button type="submit" class="btn btn-block btn-warning btn-custom-cadastro"><span class='bx bx-user-plus icon' aria-hidden="true"></span>&nbsp;Cadastrar</button>
+                                <button type="submit" class="btn btn-block btn-warning btn-custom-cadastro"><span class='bx bx-purchase-tag-alt icon' aria-hidden="true"></span>&nbsp;Cadastrar</button>
                                 
                             </form>
                         </div>
