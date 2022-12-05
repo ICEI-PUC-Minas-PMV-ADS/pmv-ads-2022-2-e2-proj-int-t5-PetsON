@@ -36,6 +36,10 @@
 
 **O usuário ao clicar no botão no menu lateral Serviço, o sistema abrirá a lista de serviços, para efetuar o cadastro de um novo serviço clique no botão cadastrar, para editar um serviço existente na coluna editar clique no ícone.**
 
+<img src="https://user-images.githubusercontent.com/86859418/205765658-76f68bf6-6590-4117-9c34-8ccde973b860.png">
+
+**O formulário valida os dados de cadastro de servicos se estão corretos, ou campos vazios que é o caso do anexo.**
+
 <img src="https://user-images.githubusercontent.com/86859418/204163419-7a2a41d4-ced3-46d4-98ec-45b216932478.png">
 
 **O usuário ao clicar no botão no menu lateral Cliente, o sistema abrirá a lista de clientes, para visualizar a lista de pets do cliente ou efetuar o cadastro de um novo pet de um cliente na coluna editar temos dois botões (ícones) para editar os dados do cliente e seus pets ou adicionar novos pets.**
