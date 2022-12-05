@@ -19,7 +19,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://localhost:7240/Login/Login<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
-| Caso de Teste 	| CT-03 – Cadastrar, visualizar seus clientes e pets 	|
+| Caso de Teste 	| CT-03 – Cadastrar, visualizar seus Serviços, clientes e pets 	|
 |Requisito Associado | RF-003	- A aplicação deve possuir opção de cadastros para clientes, pets e serviços e visualizar as listas com os dados cadastrados|
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar as operações de cadastro e visulização dos dados. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://localhost:7240/Menu/Menu<br> - No menu lateral para cadastrar temos dois botões "Cliente e Pets" ao selecionar uma das opções o sistema redirecionará para as listas, tendo opção de cadastrar ou editar os dados.|
