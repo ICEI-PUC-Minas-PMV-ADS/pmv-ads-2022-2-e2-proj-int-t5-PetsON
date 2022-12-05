@@ -29,7 +29,13 @@ namespace Domain.Service
 
         public IEnumerable<Servico> Listagem(int? IdPetshop)
         {
+            return RepositoryServico.Read().Where(x => x.Id_Petshop == IdPetshop);
+        }
+        public IEnumerable<Servico> Listagem(int id)
+        {
             return RepositoryServico.Read();
         }
+
+
     }
 }

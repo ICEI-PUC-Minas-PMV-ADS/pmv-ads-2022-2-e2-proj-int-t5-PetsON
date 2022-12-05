@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Cadastro de Serviços";
+    Layout = (string)"_LayoutMenu";
+}
+
+@model PetsOn.Models.ServicoViewModel
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <section class="container py-4 text-center">
+
+        <h3 class="p-4 mb-5 text-white bg-warning bg-opacity-75">Cadastro de Serviços</h3>
+
+        <div class="alert alert-warning d-flex align-items-center" role="alert">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+            </svg>
+            <div>
+                Cadastre os serviços disponíveis de sua petshop!
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Design Block -->
+    <section class="text-center text-lg-start">
+
+        <!-- Jumbotron -->
+        <div class="container py-4">
+            <div class="row g-0 align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="card cascading-right">
+                        <div class="card-body p-5 shadow-5 text-center">
+                            <h2 class="fw-bold mb-5">Preencha o formulário</h2>
+
+                            @Html.ValidationSummary(true)
+
+                            <form asp-action="ServicoCadastro" asp-controller="Servico" method="post" autocomplete="off">
+                                <input type="hidden" asp-for="Codigo_Servico" value="@Model.Codigo_Servico" />
+
+                                <!-- Tipo de Serviço e Preço do Serviço-->
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-floating">
+                                            <input asp-for="Tipo_Servico" type="text" class="form-control" id="Tipo_Servico" placeholder="Tipo Servico">
+                                            <label for="Tipo_Servico">Tipo Servico</label>
+                                            <span asp-validation-for="Tipo_Servico" class="text-danger small"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="form-floating">
+                                            <input asp-for="Preco" type="text" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' min="0" class="form-control" id="Preco" placeholder="Preco">
+                                            <label for="Preco">Preco</label>
+                                            <span asp-validation-for="Preco" class="text-danger small"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Descrição  do Serviço input -->
+                                <div class="col mb-4">
+                                    <div class="form-floating">
+                                        <input asp-for="Descricao" type="text" class="form-control" id="descricao"  placeholder="Descrição">
+                                        <label for="Descricao">Descricao</label>
+                                        <span asp-validation-for="Descricao" class="text-danger small"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Submit button -->
+                                <button type="submit" class="btn btn-block btn-warning btn-custom-cadastro"><span class='bx bx-purchase-tag-alt icon' aria-hidden="true"></span>&nbsp;Cadastrar</button>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <img src="~/img/doguim.jpg" class="w-100 rounded-4 shadow-4" alt="imagem cachorrinho" />
+                </div>
+            </div>
+        </div>
+    </section>
+}

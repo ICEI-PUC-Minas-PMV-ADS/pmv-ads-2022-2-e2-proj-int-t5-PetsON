@@ -13,5 +13,7 @@
         public static string LOGADO = "LOGADO";
 
         public static string CODIGO_CLIENTE = "CODIGO_CLIENTE";
+
+        public static string CODIGO_SERVICO = "CODIGO_SERVICO";
     }
 }
