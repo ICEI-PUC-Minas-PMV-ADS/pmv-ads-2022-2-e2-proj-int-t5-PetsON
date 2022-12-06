@@ -29,10 +29,11 @@ namespace Domain.Service
             RepositoryAnimal.Delete(id);
         }
 
-        public IEnumerable<Animal> Listagem(int? IdPetshop)
+        public IEnumerable<Animal> Listagem(int? IdPetShop)
         {
-            return RepositoryAnimal.GetDbSet().Include(x => x.Cliente).AsNoTracking().ToList();
+            return RepositoryAnimal.GetDbSet().Include(x => x.Cliente).AsNoTracking().Where(x=>x.Cliente.Id_Petshop==IdPetShop).ToList();
         }
+
 
         public IEnumerable<Animal> ListagemPetsCliente(int CodigoCliente)
         {
