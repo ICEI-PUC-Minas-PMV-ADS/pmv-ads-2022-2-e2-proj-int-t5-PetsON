@@ -1,6 +1,7 @@
 ﻿using Domain.Interfaces;
 using Domain.Service;
 using PetsOn.Domain.Entities;
+using PetsOn.Helpers;
 using PetsOn.Models;
 using PetsOn.Services.Interfaces;
 using System.Web.Mvc;
@@ -9,11 +10,15 @@ namespace PetsOn.Services
 {
     public class ServiceAplicationAnimal : IServiceAplicationAnimal
     {
+        protected IHttpContextAccessor HttpContextAcessor;
         public readonly IServiceAnimal ServiceAnimal;
 
-        public ServiceAplicationAnimal(IServiceAnimal serviceAnimal)
+        public ServiceAplicationAnimal(
+            IServiceAnimal serviceAnimal,
+            IHttpContextAccessor httpContextAcessor)
         {
             ServiceAnimal = serviceAnimal;
+            HttpContextAcessor = httpContextAcessor;
         }
 
         public void Cadastrar(AnimalViewModel animal)
@@ -58,13 +63,13 @@ namespace PetsOn.Services
         public IEnumerable<SelectListItem> ListaAnimaisDropDownList()
         {
             List<SelectListItem> retorno = new List<SelectListItem>();
-            var lista = this.Listagem();
+            var lista = ServiceAnimal.Listagem((int)HttpContextAcessor.HttpContext.Session.GetInt32(Sessao.CODIGO_CLIENTE));
 
             foreach (var item in lista)
             {
                 SelectListItem animal = new SelectListItem()
                 {
-                    Value = item.Codigo_Animal.ToString(),
+                    Value = item.Id.ToString(),
                     Text = item.Nome_Animal
                 };
                 retorno.Add(animal);
@@ -72,9 +77,10 @@ namespace PetsOn.Services
             return retorno;
         }
 
-        public IEnumerable<AnimalViewModel> Listagem()
+        public IEnumerable<AnimalViewModel> Listagem(int? IdPetShop)
         {
-            var lista = ServiceAnimal.Listagem(null).OrderBy(x=>x.Id_Cliente);
+            //var lista = ServiceAnimal.Listagem(null).OrderBy(x=>x.Id_Cliente);
+            var lista = ServiceAnimal.Listagem(IdPetShop);
             List<AnimalViewModel> listaAnimal = new List<AnimalViewModel>();
 
             foreach (var item in lista)

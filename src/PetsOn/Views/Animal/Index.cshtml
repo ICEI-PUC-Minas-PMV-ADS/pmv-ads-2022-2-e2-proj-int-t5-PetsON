@@ -4,6 +4,9 @@
 }
 
 @model List<PetsOn.Models.AnimalViewModel>;
+@using Microsoft.AspNetCore.Http
+@using PetsOn.Helpers
+@inject IHttpContextAccessor Accessor
 
 <section class="container py-4 text-center">
 

@@ -2,6 +2,7 @@
 using PetsOn.Services.Interfaces;
 using PetsOn.Models;
 using PetsOn.Helpers;
+using PetsOn.Domain.Entities;
 
 namespace PetsOn.Controllers
 {
@@ -20,9 +21,10 @@ namespace PetsOn.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View(ServiceAplicationAnimal.Listagem());
+            return View(ServiceAplicationAnimal.Listagem((int)HttpContextAcessor.HttpContext.Session.GetInt32(Sessao.CODIGO_PETSHOP)));
         }
 
+        [HttpGet]
         [HttpGet]
         public IActionResult PetsCliente(int? id)
         {
