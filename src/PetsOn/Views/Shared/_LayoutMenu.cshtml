@@ -27,6 +27,10 @@
     <title>@ViewData["Title"] - PetsOn</title>
     <link rel="icon" href="~/img/favicon-01.png" type="image/x-icon" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/css/agenda.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css' rel='stylesheet'>
+    <link href="~/lib/fullcalendar/main.min.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap' rel='stylesheet' type='text/css'>
 
     <!----======== CSS ======== -->
@@ -69,7 +73,7 @@
                     </li>
 
                     <li class="bottom-content">
-                        <a href="#">
+                        <a asp-area="" asp-controller="Agenda" asp-action="Index">
                             <i class='bx bx-calendar icon'></i>
                             <span class="text nav-text icon">Agenda</span>
                         </a>
@@ -137,8 +141,14 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/siteLayoutMenu.js"></script>
+    <script src="~/js/agenda.js"></script>
     <script src="~/js/validacoesForms.js"></script>
     <script src="~/js/functionspathsviews.js"></script>
+    <script src="~/lib/fullcalendar/main.min.js"></script>
+    <script src="~/lib/fullcalendar/locales/pt-br.js"></script>
+
+    @*<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>*@
+
     @await RenderSectionAsync("Scripts", required: false)
 
 </body>
