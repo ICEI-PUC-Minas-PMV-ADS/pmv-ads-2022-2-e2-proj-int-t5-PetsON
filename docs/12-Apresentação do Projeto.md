@@ -4,9 +4,9 @@
 
 Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
 
-## Título do Projeto
+## Projeto PetsOn
 
-Nome e marca do projeto
+<img src="https://user-images.githubusercontent.com/86859418/189501356-0927bdac-50a2-4cf6-90fc-e393a4ec5159.jpg">
 
 ## Identidade Visual (Marca, Design)
 
