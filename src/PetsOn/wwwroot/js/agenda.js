@@ -1,7 +1,7 @@
-﻿var date = new Date()
-var d = date.getDate()
-m = date.getMonth()
-y = date.getFullYear()
+﻿//var date = new Date()
+//var d = date.getDate()
+//m = date.getMonth()
+//y = date.getFullYear()
 
 // inicializa o Calendário
 
