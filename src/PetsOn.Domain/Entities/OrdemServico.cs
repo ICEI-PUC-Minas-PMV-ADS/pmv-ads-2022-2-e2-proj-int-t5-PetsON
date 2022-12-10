@@ -6,6 +6,8 @@ namespace PetsOn.Domain.Entities
     public class OrdemServico : EntityBase
     {
         public DateTime Data { get; set; }
+        public DateTime Data_realizacao { get; set; }
+        public DateTime Data_Agendamento { get; set; }
         public string Observacao { get; set; }
 
         [ForeignKey("Animal")]
