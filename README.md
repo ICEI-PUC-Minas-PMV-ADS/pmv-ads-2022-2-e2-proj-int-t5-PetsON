@@ -24,6 +24,26 @@
 
 *  Bernardo Jeunon de Alencar
 
+## Instruções de utilização
+
+Acesse a página inicial pelo link: <a href="https://petsonapp.azurewebsites.net"> PetsOn</a>.
+
+Clique no ícone de Login no canto direito do cabeçalho.
+
+Informe as credenciais de login de usuário teste (Login: gabrielnakata@gmail.com / Senha: acesso).
+
+As credenciais serão validadas, a sessão será iniciada e o usuário será redirecionado para a página inicial do usuário.
+
+Caso prefira, pode fazer seu própio cadastro clicando no link Cadastre-se no cabeçalho.
+
+Ao clicar no link Cadastre-se, você será redirecionado para a página de Cadastro de Usuário e Petshop em um formulário único. 
+
+Caso sua empresa ainda não esteja cadastrada, clique no link embaixo do Cadastro de Usuário para ser redirecionado para o Cadastro de Empresa.
+
+Após realizar Cadastro de Usuário, você será redirecionado para a página de Login.
+
+Informe as credenciais cadastradas. Elas serão validadas e a sessão será iniciada.
+
 # Documentação
 
 <ol>
