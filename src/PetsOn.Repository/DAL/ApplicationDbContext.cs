@@ -5,7 +5,6 @@ namespace PetsOn.Repository.DAL
 {
     public class ApplicationDbContext : DbContext
     {
-       
         public DbSet<Animal> Animal { get; set; }
         public DbSet<Cliente> Cliente { get; set; }
         public DbSet<ItemOrdemServico> ItemOrdemServicos { get; set; }
@@ -14,7 +13,7 @@ namespace PetsOn.Repository.DAL
         public DbSet<Servico> Servico { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {}
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -45,7 +44,8 @@ namespace PetsOn.Repository.DAL
             //.WithMany(y => y.Servicos)
             //.HasForeignKey(x => x.OrdemServico);
 
-        }       
+
+        }
 
     }
 }

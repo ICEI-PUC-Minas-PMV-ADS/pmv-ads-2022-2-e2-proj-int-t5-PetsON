@@ -140,6 +140,7 @@ C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\PetsOn.runtimeconfig.json
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\PetsOn.dll
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\PetsOn.pdb
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\Humanizer.dll
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\System.Web.Mvc.dll
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\System.Web.Razor.dll
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\System.Web.Helpers.dll
@@ -149,6 +150,7 @@ C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll

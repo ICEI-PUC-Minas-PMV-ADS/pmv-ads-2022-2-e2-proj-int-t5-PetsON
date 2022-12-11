@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nbxHDwQIS0xpJyU8zPra5Ij4Aex2xXNHX6hitoKHySs=",
+  "Hash": "In7M9dTeqH+DN32rlkYH/lBeORIm82MjOx2dWDEsSj4=",
   "Source": "PetsOn",
   "BasePath": "_content/PetsOn",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\css\\siteLayoutMenu.css"
     },
     {
+      "Identity": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\img\\auau.jpg",
+      "SourceId": "PetsOn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\",
+      "BasePath": "_content/PetsOn",
+      "RelativePath": "img/auau.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\auau.jpg"
+    },
+    {
       "Identity": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\img\\background-petson.jpg",
       "SourceId": "PetsOn",
       "SourceType": "Discovered",
@@ -168,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\cat.jpg"
+    },
+    {
+      "Identity": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\img\\cat_xatao.jpg",
+      "SourceId": "PetsOn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\",
+      "BasePath": "_content/PetsOn",
+      "RelativePath": "img/cat_xatao.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cat_xatao.jpg"
     },
     {
       "Identity": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\img\\criancadog.jpg",
@@ -491,6 +525,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\perguntas-que-todo-tutor-de-cao-ja-teve-ter-feito-para-si-mesmo.jpg"
+    },
+    {
+      "Identity": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\img\\petson-caroussel.jpg",
+      "SourceId": "PetsOn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\",
+      "BasePath": "_content/PetsOn",
+      "RelativePath": "img/petson-caroussel.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\petson-caroussel.jpg"
     },
     {
       "Identity": "C:\\Desenvolvimento\\pmv-ads-2022-2-e2-proj-int-t5-PetsON\\src\\PetsOn\\wwwroot\\img\\posse-responsavel-pet.jpg",
