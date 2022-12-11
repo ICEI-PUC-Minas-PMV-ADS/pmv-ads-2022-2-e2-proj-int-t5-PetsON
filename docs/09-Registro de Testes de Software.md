@@ -95,7 +95,7 @@ Então o primeiro pet do "cliente Bernardo cod. 31" foi registrado e exibido na 
 
 **CT-06 – Consultar na agenda as datas e horários disponíveis, para agendar ou efetuar o registro de um atendimento.**
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/86859418/206882734-d0d24b04-22e0-4abb-8cdf-3d090f68d3ff.png">
 
 **Resultado CT-06 - Visualização das datas disponíveis diferenciando dos atendimentos agendados e realizados.
 
