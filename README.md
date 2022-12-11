@@ -26,7 +26,7 @@
 
 ## Instruções de utilização
 
-Acesse a página inicial pelo link: <a href="https://petsonapp.azurewebsites.net" target="_blank">## PetsOn</a>.
+Acesse a página inicial pelo link: <a href="https://petsonapp.azurewebsites.net" target="_blank">PetsOn</a>.
 
 Clique no ícone de Login no canto direito do cabeçalho.
 
