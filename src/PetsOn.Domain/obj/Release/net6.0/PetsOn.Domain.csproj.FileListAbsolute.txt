@@ -1,0 +1,12 @@
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\bin\Release\net6.0\PetsOn.Domain.deps.json
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\bin\Release\net6.0\PetsOn.Domain.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\bin\Release\net6.0\PetsOn.Domain.pdb
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Release\net6.0\PetsOn.Domain.csproj.AssemblyReference.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Release\net6.0\PetsOn.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Release\net6.0\PetsOn.Domain.AssemblyInfoInputs.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Release\net6.0\PetsOn.Domain.AssemblyInfo.cs
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Release\net6.0\PetsOn.Domain.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Release\net6.0\PetsOn.Domain.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Release\net6.0\refint\PetsOn.Domain.dll
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Release\net6.0\PetsOn.Domain.pdb
+C:\Desenvolvimento\pmv-ads-2022-2-e2-proj-int-t5-PetsON\src\PetsOn.Domain\obj\Release\net6.0\ref\PetsOn.Domain.dll

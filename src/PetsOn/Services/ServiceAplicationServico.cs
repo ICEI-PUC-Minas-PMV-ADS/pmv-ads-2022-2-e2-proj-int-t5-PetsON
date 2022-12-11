@@ -90,7 +90,7 @@ namespace PetsOn.Services
             return listaServico;
         }
 
-        public IEnumerable<ServicoViewModel> ListagemEdicao(int CodigoServico)
+        public IEnumerable<ServicoViewModel> ListagemEdicao(int codigoServico)
         {
             var lista = ServiceServico.Listagem((int)HttpContextAcessor.HttpContext.Session.GetInt32(Sessao.CODIGO_SERVICO));
             List<ServicoViewModel> listaServico = new List<ServicoViewModel>();

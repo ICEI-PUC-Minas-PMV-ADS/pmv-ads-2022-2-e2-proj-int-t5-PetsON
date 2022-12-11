@@ -4,7 +4,7 @@ using PetsOn.Domain.Entities;
 using PetsOn.Helpers;
 using PetsOn.Models;
 using PetsOn.Services.Interfaces;
-using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace PetsOn.Services
 {
@@ -73,7 +73,7 @@ namespace PetsOn.Services
         public IEnumerable<SelectListItem> ListaClientesDropDownList()
         {
             List<SelectListItem> retorno = new List<SelectListItem>();
-            var lista = ServiceCliente.Listagem((int)HttpContextAcessor.HttpContext.Session.GetInt32(Sessao.CODIGO_CLIENTE));
+            var lista = ServiceCliente.Listagem((int)HttpContextAcessor.HttpContext.Session.GetInt32(Sessao.CODIGO_PETSHOP));
 
             foreach (var item in lista)
             {

@@ -17,11 +17,11 @@
     <form asp-action="Login" asp-controller="Login" method="post" class="p-3 mt-3" autocomplete="off">
         <span asp-validation-for="Email" class="text-warning small"></span>
         <div class="form-field d-flex align-text-top">
-            <input asp-for="Email" id="email" type="text" placeholder="E-mail" value="gabrielnakata@gmail.com">
+            <input asp-for="Email" id="email" type="text" placeholder="E-mail">
         </div>
         <span asp-validation-for="Senha" class="text-warning small"></span>
         <div class="form-field d-flex align-text-top">
-            <input input asp-for="Senha" id="senha"type="password" placeholder="Senha" value="acesso">
+            <input input asp-for="Senha" id="senha"type="password" placeholder="Senha">
         </div>
         <div>
             <button type="submit" @*id="btnFetchEntrar"*@ class="btn btn-warning">&nbsp;&nbsp;Entrar</button>

@@ -1,6 +1,6 @@
-﻿using PetsOn.Domain.Entities;
-using PetsOn.Models;
-using System.Web.Mvc;
+﻿using PetsOn.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
 
 namespace PetsOn.Services.Interfaces
 {
