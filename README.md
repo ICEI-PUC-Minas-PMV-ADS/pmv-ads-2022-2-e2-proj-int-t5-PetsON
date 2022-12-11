@@ -64,7 +64,7 @@ Informe as credenciais cadastradas. Elas serão validadas e a sessão será inic
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-PetsON/tree/main/src"> Código Fonte</a></li>
 
 # Apresentação
 
