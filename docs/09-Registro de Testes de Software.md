@@ -78,7 +78,7 @@ Então o primeiro pet do "cliente Bernardo cod. 31" foi registrado e exibido na 
 
 **CT-04 – Agendar, realizar atendimento e envio de comprovante para o cliente selecionado**
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/86859418/206882616-4cbafa08-8ada-4e5a-af4f-cb98d0318e68.png">
 
 **Resultado CT-04 - Comprovante enviado para o cliente...
 
