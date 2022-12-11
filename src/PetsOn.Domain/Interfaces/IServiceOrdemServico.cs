@@ -4,6 +4,5 @@ namespace Domain.Interfaces
 {
     public interface IServiceOrdemServico : IServiceCRUD<OrdemServico>
     {
-      
     }
 }

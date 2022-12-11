@@ -42,6 +42,7 @@ namespace PetsOn
             services.AddScoped<IServiceAplicationCliente, ServiceAplicationCliente>();
             services.AddScoped<IServiceAplicationAnimal, ServiceAplicationAnimal>();
             services.AddScoped<IServiceAplicationServico, ServiceAplicationServico>();
+            services.AddScoped<IServiceAplicationOrdemServico, ServiceAplicationOrdemServico>();
 
             //Domínio:
             services.AddScoped<IServicePetshop, ServicePetshop>();
@@ -49,6 +50,7 @@ namespace PetsOn
             services.AddScoped<IServiceCliente, ServiceCliente>();
             services.AddScoped<IServiceAnimal, ServiceAnimal>();
             services.AddScoped<IServiceServico, ServiceServico>();
+            services.AddScoped<IServiceOrdemServico, ServiceOrdemServico>();
 
             //Repositório:
             services.AddScoped<IRepositoryPetshop, RepositoryPetshop>();
@@ -56,6 +58,7 @@ namespace PetsOn
             services.AddScoped<IRepositoryCliente, RepositoryCliente>();
             services.AddScoped<IRepositoryAnimal, RepositoryAnimal>();
             services.AddScoped<IRepositoryServico, RepositoryServico>();
+            services.AddScoped<IRepositoryOrdemServico, RepositoryOrdemServico>();
 
         }
 

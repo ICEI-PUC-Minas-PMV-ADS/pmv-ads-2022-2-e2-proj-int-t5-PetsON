@@ -9,7 +9,7 @@ namespace PetsOn.Services.Interfaces
         void Cadastrar(ServicoViewModel servico);
         IEnumerable<SelectListItem> ListaServicoDropDownList();
         IEnumerable<ServicoViewModel> Listagem();
-        IEnumerable<ServicoViewModel> ListagemEdicao(int CodigoServico);
+        IEnumerable<ServicoViewModel> ListagemEdicao(int codigoServico);
         ServicoViewModel CarregarRegistro(int codigoServico);
         void Excluir(int id);
 

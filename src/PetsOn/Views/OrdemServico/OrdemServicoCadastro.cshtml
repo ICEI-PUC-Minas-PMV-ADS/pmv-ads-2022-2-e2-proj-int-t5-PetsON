@@ -36,127 +36,53 @@
 
                             @Html.ValidationSummary(true)
 
-                            <form asp-action="OrdemServicoCadastro" asp-controller="OrdemServico" method="post" autocomplete="off">
+                            <form asp-action="OrdemServicoCadastro" asp-controller="OrdemServicoCadastro" method="post" autocomplete="off">
+                                <input type="hidden" asp-for="Codigo_OrdemServico" value="@Model.Codigo_OrdemServico" />
 
 
-                                <div class="input-group mb-4">
+                                <div class="col mb-4">
                                     <label class="input-group-text" for="inputGroupSelect01">Clientes</label>
-                                    <select class="form-select" id="inputGroupSelect01">
+                                    <select asp-for="Codigo_Cliente" class="form-select" id="inputGroupSelect01" asp-items="@Model.ListaClientes">
                                         <option selected>Selecione o cliente cadastrado...</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
                                     </select>
+                                    <span asp-validation-for="ListaClientes" class="text-danger small"></span>
                                 </div>
 
-                                <div class="input-group mb-4">
+                                <div class="col mb-4">
                                     <label class="input-group-text" for="inputGroupSelect01">Pets</label>
-                                    <select class="form-select" id="inputGroupSelect01">
+                                    <select asp-for="Codigo_Animal" class="form-select" id="inputGroupSelect01" asp-items="@Model.ListaAnimais">
                                         <option selected>Selecione o pet do cliente...</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
                                     </select>
+                                    <span asp-validation-for="ListaAnimais" class="text-danger small"></span>
                                 </div>
 
                                 <div class="row">
-                                    <div class="col mb-4">
-                                        <div class="form-floating">
-                                            <textarea asp-for="Observacao" type="text" class="form-control" placeholder="Observações" id="floatingObservacao"></textarea>
-                                            <label for="floatingObservacao">Observação</label>
-                                            <span asp-validation-for="Observacao" class="text-danger small"></span>
-                                        </div>
-                                    </div>
+                                    <div class="col-md-6 mb-4">
 
-                                   
-                            @*        <div class="col-md-6 mb-4">
                                         <div class="form-floating">
-                                            <input asp-for="Sobrenome" type="text" class="form-control" id="floatingSobrenome" placeholder="Sobrenome">
-                                            <label for="floatingSobrenome">Sobrenome</label>
-                                            <span asp-validation-for="Sobrenome" class="text-danger small"></span>
+                                            <input asp-for="Data" type="date" value="@Model.Data_Realizacao" class="form-control" id="floatingData" placeholder="Data">
+                                            <label for="floatingData">Realizar Atendimento</label>
+                                            <span asp-validation-for="Data_Realizacao" class="text-danger small"></span>
                                         </div>
+
+                                        <div class="form-floating">
+                                            <input asp-for="Data" type="date" value="@Model.Data_Agendamento" class="form-control" id="floatingData" placeholder="Data">
+                                            <label for="floatingData">Agendar Atendimento</label>
+                                            <span asp-validation-for="Data_Agendamento" class="text-danger small"></span>
+                                        </div>
+
                                     </div>
                                 </div>
 
-                                <!-- Email input -->
                                 <div class="col mb-4">
                                     <div class="form-floating">
-                                        <input asp-for="Email" type="text" class="form-control" id="floatingEmail" placeholder="E-mail">
-                                        <label for="floatingEmail">E-mail</label>
-                                        <span asp-validation-for="Email" class="text-danger small"></span>
+                                        <textarea asp-for="Observacao" type="text" class="form-control" placeholder="Observações" id="floatingObservacao"></textarea>
+                                        <label for="floatingObservacao">Observação</label>
+                                        <span asp-validation-for="Observacao" class="text-danger small"></span>
                                     </div>
                                 </div>
 
-                                <!-- Password input -->
-                                <div class="row">
-                                    <div class="col-md-6 mb-4">
-                                        <div class="form-floating">
-                                            <input asp-for="Senha" class="form-control" id="floatingSenha" placeholder="Senha" type="password">
-                                            <label for="floatingSenha">Senha</label>
-                                            <span asp-validation-for="Senha" class="text-danger small"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <div class="form-floating">
-                                            <input asp-for="ConfirmaSenha" class="form-control" id="floatingConfirmaSenha" placeholder="Confirmar Senha" type="password">
-                                            <label for="floatingConfirmaSenha">Confirmar Senha</label>
-                                            <span asp-validation-for="ConfirmaSenha" class="text-danger small"></span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Nome da Empresa input -->
-                                <div class="col mb-4">
-                                    <div class="form-floating">
-                                        <input asp-for="Nome_Empresa" type="text" class="form-control" id="floatingEmpresa" placeholder="Nome da empresa">
-                                        <label for="floatingEmpresa">Nome da empresa</label>
-                                        <span asp-validation-for="Nome_Empresa" class="text-danger small"></span>
-                                    </div>
-                                </div>
-
-                                <!-- CNPJ e website da Empresa input -->
-                                <div class="row">
-                                    <div class="col-md-6 mb-4">
-                                        <div class="form-floating">
-                                            <input asp-for="Cnpj" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="form-control" class="form-control" id="floatingCnpj" placeholder="CNPJ">
-                                            <label for="floatingCnpj">CNPJ</label>
-                                            <span asp-validation-for="Cnpj" class="text-danger small"></span>
-                                        </div>
-                                    </div>*@
-                            @*        <div class="col-md-6 mb-4">
-                                        <div class="form-floating">
-                                            <input asp-for="Web_Site" type="text" class="form-control" id="floatingWebSite" placeholder="Web Site">
-                                            <label for="floatingWebSite">Web Site</label>
-                                            <span asp-validation-for="Web_Site" class="text-danger small"></span>
-                                        </div>
-                                    </div>*@
-                                </div>
-
-                                <!-- Descricao da Empresa input -->
-                              @*  <div class="col mb-4">
-                                    <div class="form-floating">
-                                        <textarea asp-for="Descricao" type="text" class="form-control" placeholder="Descrição da empresa" id="floatingDescricao" style="height: 100px"></textarea>
-                                        <label for="floatingDescricao">Descrição da empresa</label>
-                                        <span asp-validation-for="Descricao" class="text-danger small"></span>
-                                    </div>
-                                </div>*@
-
-                                <!-- Checkbox -->
-                                <div class="form-check d-flex justify-content-left col mb-4">
-                                    <div>
-                                        <input class="form-check-input me-2" type="checkbox" value="" id="checkNotified" checked />
-                                        <label class="form-check-label" for="checkNotified">Enviar comprovante da ordem de serviço por e-mail</label>
-                                    </div>
-                                </div>
-
-                                <!-- Submit button -->
-                                <a>&nbsp;&nbsp;</a>
-                                <br>
-                                @*<a class="nav-item" id="navLogin">*@
-                                <button type="submit" class="btn btn-outline-warning">&nbsp;&nbsp;&nbsp;Criar&nbsp;&nbsp;&nbsp;</button>
-                                @*</a>*@
-                                <br>
-                                <a>&nbsp;&nbsp;</a>
+                                <button type="submit" class="btn btn-block btn-warning btn-custom-cadastro"><span class='bx bx-spreadsheet icon' aria-hidden="true"></span>&nbsp;Cadastrar</button>
 
                             </form>
                         </div>
